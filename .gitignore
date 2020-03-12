@@ -1,0 +1,6 @@
+.docker-build
+.classpath
+.project
+.settings
+bin
+target

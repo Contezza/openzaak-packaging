@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>nl.contezza.packaging</groupId>
+	<artifactId>openzaak-packaging</artifactId>
+	<version>1.0.4-SNAPSHOT</version>
+
+	<name>Open Zaak Packaging</name>
+	<packaging>pom</packaging>
+
+	<properties>
+		<!-- Docker -->
+		<image.name>vngr/openzaak</image.name>
+
+		<!-- Alfresco Maven Plugin version to use -->
+		<alfresco.sdk.version>4.0.0</alfresco.sdk.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+		<alfresco.groupId>org.alfresco</alfresco.groupId>
+		<alfresco.bomDependencyArtifactId>acs-packaging</alfresco.bomDependencyArtifactId>
+
+		<!-- Contezza Hub -->
+		<image.registry>hub.contezza.nl</image.registry>
+
+		<!-- Base image -->
+		<docker.openzaak.image>openzaak/open-zaak</docker.openzaak.image>
+		<docker.openzaak.version>1.0.4</docker.openzaak.version>
+
+		<!-- Docker -->
+		<fabric8.maven.plugin.version>3.5.37</fabric8.maven.plugin.version>
+
+		<maven.javadoc.skip>true</maven.javadoc.skip>
+	</properties>
+
+	<distributionManagement>
+		<repository>
+			<id>releases</id>
+			<url>https://nexus.contezza.nl/repository/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<url>https://nexus.contezza.nl/repository/snapshots/</url>
+			<uniqueVersion>false</uniqueVersion>
+		</snapshotRepository>
+	</distributionManagement>
+
+	<scm>
+		<connection>scm:git:https://git.contezza.nl/develop/packaging/${project.artifactId}.git</connection>
+		<url>https://git.contezza.nl/develop/packaging/${project.artifactId}.git</url>
+		<developerConnection>scm:git:https://git.contezza.nl/develop/packaging/${project.artifactId}.git</developerConnection>
+	</scm>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<!-- JGit -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-release-plugin</artifactId>
+					<version>2.5.2</version>
+					<configuration>
+						<providerImplementations>
+							<git>jgit</git>
+						</providerImplementations>
+					</configuration>
+					<dependencies>
+						<dependency>
+							<groupId>org.apache.maven.scm</groupId>
+							<artifactId>maven-scm-provider-jgit</artifactId>
+							<version>1.9.5</version>
+						</dependency>
+					</dependencies>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-scm-plugin</artifactId>
+					<version>1.9.5</version>
+					<configuration>
+						<providerImplementations>
+							<git>jgit</git>
+						</providerImplementations>
+					</configuration>
+					<dependencies>
+						<dependency>
+							<groupId>org.apache.maven.scm</groupId>
+							<artifactId>maven-scm-provider-jgit</artifactId>
+							<version>1.9.5</version>
+						</dependency>
+					</dependencies>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>3.1.0</version>
+				<configuration>
+					<encoding>UTF-8</encoding>
+					<nonFilteredFileExtensions> <!-- jpg, jpeg, gif, bmp and png are added automatically -->
+						<nonFilteredFileExtension>ftl</nonFilteredFileExtension>
+						<nonFilteredFileExtension>acp</nonFilteredFileExtension>
+						<nonFilteredFileExtension>svg</nonFilteredFileExtension>
+						<nonFilteredFileExtension>pdf</nonFilteredFileExtension>
+						<nonFilteredFileExtension>doc</nonFilteredFileExtension>
+						<nonFilteredFileExtension>docx</nonFilteredFileExtension>
+						<nonFilteredFileExtension>xls</nonFilteredFileExtension>
+						<nonFilteredFileExtension>xlsx</nonFilteredFileExtension>
+						<nonFilteredFileExtension>ppt</nonFilteredFileExtension>
+						<nonFilteredFileExtension>pptx</nonFilteredFileExtension>
+						<nonFilteredFileExtension>bin</nonFilteredFileExtension>
+						<nonFilteredFileExtension>lic</nonFilteredFileExtension>
+						<nonFilteredFileExtension>swf</nonFilteredFileExtension>
+						<nonFilteredFileExtension>zip</nonFilteredFileExtension>
+						<nonFilteredFileExtension>msg</nonFilteredFileExtension>
+						<nonFilteredFileExtension>jar</nonFilteredFileExtension>
+						<nonFilteredFileExtension>ttf</nonFilteredFileExtension>
+						<nonFilteredFileExtension>eot</nonFilteredFileExtension>
+						<nonFilteredFileExtension>woff</nonFilteredFileExtension>
+						<nonFilteredFileExtension>woff2</nonFilteredFileExtension>
+						<nonFilteredFileExtension>css</nonFilteredFileExtension>
+						<nonFilteredFileExtension>ico</nonFilteredFileExtension>
+						<nonFilteredFileExtension>psd</nonFilteredFileExtension>
+						<nonFilteredFileExtension>js</nonFilteredFileExtension>
+					</nonFilteredFileExtensions>
+				</configuration>
+				<executions>
+					<execution>
+						<id>copy-and-filter-docker-compose-resources</id>
+						<phase>validate</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.directory}</outputDirectory>
+							<resources>
+								<resource>
+									<directory>docker</directory>
+									<filtering>true</filtering>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+					<execution>
+						<id>copy-and-filter-docker-resources</id>
+						<phase>validate</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.directory}</outputDirectory>
+							<resources>
+								<resource>
+									<directory>src/main/docker</directory>
+									<filtering>true</filtering>
+									<excludes>
+										<exclude>**/*.jar</exclude>
+										<exclude>**/*.so</exclude>
+										<exclude>**/*.gz</exclude>
+									</excludes>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+					<execution>
+						<id>copy-and-filter-docker-resources-non-filtered</id>
+						<phase>validate</phase>
+						<goals>
+							<goal>copy-resources</goal>
+						</goals>
+						<configuration>
+							<outputDirectory>${project.build.directory}</outputDirectory>
+							<resources>
+								<resource>
+									<directory>src/main/docker</directory>
+									<filtering>false</filtering>
+									<includes>
+										<include>**/*.jar</include>
+										<include>**/*.so</include>
+										<include>**/*.gz</include>
+									</includes>
+								</resource>
+							</resources>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+
+		<resources>
+			<resource>
+				<directory>src/main/resources</directory>
+				<filtering>true</filtering>
+			</resource>
+		</resources>
+		<testResources>
+			<testResource>
+				<directory>src/test/resources</directory>
+				<filtering>true</filtering>
+			</testResource>
+		</testResources>
+	</build>
+
+	<profiles>
+		<profile>
+			<id>docker-build-start</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>io.fabric8</groupId>
+						<artifactId>docker-maven-plugin</artifactId>
+						<version>0.31.0</version>
+						<executions>
+							<execution>
+								<id>start</id>
+								<phase>install</phase>
+								<goals>
+									<goal>stop</goal>
+									<goal>build</goal>
+									<goal>start</goal>
+								</goals>
+							</execution>
+						</executions>
+						<configuration>
+							<outputDirectory>.docker-build</outputDirectory>
+
+							<images>
+								<image>
+									<external>
+										<type>compose</type>
+										<basedir>${project.basedir}/src/main/docker</basedir>
+										<composeFile>${project.basedir}/target/docker-compose.yml</composeFile>
+									</external>
+								</image>
+							</images>
+							<verbose>true</verbose>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+
+		<profile>
+			<id>docker-build-release</id>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>io.fabric8</groupId>
+						<artifactId>fabric8-maven-plugin</artifactId>
+						<version>${fabric8.maven.plugin.version}</version>
+						<configuration>
+							<outputDirectory>.docker-build</outputDirectory>
+							<images>
+								<image>
+									<name>${image.name}:${project.version}</name>
+									<registry>${image.registry}</registry>
+									<build>
+										<dockerFileDir>${project.build.directory}/</dockerFileDir>
+									</build>
+								</image>
+							</images>
+							<pushImage>true</pushImage>
+							<serverId>${image.registry}</serverId>
+							<registryUrl>${image.registry}</registryUrl>
+						</configuration>
+						<executions>
+							<execution>
+								<id>build-push-image</id>
+								<phase>deploy</phase>
+								<goals>
+									<goal>build</goal>
+									<goal>push</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+</project>

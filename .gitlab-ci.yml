@@ -1,0 +1,24 @@
+stages:
+  - build
+
+cache:
+  paths:
+    - .m2/repository
+    - target/
+
+release:
+  stage: build
+  image: cschockaert/docker-npm-maven:latest
+  variables:
+    MAVEN_CLI_OPTS: "-s .m2/settings.xml --batch-mode"
+    MAVEN_OPTS: "-Dmaven.repo.local=.m2/repository -Dscript.exec=sh"
+
+  script:
+     - docker login -u $CNTZ_DOCKER_QUAY_USER -p $CNTZ_DOCKER_QUAY_PASSWD quay.io
+     - docker login -u $CNTZ_DOCKER_HUB_USER -p $CNTZ_DOCKER_HUB_PASSWD hub.contezza.nl
+     - git checkout -B $CI_COMMIT_REF_NAME
+     - mvn release:prepare release:perform release:clean -Darguments="-DskipTests=true" -DreleaseVersion=$CI_COMMIT_REF_NAME -Pdocker-build-release $MAVEN_CLI_OPTS
+  only:
+    variables:
+      - $CI_COMMIT_MESSAGE =~ /create-release/
+      
