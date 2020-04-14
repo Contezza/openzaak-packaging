@@ -53,6 +53,7 @@ fi
 uwsgi \
     --http :$uwsgi_port \
     --module openzaak.wsgi \
+    --static-map ${SUBPATH}/static=/app/static \
     --static-map /static=/app/static \
     --static-map /media=/app/media  \
     --chdir src \
