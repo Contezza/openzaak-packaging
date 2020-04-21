@@ -1,6 +1,6 @@
 # Contezza Packaging - Open Zaak
 
-Open Zaak distributie van Contezza. Deze distributie geeft extra mogelijkheid om JSON import uit te voeren.  
+Open Zaak distributie van Contezza. Deze distributie geeft extra mogelijkheid om JSON import uit te voeren en maakt standaard superuser admin/admin aan (is wel zo handig).
 
 ## Development
 
