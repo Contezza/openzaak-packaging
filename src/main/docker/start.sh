@@ -34,6 +34,7 @@ then
 else
 	touch $fixtures_dir/setup.json
 	echo $IMPORT_JSON >> $fixtures_dir/setup.json
+	sed '/^$/d' $fixtures_dir/setup.json
 fi
 
 # Load any JSON fixtures present
