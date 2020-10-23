@@ -26,16 +26,15 @@ done
 >&2 echo "Apply database migrations"
 python src/manage.py migrate
 
-# Import JSON or else create default admin user.
-if [ -z "$IMPORT_JSON" ]
-then
-	echo "Nothing to import"
-	/create-superuser.sh admin admin@admin.org admin
-else
+# START CUSTOM
+if [ -n "$IMPORT_JSON" ];then
 	touch $fixtures_dir/setup.json
 	echo $IMPORT_JSON >> $fixtures_dir/setup.json
 	sed '/^$/d' $fixtures_dir/setup.json
 fi
+
+/create-superuser.sh admin admin@admin.org admin
+# END CUSTOM
 
 # Load any JSON fixtures present
 if [ -d $fixtures_dir ]; then
