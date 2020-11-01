@@ -71,6 +71,42 @@
 		"user_representation": "admin"
 	}
 }, {
+	"model": "zgw_consumers.service",
+	"pk": 3,
+	"fields": {
+		"label": "Selectielijst",
+		"api_type": "orc",
+		"api_root": "https://selectielijst.openzaak.nl/api/v1/",
+		"extra": {},
+		"client_id": "",
+		"secret": "",
+		"auth_type": "no_auth",
+		"header_key": "",
+		"header_value": "",
+		"oas": "https://selectielijst.openzaak.nl/api/v1/schema/openapi.yaml",
+		"nlx": "",
+		"user_id": "",
+		"user_representation": ""
+	}
+}, {
+	"model": "zgw_consumers.service",
+	"pk": 4,
+	"fields": {
+		"label": "NRC",
+		"api_type": "nrc",
+		"api_root": "http://test-uhr-notificaties.contezza.cloud.local:8000/api/v1/",
+		"extra": {},
+		"client_id": "uhr-notificaties-test",
+		"secret": "4RhynhXSxDeQqepF",
+		"auth_type": "zgw",
+		"header_key": "",
+		"header_value": "",
+		"oas": "http://test-uhr-notificaties.contezza.cloud.local:8000/api/v1/schema/openapi.yaml",
+		"nlx": "",
+		"user_id": "admin",
+		"user_representation": "admin"
+	}
+}, {
 	"model": "catalogi.catalogus",
 	"pk": 1,
 	"fields": {
