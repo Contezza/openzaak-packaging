@@ -28,9 +28,13 @@ python src/manage.py migrate
 
 # START CUSTOM
 if [ -n "$IMPORT_JSON" ];then
-	touch $fixtures_dir/setup.json
-	echo $IMPORT_JSON >> $fixtures_dir/setup.json
-	sed '/^$/d' $fixtures_dir/setup.json
+	if ls /app/init/$IMPORT_JSON > /dev/null 2>&1; then
+    	cp -rf /app/init/$IMPORT_JSON $fixtures_dir 
+	else
+    	touch $fixtures_dir/setup.json
+		echo $IMPORT_JSON >> $fixtures_dir/setup.json
+		sed '/^$/d' $fixtures_dir/setup.json  
+	fi
 fi
 
 /create-superuser.sh admin admin@admin.org admin

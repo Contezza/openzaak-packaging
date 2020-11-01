@@ -1,0 +1,2358 @@
+[{
+	"model": "vng_api_common.jwtsecret",
+	"pk": 2,
+	"fields": {
+		"identifier": "tezza-alfresco-test",
+		"secret": "vz7GtKkmb2Gp47GP"
+	}
+}, {
+	"model": "vng_api_common.jwtsecret",
+	"pk": 3,
+	"fields": {
+		"identifier": "tezza-notificaties-test",
+		"secret": "4RhynhXSxDeQqepF"
+	}
+}, {
+	"model": "authorizations.authorizationsconfig",
+	"pk": 1,
+	"fields": {
+		"api_root": "https://autorisaties-api.vng.cloud/api/v1/",
+		"component": "zrc"
+	}
+}, {
+	"model": "authorizations.applicatie",
+	"pk": 2,
+	"fields": {
+		"uuid": "f45c7d60-d377-4c5d-8a51-23973b0e3007",
+		"client_ids": "[\"tezza-alfresco-test\", \"tezza-notificaties-test\"]",
+		"label": "tezza-alfresco-test",
+		"heeft_alle_autorisaties": true
+	}
+}, {
+	"model": "notifications.notificationsconfig",
+	"pk": 1,
+	"fields": {
+		"api_root": "http://tezza-open-notificaties.local:8000/api/v1/"
+	}
+}, {
+	"model": "zgw_consumers.service",
+	"pk": 1,
+	"fields": {
+		"label": "DRC",
+		"api_type": "drc",
+		"api_root": "http://tezza-services-platform.local:8080/alfresco/service/drc/v1/",
+		"extra": {},
+		"client_id": "b91d00dc-c762-4211-9c10-5918c81e5de6",
+		"secret": "8fBLx4sY4ZUWVjsjfYHtYwYS",
+		"auth_type": "zgw",
+		"header_key": "",
+		"header_value": "",
+		"oas": "http://tezza-services-platform.local:8080/alfresco/service/drc/v1/schema/openapi.yaml",
+		"nlx": "",
+		"user_id": "admin",
+		"user_representation": "admin"
+	}
+}, {
+	"model": "zgw_consumers.service",
+	"pk": 2,
+	"fields": {
+		"label": "NRC",
+		"api_type": "nrc",
+		"api_root": "http://tezza-open-notificaties.local:8000/api/v1/",
+		"extra": {},
+		"client_id": "tezza-notificaties-test",
+		"secret": "4RhynhXSxDeQqepF",
+		"auth_type": "zgw",
+		"header_key": "",
+		"header_value": "",
+		"oas": "http://tezza-open-notificaties.local:8000/api/v1/schema/openapi.yaml",
+		"nlx": "",
+		"user_id": "admin",
+		"user_representation": "admin"
+	}
+}, {
+	"model": "zgw_consumers.service",
+	"pk": 3,
+	"fields": {
+		"label": "BAG",
+		"api_type": "orc",
+		"api_root": "https://bag.basisregistraties.overheid.nl/api/v1/",
+		"extra": {},
+		"client_id": "",
+		"secret": "",
+		"auth_type": "api_key",
+		"header_key": "X-Api-Key",
+		"header_value": "a928fca3-663a-4aaa-88e2-12cca2ea9e77",
+		"oas": "https://rawgit.com/PDOK/open-api-specs/master/bag/oas.v1.yaml",
+		"nlx": "",
+		"user_id": "admin",
+		"user_representation": "admin"
+	}
+}, {
+	"model": "catalogi.catalogus",
+	"pk": 1,
+	"fields": {
+		"_admin_name": "Zaken",
+		"uuid": "811ec7ae-0689-461a-9c1d-93de44b7625b",
+		"domein": "UTRE",
+		"rsin": "002220647",
+		"contactpersoon_beheer_naam": "CMASSELINK",
+		"contactpersoon_beheer_telefoonnummer": "",
+		"contactpersoon_beheer_emailadres": ""
+	}
+}, {
+	"model": "catalogi.catalogus",
+	"pk": 2,
+	"fields": {
+		"_admin_name": "Objecten",
+		"uuid": "8804b532-9f00-4385-9650-1823b5a5f699",
+		"domein": "OBJE",
+		"rsin": "002220647",
+		"contactpersoon_beheer_naam": "CMASSELINK",
+		"contactpersoon_beheer_telefoonnummer": "",
+		"contactpersoon_beheer_emailadres": ""
+	}
+}, {
+	"model": "catalogi.eigenschapspecificatie",
+	"pk": 1,
+	"fields": {
+		"groep": "",
+		"formaat": "tekst",
+		"lengte": "8",
+		"kardinaliteit": "1",
+		"waardenverzameling": "[]"
+	}
+}, {
+	"model": "catalogi.eigenschapspecificatie",
+	"pk": 2,
+	"fields": {
+		"groep": "",
+		"formaat": "tekst",
+		"lengte": "255",
+		"kardinaliteit": "1",
+		"waardenverzameling": "[]"
+	}
+}, {
+	"model": "catalogi.eigenschapspecificatie",
+	"pk": 3,
+	"fields": {
+		"groep": "Subsidieverzoek",
+		"formaat": "getal",
+		"lengte": "9",
+		"kardinaliteit": "1",
+		"waardenverzameling": "[\"Positieve getallen\"]"
+	}
+}, {
+	"model": "catalogi.eigenschapspecificatie",
+	"pk": 4,
+	"fields": {
+		"groep": "Subsidieverzoek",
+		"formaat": "tekst",
+		"lengte": "0",
+		"kardinaliteit": "1",
+		"waardenverzameling": "[\"'Ja' en 'Nee'\"]"
+	}
+}, {
+	"model": "catalogi.eigenschapspecificatie",
+	"pk": 5,
+	"fields": {
+		"groep": "Subsidieverzoek",
+		"formaat": "datum",
+		"lengte": "8",
+		"kardinaliteit": "1",
+		"waardenverzameling": "[]"
+	}
+}, {
+	"model": "catalogi.eigenschapspecificatie",
+	"pk": 6,
+	"fields": {
+		"groep": "Subsidieverzoek",
+		"formaat": "tekst",
+		"lengte": "255",
+		"kardinaliteit": "N",
+		"waardenverzameling": "[]"
+	}
+}, {
+	"model": "catalogi.eigenschapspecificatie",
+	"pk": 7,
+	"fields": {
+		"groep": "Subsidieverzoek",
+		"formaat": "getal",
+		"lengte": "8",
+		"kardinaliteit": "1",
+		"waardenverzameling": "[]"
+	}
+}, {
+	"model": "catalogi.eigenschapspecificatie",
+	"pk": 9,
+	"fields": {
+		"groep": "Subsidieverzoek",
+		"formaat": "getal",
+		"lengte": "6",
+		"kardinaliteit": "1",
+		"waardenverzameling": "[]"
+	}
+}, {
+	"model": "catalogi.eigenschapspecificatie",
+	"pk": 10,
+	"fields": {
+		"groep": "Subsidieverzoek",
+		"formaat": "getal",
+		"lengte": "9",
+		"kardinaliteit": "N",
+		"waardenverzameling": "[]"
+	}
+}, {
+	"model": "catalogi.eigenschapspecificatie",
+	"pk": 11,
+	"fields": {
+		"groep": "Subsidieverzoek",
+		"formaat": "tekst",
+		"lengte": "0",
+		"kardinaliteit": "1",
+		"waardenverzameling": "[]"
+	}
+}, {
+	"model": "catalogi.eigenschapspecificatie",
+	"pk": 12,
+	"fields": {
+		"groep": "Subsidieverzoek",
+		"formaat": "tekst",
+		"lengte": "0",
+		"kardinaliteit": "1",
+		"waardenverzameling": "[\"Geldig IBAN\"]"
+	}
+}, {
+	"model": "catalogi.eigenschapspecificatie",
+	"pk": 13,
+	"fields": {
+		"groep": "Subsidieverzoek",
+		"formaat": "getal",
+		"lengte": "9",
+		"kardinaliteit": "1",
+		"waardenverzameling": "[]"
+	}
+}, {
+	"model": "catalogi.eigenschapspecificatie",
+	"pk": 14,
+	"fields": {
+		"groep": "Melding",
+		"formaat": "tekst",
+		"lengte": "0",
+		"kardinaliteit": "N",
+		"waardenverzameling": "[]"
+	}
+}, {
+	"model": "catalogi.eigenschapspecificatie",
+	"pk": 15,
+	"fields": {
+		"groep": "Incidentmelding",
+		"formaat": "tekst",
+		"lengte": "255",
+		"kardinaliteit": "1",
+		"waardenverzameling": "[]"
+	}
+}, {
+	"model": "catalogi.eigenschapspecificatie",
+	"pk": 16,
+	"fields": {
+		"groep": "Incidentmelding",
+		"formaat": "datum",
+		"lengte": "8",
+		"kardinaliteit": "1",
+		"waardenverzameling": "[]"
+	}
+}, {
+	"model": "catalogi.eigenschapspecificatie",
+	"pk": 17,
+	"fields": {
+		"groep": "Incidentmelding",
+		"formaat": "tekst",
+		"lengte": "3",
+		"kardinaliteit": "1",
+		"waardenverzameling": "[\"Ja\", \"Nee\"]"
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 1,
+	"fields": {
+		"uuid": "63fa9032-212f-45ed-b0fc-508042072fbf",
+		"eigenschapnaam": "Start",
+		"definitie": "Start",
+		"specificatie_van_eigenschap": 2,
+		"toelichting": "",
+		"zaaktype": 2
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 2,
+	"fields": {
+		"uuid": "03d36f59-0da2-4791-b71e-41426f221ed5",
+		"eigenschapnaam": "Einde",
+		"definitie": "Einde",
+		"specificatie_van_eigenschap": 1,
+		"toelichting": "",
+		"zaaktype": 2
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 3,
+	"fields": {
+		"uuid": "5e951404-2e79-46a1-ac93-2d8e32305062",
+		"eigenschapnaam": "Gevr. subsidiebedrag",
+		"definitie": "Het in de subsidieaanvraag vermelde subsidiebedrag",
+		"specificatie_van_eigenschap": 3,
+		"toelichting": "",
+		"zaaktype": 4
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 4,
+	"fields": {
+		"uuid": "988295b9-d2cc-4fa4-b9af-4202bdf21fb6",
+		"eigenschapnaam": "1st subsidieaanvraag",
+		"definitie": "Indicatie van een eerste subsidieaanvraag",
+		"specificatie_van_eigenschap": 4,
+		"toelichting": "",
+		"zaaktype": 4
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 5,
+	"fields": {
+		"uuid": "547650a2-f448-4ed5-ba2c-d23abb5ebdbd",
+		"eigenschapnaam": "Startdatum subsidie",
+		"definitie": "Begindatum van de periode waarover de subsidie verleend wordt.",
+		"specificatie_van_eigenschap": 5,
+		"toelichting": "",
+		"zaaktype": 4
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 6,
+	"fields": {
+		"uuid": "11d6fb54-eff8-4975-9cef-f3afad92783b",
+		"eigenschapnaam": "Einddatum subsidie",
+		"definitie": "Einddatum van de periode waarover de subsidie verleend wordt.",
+		"specificatie_van_eigenschap": 5,
+		"toelichting": "",
+		"zaaktype": 4
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 7,
+	"fields": {
+		"uuid": "073128e7-84de-4a62-9ebc-7e8a2e25ed84",
+		"eigenschapnaam": "Aansl. beleidsdoelen",
+		"definitie": "De gemeentelijke beleidsdoelen waaraan de subsidie-aanvraag getoetst is.",
+		"specificatie_van_eigenschap": 6,
+		"toelichting": "",
+		"zaaktype": 4
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 8,
+	"fields": {
+		"uuid": "d63bf0ed-771b-47d4-a6fa-63c7b5a39399",
+		"eigenschapnaam": "Aantal leden",
+		"definitie": "Aantal leden van een stichting of vereniging die subsidie aanvraagt.",
+		"specificatie_van_eigenschap": 7,
+		"toelichting": "",
+		"zaaktype": 4
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 9,
+	"fields": {
+		"uuid": "cc880adf-8c11-4b62-90aa-5f23454f6624",
+		"eigenschapnaam": "Activiteit",
+		"definitie": "Activiteit die wordt uitgevoerd",
+		"specificatie_van_eigenschap": 6,
+		"toelichting": "",
+		"zaaktype": 4
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 10,
+	"fields": {
+		"uuid": "bb2c0b1c-739d-4c5d-b0cb-70589a2c04b0",
+		"eigenschapnaam": "Gebr. vrijwilligers",
+		"definitie": "Indicatie voor het gebruik van vrijwilligers",
+		"specificatie_van_eigenschap": 4,
+		"toelichting": "",
+		"zaaktype": 4
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 11,
+	"fields": {
+		"uuid": "51224f33-366f-487a-956a-07095ddb779c",
+		"eigenschapnaam": "Aantal vrijwilligers",
+		"definitie": "Het aantal vrijwilligers waarvan gebruik wordt gemaakt",
+		"specificatie_van_eigenschap": 9,
+		"toelichting": "",
+		"zaaktype": 4
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 12,
+	"fields": {
+		"uuid": "a1ee578b-3b9e-4cd9-a793-d77774ab1b6d",
+		"eigenschapnaam": "Uitslag toetsing",
+		"definitie": "Indicatie of de aanvraag voldoet aan de indieningsvereisten",
+		"specificatie_van_eigenschap": 4,
+		"toelichting": "",
+		"zaaktype": 4
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 13,
+	"fields": {
+		"uuid": "b19b94bc-bd02-48f7-b191-b6f1e749a4bd",
+		"eigenschapnaam": "Inkomsten",
+		"definitie": "De in de aanvraag genoemde inkomsten per activiteit",
+		"specificatie_van_eigenschap": 10,
+		"toelichting": "",
+		"zaaktype": 4
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 14,
+	"fields": {
+		"uuid": "b32611bd-1777-4513-ac10-138ba7887e0f",
+		"eigenschapnaam": "Soort inkomsten",
+		"definitie": "De aard van de inkomsten",
+		"specificatie_van_eigenschap": 11,
+		"toelichting": "",
+		"zaaktype": 4
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 15,
+	"fields": {
+		"uuid": "19655d47-7f31-446e-b5a9-23443497122f",
+		"eigenschapnaam": "Bankrekeningnummer",
+		"definitie": "Het bankrekeningnummer van de persoon die de subsidie aanvraagt.",
+		"specificatie_van_eigenschap": 12,
+		"toelichting": "",
+		"zaaktype": 4
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 16,
+	"fields": {
+		"uuid": "82c13330-2e74-4b67-88da-103c0a099198",
+		"eigenschapnaam": "Waarheidsverklaring",
+		"definitie": "Indicatie waarmee de aanvrager van de subsidie aangeeft alle informatie naar waarheid te hebben ingevuld.",
+		"specificatie_van_eigenschap": 4,
+		"toelichting": "",
+		"zaaktype": 4
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 17,
+	"fields": {
+		"uuid": "726f5e40-77b9-4691-a438-6a90a40474b4",
+		"eigenschapnaam": "Tgk. subsidiebedrag",
+		"definitie": "Het subsidiebedrag dat is toegekend",
+		"specificatie_van_eigenschap": 13,
+		"toelichting": "",
+		"zaaktype": 4
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 18,
+	"fields": {
+		"uuid": "78c142ec-0b84-4558-9cb5-204f18750b96",
+		"eigenschapnaam": "Subsidiebudget",
+		"definitie": "Naam van het budget waaruit het toegekende subsidiebedrag wordt uitgekeerd.",
+		"specificatie_van_eigenschap": 11,
+		"toelichting": "",
+		"zaaktype": 4
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 19,
+	"fields": {
+		"uuid": "41bad991-5c04-4577-bfa4-be7d104e8477",
+		"eigenschapnaam": "Doorgezet naar",
+		"definitie": "Aanduiding van degene naar wie de melding is doorgezet",
+		"specificatie_van_eigenschap": 14,
+		"toelichting": "",
+		"zaaktype": 1
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 20,
+	"fields": {
+		"uuid": "fa8e9014-f6c5-4ca3-a367-bb2ce84f1606",
+		"eigenschapnaam": "Org. van ontvangst",
+		"definitie": "Organisatie van ontvangst",
+		"specificatie_van_eigenschap": 15,
+		"toelichting": "De organisatie waarbij de incidentmelding is gedaan gemeente [naam] / provincie Zuid-Holland / Omgevingsdienst [naam] / Milieutelefoon",
+		"zaaktype": 6
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 21,
+	"fields": {
+		"uuid": "c5ca2be1-1c9c-4e94-a64f-80bd15a99cf2",
+		"eigenschapnaam": "Aard incidentmelding",
+		"definitie": "Aard incidentmelding",
+		"specificatie_van_eigenschap": 15,
+		"toelichting": "Geurklacht / Geluidsklacht / Stofmelding / Calamiteit. Van belang om klacht af te kunnen handelen, om te achterhalen wat voor overlast wordt ondervonden. En om tijdsduur te kunnen ondervangen.",
+		"zaaktype": 6
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 22,
+	"fields": {
+		"uuid": "e323d867-aae4-4a65-ae19-942cb4f65933",
+		"eigenschapnaam": "Tijdstip incident",
+		"definitie": "Tijdstip incident",
+		"specificatie_van_eigenschap": 16,
+		"toelichting": "Is relevant voor het vervolgtraject, om te achterhalen of de klacht gegrond is.",
+		"zaaktype": 6
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 23,
+	"fields": {
+		"uuid": "4a0bc9c8-fb66-4fd8-a6b1-563a08d27602",
+		"eigenschapnaam": "Tijdstip melding",
+		"definitie": "Tijdstip melding",
+		"specificatie_van_eigenschap": 16,
+		"toelichting": "Is relevant voor het vervolgtraject, om te achterhalen of de klacht gegrond is.",
+		"zaaktype": 6
+	}
+}, {
+	"model": "catalogi.eigenschap",
+	"pk": 24,
+	"fields": {
+		"uuid": "fdc0db8a-11c2-465e-ba81-a5616e313577",
+		"eigenschapnaam": "Indic. anonimiteit",
+		"definitie": "Indicatie anonimiteit",
+		"specificatie_van_eigenschap": 17,
+		"toelichting": "Degene die meldt, mag dit anoniem doen. De naam van de melder wordt niet vermeld in de documenten.",
+		"zaaktype": 6
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 2,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "3cfd47bf-f57d-42bc-8c5e-2102469a1ddb",
+		"omschrijving": "Aangifte",
+		"vertrouwelijkheidaanduiding": "openbaar",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 3,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "d3065f3c-0958-4a6d-b059-ad0ff50f8e11",
+		"omschrijving": "Ontvangstbevestiging",
+		"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 4,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "eb3e5068-2b3d-4f18-9625-1ebc0d842b30",
+		"omschrijving": "Verzoek aanvullende informatie",
+		"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 5,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "cdc1693a-cb9e-44d2-87b4-a191d10c1d58",
+		"omschrijving": "Aanvulling",
+		"vertrouwelijkheidaanduiding": "openbaar",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 6,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "7694d7a2-4772-4d04-98fe-cd6822068d81",
+		"omschrijving": "Bevestiging registratie",
+		"vertrouwelijkheidaanduiding": "openbaar",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 7,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "5fecc4e2-665c-4e46-9eaa-e1de30ba5df2",
+		"omschrijving": "Afwijzing aangifte",
+		"vertrouwelijkheidaanduiding": "openbaar",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 8,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "27586e50-33ec-41f2-b55d-27583b1b18ce",
+		"omschrijving": "Subsidieaanvraag",
+		"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 9,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "b17868ad-8e5b-48d3-9a51-cf7964604234",
+		"omschrijving": "Accountantsverklaring",
+		"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 10,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "aad38dee-3cd4-4d0c-9786-751c3eb639ab",
+		"omschrijving": "Verzekeringspolis",
+		"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 11,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "953f782c-ae9b-40cb-a279-21847ea77073",
+		"omschrijving": "Activiteitenbegroting",
+		"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 12,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "cf007f8c-cd1d-4426-816a-f91be4a3ec0d",
+		"omschrijving": "Jaarrekening",
+		"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 13,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "a70567f1-25da-4f8e-9f4b-e9f1be151ea5",
+		"omschrijving": "Jaarverslag",
+		"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 14,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "41d8d732-6f59-4328-893a-1f7a625bbcf8",
+		"omschrijving": "Uittreksel Handelsregister",
+		"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 15,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "607061c5-543c-4679-8bdd-0ce7f1f791ae",
+		"omschrijving": "Bankafschrift",
+		"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 16,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "09439211-8cb8-4ace-870e-45305b105a2a",
+		"omschrijving": "Activiteitenplan",
+		"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 19,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "b9d3a431-6015-4466-b179-a3872c4859f6",
+		"omschrijving": "Subsidiebeschikking",
+		"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 20,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "56e15f1a-376d-4efb-838d-1fd5e7d51d6f",
+		"omschrijving": "Aanvraag",
+		"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 24,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "2dd2c24c-301c-4259-961b-1cbc45eee2bd",
+		"omschrijving": "Bericht in behandeling",
+		"vertrouwelijkheidaanduiding": "openbaar",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 25,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "9c6a5a6e-a5af-4f37-a1d2-94298902d8e9",
+		"omschrijving": "Legesnota",
+		"vertrouwelijkheidaanduiding": "openbaar",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 26,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "75963496-e5d3-4e57-99a9-2b28ecd6fc32",
+		"omschrijving": "Advies",
+		"vertrouwelijkheidaanduiding": "openbaar",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 27,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "7bb80c2b-066b-44c0-9b14-94c81ba0688f",
+		"omschrijving": "Concept-besluit",
+		"vertrouwelijkheidaanduiding": "openbaar",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 28,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "d331310c-8f71-45a4-9aaf-7b6575457d4c",
+		"omschrijving": "Aanpassing op aanvraag",
+		"vertrouwelijkheidaanduiding": "openbaar",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 29,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "5874c970-3f57-482b-b928-fe99b17ffde0",
+		"omschrijving": "Zienswijze",
+		"vertrouwelijkheidaanduiding": "openbaar",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 30,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "cb6a137d-b1b7-410a-affe-760f4593cafa",
+		"omschrijving": "Ontwerp-besluit",
+		"vertrouwelijkheidaanduiding": "openbaar",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 31,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "47c5d7ef-641a-45c0-a913-eddd3e4c1492",
+		"omschrijving": "Beschikking",
+		"vertrouwelijkheidaanduiding": "openbaar",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 32,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "6738b8e6-ab67-4b0c-943e-474277e16da4",
+		"omschrijving": "Melding",
+		"vertrouwelijkheidaanduiding": "openbaar",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 33,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "3ed4d41a-c3f1-4dd0-9a18-64774800259d",
+		"omschrijving": "Afwijzing registratie",
+		"vertrouwelijkheidaanduiding": "openbaar",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 34,
+	"fields": {
+		"datum_begin_geldigheid": "2020-04-28",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "0092f8f2-de71-4446-b72b-24e724106502",
+		"omschrijving": "Incidentmelding",
+		"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 35,
+	"fields": {
+		"datum_begin_geldigheid": "2020-04-28",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "d47b1706-5d7b-44a0-8f9a-b2fd58847d60",
+		"omschrijving": "Controlerapport",
+		"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 36,
+	"fields": {
+		"datum_begin_geldigheid": "2020-04-28",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "c909f45a-53d9-4ebd-b16a-0dbe3e87d8fc",
+		"omschrijving": "Uitspraak op incidentmelding",
+		"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.informatieobjecttype",
+	"pk": 37,
+	"fields": {
+		"datum_begin_geldigheid": "2020-04-28",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "1f66779c-436f-432e-8565-cf4deb35eb9b",
+		"omschrijving": "Statusmelding",
+		"vertrouwelijkheidaanduiding": "openbaar",
+		"catalogus": 1
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 6,
+	"fields": {
+		"uuid": "69e86f17-e3d7-4e36-8bf2-d11aa8fa468c",
+		"zaaktype": 3,
+		"informatieobjecttype": 2,
+		"volgnummer": 1,
+		"richting": "uitgaand",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 7,
+	"fields": {
+		"uuid": "427c83b2-f411-4cb9-8482-5c91c9536042",
+		"zaaktype": 3,
+		"informatieobjecttype": 3,
+		"volgnummer": 2,
+		"richting": "uitgaand",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 8,
+	"fields": {
+		"uuid": "67d70b0d-a348-47cc-b1e6-4cc1613214d9",
+		"zaaktype": 3,
+		"informatieobjecttype": 4,
+		"volgnummer": 3,
+		"richting": "uitgaand",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 9,
+	"fields": {
+		"uuid": "91f8503b-76ba-4e9a-8612-6c99df7932eb",
+		"zaaktype": 3,
+		"informatieobjecttype": 5,
+		"volgnummer": 4,
+		"richting": "inkomend",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 10,
+	"fields": {
+		"uuid": "c4066725-2f1e-4157-a6df-a243c5b7e502",
+		"zaaktype": 3,
+		"informatieobjecttype": 6,
+		"volgnummer": 5,
+		"richting": "uitgaand",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 11,
+	"fields": {
+		"uuid": "d490d2ad-fea5-45cc-9896-eee8256af12a",
+		"zaaktype": 3,
+		"informatieobjecttype": 7,
+		"volgnummer": 6,
+		"richting": "uitgaand",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 12,
+	"fields": {
+		"uuid": "5ff438aa-9876-45bc-88cb-cd5d40e70478",
+		"zaaktype": 4,
+		"informatieobjecttype": 8,
+		"volgnummer": 1,
+		"richting": "inkomend",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 13,
+	"fields": {
+		"uuid": "ebb772ca-29e4-49ce-96e7-e366f5c73810",
+		"zaaktype": 4,
+		"informatieobjecttype": 9,
+		"volgnummer": 2,
+		"richting": "inkomend",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 14,
+	"fields": {
+		"uuid": "f6768e64-8715-4017-b49a-cbb5079dd9da",
+		"zaaktype": 4,
+		"informatieobjecttype": 10,
+		"volgnummer": 3,
+		"richting": "inkomend",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 15,
+	"fields": {
+		"uuid": "21911513-8ff4-4b10-9f68-0d3b4eeb2d63",
+		"zaaktype": 4,
+		"informatieobjecttype": 11,
+		"volgnummer": 4,
+		"richting": "inkomend",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 16,
+	"fields": {
+		"uuid": "ca862430-8b24-480d-88cb-e68eaee6c8d1",
+		"zaaktype": 4,
+		"informatieobjecttype": 12,
+		"volgnummer": 5,
+		"richting": "inkomend",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 17,
+	"fields": {
+		"uuid": "14b8f41e-787a-4b19-9dcf-507621e72d28",
+		"zaaktype": 4,
+		"informatieobjecttype": 13,
+		"volgnummer": 6,
+		"richting": "inkomend",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 18,
+	"fields": {
+		"uuid": "ddeee9a0-4c72-406e-aca8-50cf5d16f997",
+		"zaaktype": 4,
+		"informatieobjecttype": 14,
+		"volgnummer": 7,
+		"richting": "inkomend",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 19,
+	"fields": {
+		"uuid": "1cc61873-0b11-4842-abb5-7d81697aafc7",
+		"zaaktype": 4,
+		"informatieobjecttype": 15,
+		"volgnummer": 8,
+		"richting": "inkomend",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 20,
+	"fields": {
+		"uuid": "0d5eef34-305b-4601-a111-e27397cd1291",
+		"zaaktype": 4,
+		"informatieobjecttype": 16,
+		"volgnummer": 9,
+		"richting": "inkomend",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 23,
+	"fields": {
+		"uuid": "3021843f-9601-4024-a849-4f2922700b33",
+		"zaaktype": 4,
+		"informatieobjecttype": 19,
+		"volgnummer": 12,
+		"richting": "uitgaand",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 24,
+	"fields": {
+		"uuid": "3cfb9d10-ce5f-4c8d-a6eb-82c57a93a632",
+		"zaaktype": 2,
+		"informatieobjecttype": 20,
+		"volgnummer": 1,
+		"richting": "inkomend",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 28,
+	"fields": {
+		"uuid": "66af17a8-799e-4fcf-af0c-fddd669d390e",
+		"zaaktype": 2,
+		"informatieobjecttype": 24,
+		"volgnummer": 5,
+		"richting": "uitgaand",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 29,
+	"fields": {
+		"uuid": "57aaed46-ad88-485a-9bf1-d0634d1c477c",
+		"zaaktype": 2,
+		"informatieobjecttype": 25,
+		"volgnummer": 6,
+		"richting": "uitgaand",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 30,
+	"fields": {
+		"uuid": "bf7cc2f2-4f19-45fe-85fe-a7840af30fdb",
+		"zaaktype": 2,
+		"informatieobjecttype": 26,
+		"volgnummer": 7,
+		"richting": "inkomend",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 31,
+	"fields": {
+		"uuid": "731cadcc-e824-4780-83a1-19f61f1b17a0",
+		"zaaktype": 2,
+		"informatieobjecttype": 26,
+		"volgnummer": 8,
+		"richting": "uitgaand",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 32,
+	"fields": {
+		"uuid": "9e532201-e293-49be-9a74-a252c814286a",
+		"zaaktype": 2,
+		"informatieobjecttype": 27,
+		"volgnummer": 9,
+		"richting": "intern",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 33,
+	"fields": {
+		"uuid": "261ba369-c4b5-40b2-a6ef-bba36325632a",
+		"zaaktype": 2,
+		"informatieobjecttype": 28,
+		"volgnummer": 10,
+		"richting": "uitgaand",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 34,
+	"fields": {
+		"uuid": "6ecc91fb-e60a-4f9e-bf97-94bfdb2a4245",
+		"zaaktype": 2,
+		"informatieobjecttype": 29,
+		"volgnummer": 11,
+		"richting": "inkomend",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 35,
+	"fields": {
+		"uuid": "13f50d8a-e5c0-41ec-8934-ad8a12f2ac6c",
+		"zaaktype": 2,
+		"informatieobjecttype": 30,
+		"volgnummer": 12,
+		"richting": "uitgaand",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 36,
+	"fields": {
+		"uuid": "61ecdfb4-bf4d-4c4a-a6a0-cd24a1751a88",
+		"zaaktype": 2,
+		"informatieobjecttype": 31,
+		"volgnummer": 13,
+		"richting": "uitgaand",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 37,
+	"fields": {
+		"uuid": "335995a8-47f4-4907-a1da-8a0efbaa76f4",
+		"zaaktype": 4,
+		"informatieobjecttype": 4,
+		"volgnummer": 11,
+		"richting": "uitgaand",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 38,
+	"fields": {
+		"uuid": "8c378dae-b108-46b2-ac67-9b7d447d115e",
+		"zaaktype": 2,
+		"informatieobjecttype": 4,
+		"volgnummer": 3,
+		"richting": "uitgaand",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 39,
+	"fields": {
+		"uuid": "fdb03904-933b-4463-a49c-5df1ba876786",
+		"zaaktype": 2,
+		"informatieobjecttype": 5,
+		"volgnummer": 4,
+		"richting": "inkomend",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 40,
+	"fields": {
+		"uuid": "a8906ec9-c1bf-4401-856a-8d6938292e23",
+		"zaaktype": 4,
+		"informatieobjecttype": 3,
+		"volgnummer": 10,
+		"richting": "inkomend",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 41,
+	"fields": {
+		"uuid": "e3fd62d2-5b17-4e4c-8fda-ea4b0dce936d",
+		"zaaktype": 2,
+		"informatieobjecttype": 3,
+		"volgnummer": 2,
+		"richting": "uitgaand",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 42,
+	"fields": {
+		"uuid": "a0c78bec-1a49-4e5a-ab32-c85f181c013b",
+		"zaaktype": 1,
+		"informatieobjecttype": 32,
+		"volgnummer": 1,
+		"richting": "inkomend",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 43,
+	"fields": {
+		"uuid": "16c2b7a1-51d5-4c91-8bf3-704a1a6c1543",
+		"zaaktype": 1,
+		"informatieobjecttype": 2,
+		"volgnummer": 2,
+		"richting": "inkomend",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 44,
+	"fields": {
+		"uuid": "57eaceb8-a364-4490-890e-c4f85efc8bb8",
+		"zaaktype": 1,
+		"informatieobjecttype": 3,
+		"volgnummer": 3,
+		"richting": "uitgaand",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 45,
+	"fields": {
+		"uuid": "d2e04c5b-de3d-4647-be7d-cbe51355319b",
+		"zaaktype": 1,
+		"informatieobjecttype": 4,
+		"volgnummer": 4,
+		"richting": "uitgaand",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 46,
+	"fields": {
+		"uuid": "358fe257-9612-4042-9bf3-1bb9301f9d6d",
+		"zaaktype": 1,
+		"informatieobjecttype": 5,
+		"volgnummer": 5,
+		"richting": "inkomend",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 47,
+	"fields": {
+		"uuid": "0734b098-5b43-41b6-9675-bf60652419af",
+		"zaaktype": 1,
+		"informatieobjecttype": 6,
+		"volgnummer": 6,
+		"richting": "uitgaand",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 48,
+	"fields": {
+		"uuid": "2673ad61-f5b0-4a05-93fc-08d941c77653",
+		"zaaktype": 1,
+		"informatieobjecttype": 33,
+		"volgnummer": 7,
+		"richting": "uitgaand",
+		"statustype": null
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 49,
+	"fields": {
+		"uuid": "78f11f70-0149-4c23-b29a-9396b23c824e",
+		"zaaktype": 6,
+		"informatieobjecttype": 3,
+		"volgnummer": 2,
+		"richting": "inkomend",
+		"statustype": 19
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 50,
+	"fields": {
+		"uuid": "66b80307-2f8b-42fc-a1a9-8e62f77314e4",
+		"zaaktype": 6,
+		"informatieobjecttype": 34,
+		"volgnummer": 1,
+		"richting": "inkomend",
+		"statustype": 19
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 51,
+	"fields": {
+		"uuid": "90d1aa0c-6768-4ebf-a1db-f45b8b0d68d6",
+		"zaaktype": 6,
+		"informatieobjecttype": 3,
+		"volgnummer": 3,
+		"richting": "uitgaand",
+		"statustype": 19
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 52,
+	"fields": {
+		"uuid": "a47d9c43-14b6-4820-815d-35ed380877ea",
+		"zaaktype": 6,
+		"informatieobjecttype": 35,
+		"volgnummer": 4,
+		"richting": "intern",
+		"statustype": 20
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 53,
+	"fields": {
+		"uuid": "fd909b2c-f585-4b88-b878-79d3939d9d82",
+		"zaaktype": 6,
+		"informatieobjecttype": 36,
+		"volgnummer": 5,
+		"richting": "uitgaand",
+		"statustype": 21
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 54,
+	"fields": {
+		"uuid": "2a4476ec-a5c7-4b4a-8bc4-e2ab9f2e2632",
+		"zaaktype": 6,
+		"informatieobjecttype": 37,
+		"volgnummer": 6,
+		"richting": "uitgaand",
+		"statustype": 19
+	}
+}, {
+	"model": "catalogi.zaaktypeinformatieobjecttype",
+	"pk": 55,
+	"fields": {
+		"uuid": "221d7bac-482a-46b0-b2df-c1a10d8d75f2",
+		"zaaktype": 6,
+		"informatieobjecttype": 37,
+		"volgnummer": 7,
+		"richting": "uitgaand",
+		"statustype": 20
+	}
+}, {
+	"model": "catalogi.resultaattype",
+	"pk": 1,
+	"fields": {
+		"uuid": "0507e48b-2818-42c0-9c80-7807a0c1ac9f",
+		"zaaktype": 1,
+		"omschrijving": "Toegewezen",
+		"resultaattypeomschrijving": "https://referentielijsten-api.vng.cloud/api/v1/resultaattypeomschrijvingen/fb65d251-1518-4185-865f-b8bdcfad07b1",
+		"omschrijving_generiek": "Toegekend",
+		"selectielijstklasse": "https://referentielijsten-api.vng.cloud/api/v1/resultaten/d8bd516e-95b5-47ee-988d-d6624e94db1f",
+		"archiefnominatie": "vernietigen",
+		"archiefactietermijn": "P5Y",
+		"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+		"brondatum_archiefprocedure_datumkenmerk": "",
+		"brondatum_archiefprocedure_einddatum_bekend": false,
+		"brondatum_archiefprocedure_objecttype": "",
+		"brondatum_archiefprocedure_registratie": "",
+		"brondatum_archiefprocedure_procestermijn": null,
+		"toelichting": ""
+	}
+}, {
+	"model": "catalogi.resultaattype",
+	"pk": 2,
+	"fields": {
+		"uuid": "8f281832-d2a5-48aa-bb88-8c176cfc7639",
+		"zaaktype": 1,
+		"omschrijving": "Afgewezen",
+		"resultaattypeomschrijving": "https://referentielijsten-api.vng.cloud/api/v1/resultaattypeomschrijvingen/e6a0c939-3404-45b0-88e3-76c94fb80ea7",
+		"omschrijving_generiek": "Afgewezen",
+		"selectielijstklasse": "https://referentielijsten-api.vng.cloud/api/v1/resultaten/65559080-1d2b-4ddf-8966-b620e4ec224e",
+		"archiefnominatie": "vernietigen",
+		"archiefactietermijn": "P1Y",
+		"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+		"brondatum_archiefprocedure_datumkenmerk": "",
+		"brondatum_archiefprocedure_einddatum_bekend": false,
+		"brondatum_archiefprocedure_objecttype": "",
+		"brondatum_archiefprocedure_registratie": "",
+		"brondatum_archiefprocedure_procestermijn": null,
+		"toelichting": ""
+	}
+}, {
+	"model": "catalogi.resultaattype",
+	"pk": 4,
+	"fields": {
+		"uuid": "347177fa-8db3-4e4f-ae61-c596f242ecb3",
+		"zaaktype": 2,
+		"omschrijving": "Afgewezen",
+		"resultaattypeomschrijving": "https://referentielijsten-api.vng.cloud/api/v1/resultaattypeomschrijvingen/e6a0c939-3404-45b0-88e3-76c94fb80ea7",
+		"omschrijving_generiek": "Afgewezen",
+		"selectielijstklasse": "https://referentielijsten-api.vng.cloud/api/v1/resultaten/70d1d36b-49eb-4526-bc01-26f9b79b4100",
+		"archiefnominatie": "vernietigen",
+		"archiefactietermijn": "P5Y",
+		"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+		"brondatum_archiefprocedure_datumkenmerk": "",
+		"brondatum_archiefprocedure_einddatum_bekend": false,
+		"brondatum_archiefprocedure_objecttype": "",
+		"brondatum_archiefprocedure_registratie": "",
+		"brondatum_archiefprocedure_procestermijn": null,
+		"toelichting": ""
+	}
+}, {
+	"model": "catalogi.resultaattype",
+	"pk": 5,
+	"fields": {
+		"uuid": "e662f2e7-8602-4b04-b497-c0b96fa4684e",
+		"zaaktype": 2,
+		"omschrijving": "Goedgekeurd",
+		"resultaattypeomschrijving": "https://referentielijsten-api.vng.cloud/api/v1/resultaattypeomschrijvingen/fb65d251-1518-4185-865f-b8bdcfad07b1",
+		"omschrijving_generiek": "Toegekend",
+		"selectielijstklasse": "https://referentielijsten-api.vng.cloud/api/v1/resultaten/d92e5a77-c523-4273-b8e0-c912115ef156",
+		"archiefnominatie": "vernietigen",
+		"archiefactietermijn": "P5Y",
+		"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+		"brondatum_archiefprocedure_datumkenmerk": "",
+		"brondatum_archiefprocedure_einddatum_bekend": false,
+		"brondatum_archiefprocedure_objecttype": "",
+		"brondatum_archiefprocedure_registratie": "",
+		"brondatum_archiefprocedure_procestermijn": null,
+		"toelichting": "De melding is goedgekeurd"
+	}
+}, {
+	"model": "catalogi.resultaattype",
+	"pk": 6,
+	"fields": {
+		"uuid": "a49cc8a7-835c-438b-b65b-513cc427188c",
+		"zaaktype": 2,
+		"omschrijving": "Ingetrokken",
+		"resultaattypeomschrijving": "https://referentielijsten-api.vng.cloud/api/v1/resultaattypeomschrijvingen/a6a0bd73-262a-401a-b629-9c4a908c69b5",
+		"omschrijving_generiek": "Ingetrokken",
+		"selectielijstklasse": "https://referentielijsten-api.vng.cloud/api/v1/resultaten/d92e5a77-c523-4273-b8e0-c912115ef156",
+		"archiefnominatie": "vernietigen",
+		"archiefactietermijn": "P5Y",
+		"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+		"brondatum_archiefprocedure_datumkenmerk": "",
+		"brondatum_archiefprocedure_einddatum_bekend": false,
+		"brondatum_archiefprocedure_objecttype": "",
+		"brondatum_archiefprocedure_registratie": "",
+		"brondatum_archiefprocedure_procestermijn": null,
+		"toelichting": ""
+	}
+}, {
+	"model": "catalogi.resultaattype",
+	"pk": 7,
+	"fields": {
+		"uuid": "66bcf1f9-5408-4d4e-8183-2bf686cff10e",
+		"zaaktype": 4,
+		"omschrijving": "Verleend",
+		"resultaattypeomschrijving": "https://referentielijsten-api.vng.cloud/api/v1/resultaattypeomschrijvingen/fb65d251-1518-4185-865f-b8bdcfad07b1",
+		"omschrijving_generiek": "Toegekend",
+		"selectielijstklasse": "https://referentielijsten-api.vng.cloud/api/v1/resultaten/adf4b972-6964-470e-9494-21bb77ece2a2",
+		"archiefnominatie": "vernietigen",
+		"archiefactietermijn": "P5Y",
+		"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+		"brondatum_archiefprocedure_datumkenmerk": "",
+		"brondatum_archiefprocedure_einddatum_bekend": false,
+		"brondatum_archiefprocedure_objecttype": "",
+		"brondatum_archiefprocedure_registratie": "",
+		"brondatum_archiefprocedure_procestermijn": null,
+		"toelichting": ""
+	}
+}, {
+	"model": "catalogi.resultaattype",
+	"pk": 8,
+	"fields": {
+		"uuid": "bbdfe12e-854f-424d-9f61-4212609a5eee",
+		"zaaktype": 4,
+		"omschrijving": "Geweigerd",
+		"resultaattypeomschrijving": "https://referentielijsten-api.vng.cloud/api/v1/resultaattypeomschrijvingen/e6a0c939-3404-45b0-88e3-76c94fb80ea7",
+		"omschrijving_generiek": "Afgewezen",
+		"selectielijstklasse": "https://referentielijsten-api.vng.cloud/api/v1/resultaten/0be221a9-42b1-40af-94da-c21cc73c8fc2",
+		"archiefnominatie": "vernietigen",
+		"archiefactietermijn": "P5Y",
+		"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+		"brondatum_archiefprocedure_datumkenmerk": "",
+		"brondatum_archiefprocedure_einddatum_bekend": false,
+		"brondatum_archiefprocedure_objecttype": "",
+		"brondatum_archiefprocedure_registratie": "",
+		"brondatum_archiefprocedure_procestermijn": null,
+		"toelichting": ""
+	}
+}, {
+	"model": "catalogi.resultaattype",
+	"pk": 9,
+	"fields": {
+		"uuid": "8de71f87-8d73-4940-9909-b5fe6707eb46",
+		"zaaktype": 4,
+		"omschrijving": "Ingetrokken",
+		"resultaattypeomschrijving": "https://referentielijsten-api.vng.cloud/api/v1/resultaattypeomschrijvingen/a6a0bd73-262a-401a-b629-9c4a908c69b5",
+		"omschrijving_generiek": "Ingetrokken",
+		"selectielijstklasse": "https://referentielijsten-api.vng.cloud/api/v1/resultaten/adf4b972-6964-470e-9494-21bb77ece2a2",
+		"archiefnominatie": "vernietigen",
+		"archiefactietermijn": "P1Y",
+		"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+		"brondatum_archiefprocedure_datumkenmerk": "",
+		"brondatum_archiefprocedure_einddatum_bekend": false,
+		"brondatum_archiefprocedure_objecttype": "",
+		"brondatum_archiefprocedure_registratie": "",
+		"brondatum_archiefprocedure_procestermijn": null,
+		"toelichting": ""
+	}
+}, {
+	"model": "catalogi.resultaattype",
+	"pk": 10,
+	"fields": {
+		"uuid": "f3d3f7a1-21f9-4dc3-bcf5-798092fde10a",
+		"zaaktype": 3,
+		"omschrijving": "Verwerkt",
+		"resultaattypeomschrijving": "https://referentielijsten-api.vng.cloud/api/v1/resultaattypeomschrijvingen/fb65d251-1518-4185-865f-b8bdcfad07b1",
+		"omschrijving_generiek": "Toegekend",
+		"selectielijstklasse": "https://referentielijsten-api.vng.cloud/api/v1/resultaten/0fb921b0-4752-4263-8d5e-554b2599dadf",
+		"archiefnominatie": "vernietigen",
+		"archiefactietermijn": "P110Y",
+		"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+		"brondatum_archiefprocedure_datumkenmerk": "",
+		"brondatum_archiefprocedure_einddatum_bekend": false,
+		"brondatum_archiefprocedure_objecttype": "",
+		"brondatum_archiefprocedure_registratie": "",
+		"brondatum_archiefprocedure_procestermijn": null,
+		"toelichting": ""
+	}
+}, {
+	"model": "catalogi.resultaattype",
+	"pk": 11,
+	"fields": {
+		"uuid": "f218728d-2078-4ee8-beeb-c211765b4d62",
+		"zaaktype": 3,
+		"omschrijving": "Afgewezen",
+		"resultaattypeomschrijving": "https://referentielijsten-api.vng.cloud/api/v1/resultaattypeomschrijvingen/e6a0c939-3404-45b0-88e3-76c94fb80ea7",
+		"omschrijving_generiek": "Afgewezen",
+		"selectielijstklasse": "https://referentielijsten-api.vng.cloud/api/v1/resultaten/cf3d7245-9bed-4d20-bd44-02f381aca1a1",
+		"archiefnominatie": "vernietigen",
+		"archiefactietermijn": "P5Y",
+		"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+		"brondatum_archiefprocedure_datumkenmerk": "",
+		"brondatum_archiefprocedure_einddatum_bekend": false,
+		"brondatum_archiefprocedure_objecttype": "",
+		"brondatum_archiefprocedure_registratie": "",
+		"brondatum_archiefprocedure_procestermijn": null,
+		"toelichting": ""
+	}
+}, {
+	"model": "catalogi.resultaattype",
+	"pk": 12,
+	"fields": {
+		"uuid": "14788c16-569f-4901-8090-708af0aabdc7",
+		"zaaktype": 3,
+		"omschrijving": "Ingetrokken",
+		"resultaattypeomschrijving": "https://referentielijsten-api.vng.cloud/api/v1/resultaattypeomschrijvingen/a6a0bd73-262a-401a-b629-9c4a908c69b5",
+		"omschrijving_generiek": "Ingetrokken",
+		"selectielijstklasse": "https://referentielijsten-api.vng.cloud/api/v1/resultaten/ac98caff-760b-46e5-bcea-46dfe8b625f8",
+		"archiefnominatie": "vernietigen",
+		"archiefactietermijn": "P1Y",
+		"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+		"brondatum_archiefprocedure_datumkenmerk": "",
+		"brondatum_archiefprocedure_einddatum_bekend": false,
+		"brondatum_archiefprocedure_objecttype": "",
+		"brondatum_archiefprocedure_registratie": "",
+		"brondatum_archiefprocedure_procestermijn": null,
+		"toelichting": ""
+	}
+}, {
+	"model": "catalogi.resultaattype",
+	"pk": 13,
+	"fields": {
+		"uuid": "dc797865-a569-4a07-9310-919a1a8c617a",
+		"zaaktype": 1,
+		"omschrijving": "Ingetrokken",
+		"resultaattypeomschrijving": "https://referentielijsten-api.vng.cloud/api/v1/resultaattypeomschrijvingen/e6a0c939-3404-45b0-88e3-76c94fb80ea7",
+		"omschrijving_generiek": "Afgewezen",
+		"selectielijstklasse": "https://referentielijsten-api.vng.cloud/api/v1/resultaten/70d1d36b-49eb-4526-bc01-26f9b79b4100",
+		"archiefnominatie": "vernietigen",
+		"archiefactietermijn": "P1Y",
+		"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+		"brondatum_archiefprocedure_datumkenmerk": "",
+		"brondatum_archiefprocedure_einddatum_bekend": false,
+		"brondatum_archiefprocedure_objecttype": "",
+		"brondatum_archiefprocedure_registratie": "",
+		"brondatum_archiefprocedure_procestermijn": null,
+		"toelichting": ""
+	}
+}, {
+	"model": "catalogi.resultaattype",
+	"pk": 14,
+	"fields": {
+		"uuid": "61a47cad-3a88-400f-8ebc-3d6cc885a6aa",
+		"zaaktype": 5,
+		"omschrijving": "Pand uit beheer",
+		"resultaattypeomschrijving": "https://referentielijsten-api.vng.cloud/api/v1/resultaattypeomschrijvingen/a6a0bd73-262a-401a-b629-9c4a908c69b5",
+		"omschrijving_generiek": "Ingetrokken",
+		"selectielijstklasse": "https://referentielijsten-api.vng.cloud/api/v1/resultaten/ce8e5aec-858a-4ddc-89a4-db294e90ac9e",
+		"archiefnominatie": "vernietigen",
+		"archiefactietermijn": "P10Y",
+		"brondatum_archiefprocedure_afleidingswijze": "ingangsdatum_besluit",
+		"brondatum_archiefprocedure_datumkenmerk": "",
+		"brondatum_archiefprocedure_einddatum_bekend": false,
+		"brondatum_archiefprocedure_objecttype": "",
+		"brondatum_archiefprocedure_registratie": "",
+		"brondatum_archiefprocedure_procestermijn": null,
+		"toelichting": ""
+	}
+}, {
+	"model": "catalogi.resultaattype",
+	"pk": 15,
+	"fields": {
+		"uuid": "910ba2cf-c160-417a-9086-89d8ea477bb1",
+		"zaaktype": 6,
+		"omschrijving": "Verwerkt",
+		"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/f33dbd16-68ae-4820-acb5-5f437bca5edb",
+		"omschrijving_generiek": "Verwerkt",
+		"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/d8bd516e-95b5-47ee-988d-d6624e94db1f",
+		"archiefnominatie": "vernietigen",
+		"archiefactietermijn": "P5Y",
+		"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+		"brondatum_archiefprocedure_datumkenmerk": "",
+		"brondatum_archiefprocedure_einddatum_bekend": false,
+		"brondatum_archiefprocedure_objecttype": "",
+		"brondatum_archiefprocedure_registratie": "",
+		"brondatum_archiefprocedure_procestermijn": null,
+		"toelichting": ""
+	}
+}, {
+	"model": "catalogi.resultaattype",
+	"pk": 16,
+	"fields": {
+		"uuid": "9992f9a7-9007-49fd-ae47-8b9b7d49ea7e",
+		"zaaktype": 6,
+		"omschrijving": "Ongegrond",
+		"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/b20acab7-ba04-4c44-b408-3d2ea18d1e57",
+		"omschrijving_generiek": "Ongegrond",
+		"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/65559080-1d2b-4ddf-8966-b620e4ec224e",
+		"archiefnominatie": "vernietigen",
+		"archiefactietermijn": "P1Y",
+		"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+		"brondatum_archiefprocedure_datumkenmerk": "",
+		"brondatum_archiefprocedure_einddatum_bekend": false,
+		"brondatum_archiefprocedure_objecttype": "",
+		"brondatum_archiefprocedure_registratie": "",
+		"brondatum_archiefprocedure_procestermijn": null,
+		"toelichting": ""
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 1,
+	"fields": {
+		"uuid": "dbe9706b-592a-40ed-8b11-d176cbef9761",
+		"omschrijving": "Behandelaar",
+		"omschrijving_generiek": "behandelaar",
+		"zaaktype": 2
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 2,
+	"fields": {
+		"uuid": "5beebaf3-e739-4370-8a43-aa77ff1dd96e",
+		"omschrijving": "Behandelaar",
+		"omschrijving_generiek": "behandelaar",
+		"zaaktype": 4
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 3,
+	"fields": {
+		"uuid": "39d724b5-e0a3-4fb2-9d09-d2af38cd22b8",
+		"omschrijving": "Behandelaar",
+		"omschrijving_generiek": "behandelaar",
+		"zaaktype": 3
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 4,
+	"fields": {
+		"uuid": "9893b9d9-f36c-422b-b069-29ef407774ad",
+		"omschrijving": "Behandelaar",
+		"omschrijving_generiek": "behandelaar",
+		"zaaktype": 1
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 5,
+	"fields": {
+		"uuid": "4e332bc9-1bc1-4ac4-8442-72127f036514",
+		"omschrijving": "Belanghebbende",
+		"omschrijving_generiek": "belanghebbende",
+		"zaaktype": 1
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 6,
+	"fields": {
+		"uuid": "0cee816f-f417-49fc-b4fe-763d58aa03e3",
+		"omschrijving": "Belanghebbende",
+		"omschrijving_generiek": "belanghebbende",
+		"zaaktype": 2
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 7,
+	"fields": {
+		"uuid": "80461586-b077-4aee-8a97-d73926ded670",
+		"omschrijving": "Belanghebbende",
+		"omschrijving_generiek": "belanghebbende",
+		"zaaktype": 3
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 8,
+	"fields": {
+		"uuid": "ecd2f9ee-8bc7-4e7f-9cf0-8fd2bd7f855d",
+		"omschrijving": "Belanghebbende",
+		"omschrijving_generiek": "belanghebbende",
+		"zaaktype": 4
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 9,
+	"fields": {
+		"uuid": "62795d7f-c2b0-4cc3-9705-a1f049c4ace2",
+		"omschrijving": "Zaakcoördinator",
+		"omschrijving_generiek": "zaakcoordinator",
+		"zaaktype": 1
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 10,
+	"fields": {
+		"uuid": "12f668d9-38b4-438d-82ba-97ba31b1603b",
+		"omschrijving": "Zaakcoördinator",
+		"omschrijving_generiek": "zaakcoordinator",
+		"zaaktype": 2
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 11,
+	"fields": {
+		"uuid": "68ccf940-8e99-4807-9160-4193b130496b",
+		"omschrijving": "Zaakcoördinator",
+		"omschrijving_generiek": "zaakcoordinator",
+		"zaaktype": 3
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 12,
+	"fields": {
+		"uuid": "0bd08b84-338f-40d2-89b2-01937fb8e5dd",
+		"omschrijving": "Zaakcoördinator",
+		"omschrijving_generiek": "zaakcoordinator",
+		"zaaktype": 4
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 13,
+	"fields": {
+		"uuid": "989afa0b-62d1-4c60-9d52-429d22897055",
+		"omschrijving": "Behandelaar",
+		"omschrijving_generiek": "behandelaar",
+		"zaaktype": 5
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 14,
+	"fields": {
+		"uuid": "3b718b32-f414-4b0c-a5df-e0ac40d7eddf",
+		"omschrijving": "Initiator",
+		"omschrijving_generiek": "initiator",
+		"zaaktype": 1
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 15,
+	"fields": {
+		"uuid": "1c640db3-1086-46a5-b1d2-74ab2628e694",
+		"omschrijving": "Initiator",
+		"omschrijving_generiek": "initiator",
+		"zaaktype": 2
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 16,
+	"fields": {
+		"uuid": "86282ea6-0604-4bfa-afd9-5aac2772e337",
+		"omschrijving": "Initiator",
+		"omschrijving_generiek": "initiator",
+		"zaaktype": 3
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 17,
+	"fields": {
+		"uuid": "19a42109-11fe-483f-ae02-96fd7c292118",
+		"omschrijving": "Initiator",
+		"omschrijving_generiek": "initiator",
+		"zaaktype": 4
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 18,
+	"fields": {
+		"uuid": "3bd08132-590f-4ec4-ab53-a92b2c100e39",
+		"omschrijving": "Behandelaar",
+		"omschrijving_generiek": "behandelaar",
+		"zaaktype": 6
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 19,
+	"fields": {
+		"uuid": "ed46cb96-b339-4704-b44e-9695a3e813ea",
+		"omschrijving": "Initiator",
+		"omschrijving_generiek": "initiator",
+		"zaaktype": 6
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 20,
+	"fields": {
+		"uuid": "e1b28045-59fe-40b0-9db2-91a00e968816",
+		"omschrijving": "Zaakcoördinator",
+		"omschrijving_generiek": "zaakcoordinator",
+		"zaaktype": 6
+	}
+}, {
+	"model": "catalogi.roltype",
+	"pk": 21,
+	"fields": {
+		"uuid": "ce167ea7-7f1b-40c7-afce-10a50b4052b4",
+		"omschrijving": "Belanghebbende",
+		"omschrijving_generiek": "belanghebbende",
+		"zaaktype": 6
+	}
+}, {
+	"model": "catalogi.statustype",
+	"pk": 3,
+	"fields": {
+		"uuid": "37487b40-1660-4be2-961d-ee272acd6f37",
+		"zaaktype": 2,
+		"statustype_omschrijving": "Ontvangen",
+		"statustype_omschrijving_generiek": "Ontvangen",
+		"statustypevolgnummer": 1,
+		"informeren": true,
+		"statustekst": "We hebben uw melding ontvangen",
+		"toelichting": null
+	}
+}, {
+	"model": "catalogi.statustype",
+	"pk": 4,
+	"fields": {
+		"uuid": "1ee131f5-6c31-479d-8f17-ab801ac93346",
+		"zaaktype": 2,
+		"statustype_omschrijving": "In behandeling genomen",
+		"statustype_omschrijving_generiek": "In behandeling genomen",
+		"statustypevolgnummer": 2,
+		"informeren": true,
+		"statustekst": "We hebben uw melding in behandeling genomen",
+		"toelichting": null
+	}
+}, {
+	"model": "catalogi.statustype",
+	"pk": 5,
+	"fields": {
+		"uuid": "b3a20da1-38cb-4dd2-9c30-f99f1eb9e146",
+		"zaaktype": 2,
+		"statustype_omschrijving": "Afgehandeld",
+		"statustype_omschrijving_generiek": "Afgehandeld",
+		"statustypevolgnummer": 3,
+		"informeren": true,
+		"statustekst": "We hebben uw melding afgehandeld",
+		"toelichting": null
+	}
+}, {
+	"model": "catalogi.statustype",
+	"pk": 6,
+	"fields": {
+		"uuid": "6681f228-031b-4351-a800-b2afb05c1e6a",
+		"zaaktype": 4,
+		"statustype_omschrijving": "Intake afgerond",
+		"statustype_omschrijving_generiek": "Intake afgerond genomen",
+		"statustypevolgnummer": 1,
+		"informeren": true,
+		"statustekst": "Geachte heer/mevrouw, Op %ZAAK.Registratiedatum% hebben wij van u een aanvraag ontvangen voor een subsidie. Uw aanvraag is bij ons in behandeling genomen onder zaaknummer %ZAAK.ZaakIdentificatie%. Wij vragen u dit zaaknummer te gebruiken in geval van correspondentie over deze aanvraag. U wordt per e-mail op de hoogte gehouden van de status van de behandeling van uw aanvraag.",
+		"toelichting": "Initiële status van de zaak waarbij de subsidieaanvraag ontvangen is en naar aanleiding daarvan de zaak aangemaakt en de behandelaar bepaald is. De aanvrager is een ontvangstbevestiging gezonden."
+	}
+}, {
+	"model": "catalogi.statustype",
+	"pk": 7,
+	"fields": {
+		"uuid": "619107d0-66ac-4729-83e0-72bd86eb45a0",
+		"zaaktype": 4,
+		"statustype_omschrijving": "Indieningsvereisten getoetst",
+		"statustype_omschrijving_generiek": "Indieningsvereisten getoetst",
+		"statustypevolgnummer": 2,
+		"informeren": true,
+		"statustekst": "Geachte heer/mevrouw, Op %ZAAK.Registratiedatum% hebben wij van u een aanvraag ontvangen voor een subsidie. Uw aanvraag is in behandeling onder zaaknummer %ZAAK.ZaakIdentificatie%. Wij hebben uw aanvraag getoetst op de indieningsvereisten; uw aanvraag %EIGENSCHAP.Uitslag_toetsing% aan de gestelde eisen.",
+		"toelichting": "De subsidieaanvraag is getoetst op de indieningsvereisten. De uitkomst van deze toets wordt vastgelegd in de eigenschap ‘Uitslag toetsing’. Indien er niet aan de indieningseisen wordt voldaan, dan wordt de subsidieaanvraag buiten behandeling gesteld en de volgende twee statussen overgeslagen."
+	}
+}, {
+	"model": "catalogi.statustype",
+	"pk": 8,
+	"fields": {
+		"uuid": "ad3209f2-fb44-414e-997b-90b53b9152a8",
+		"zaaktype": 4,
+		"statustype_omschrijving": "Subsidieaanvraag beoordeeld",
+		"statustype_omschrijving_generiek": "Subsidieaanvraag beoordeeld",
+		"statustypevolgnummer": 3,
+		"informeren": true,
+		"statustekst": "n.v.t.",
+		"toelichting": "De subsidieaanvraag is inhoudelijk beoordeeld aan de hand van de beleidsdoelen en een advies is opgesteld voor de beslisser. Eventueel is er gebruik gemaakt van een externe adviseur om te komen tot het advies."
+	}
+}, {
+	"model": "catalogi.statustype",
+	"pk": 9,
+	"fields": {
+		"uuid": "bceb5ea8-93fa-42e8-8497-cd5c8d189ffc",
+		"zaaktype": 4,
+		"statustype_omschrijving": "Besluit vastgesteld",
+		"statustype_omschrijving_generiek": "Besluit vastgesteld",
+		"statustypevolgnummer": 4,
+		"informeren": true,
+		"statustekst": "Geachte heer/mevrouw, Op %ZAAK.Registratiedatum% hebben wij van u een aanvraag ontvangen voor een subsidie. Uw aanvraag is in behandeling onder zaaknummer %ZAAK.ZaakIdentificatie%. De gemeente heeft een besluit genomen over uw subsidieaanvraag onder besluitnummer %BESLUIT. Besluitidentificatie%. Het besluit van de gemeente is %BESLUIT.Toelichting% Het schriftelijke besluit van uw aanvraag wordt zo spoedig mogelijk per post naar u toegestuurd.",
+		"toelichting": "De beslisser heeft het besluit op de subsidieaanvraag vastgesteld. De aanvrager is hiervan op de hoogte gesteld."
+	}
+}, {
+	"model": "catalogi.statustype",
+	"pk": 10,
+	"fields": {
+		"uuid": "21d262af-f134-4ec1-8b8b-4d9ca0cba8a5",
+		"zaaktype": 4,
+		"statustype_omschrijving": "Subsidiezaak afgerond",
+		"statustype_omschrijving_generiek": "Subsidiezaak afgerond",
+		"statustypevolgnummer": 5,
+		"informeren": true,
+		"statustekst": "Geachte heer/mevrouw, Op %ZAAK.Registratiedatum% hebben wij een aanvraag ontvangen voor een subsidie. Uw aanvraag is bij ons in behandeling onder zaaknummer %ZAAK.ZaakIdentificatie%. Onlangs bent u al op de hoogte gesteld van het besluit. Met deze e-mail willen wij u mededelen dat het besluit per post naar u is toegestuurd en dat wij de zaak hebben afgesloten.",
+		"toelichting": "Het besluit is schriftelijk kenbaar gemaakt aan de aanvrager van de subsidie. De zaak is gearchiveerd en afgehandeld."
+	}
+}, {
+	"model": "catalogi.statustype",
+	"pk": 11,
+	"fields": {
+		"uuid": "2a718199-18b2-44a9-a48e-cb5a929dd2c4",
+		"zaaktype": 3,
+		"statustype_omschrijving": "Intake afronden",
+		"statustype_omschrijving_generiek": "De aangifte is ontvangen en een ontvangstbevestiging is verstuurd.",
+		"statustypevolgnummer": 1,
+		"informeren": true,
+		"statustekst": "",
+		"toelichting": null
+	}
+}, {
+	"model": "catalogi.statustype",
+	"pk": 12,
+	"fields": {
+		"uuid": "fd453791-b3fb-4a9a-a25c-d1221125b272",
+		"zaaktype": 3,
+		"statustype_omschrijving": "Inhoudelijk behandeld",
+		"statustype_omschrijving_generiek": "De reactie op de aangifte is opgesteld.",
+		"statustypevolgnummer": 2,
+		"informeren": true,
+		"statustekst": "",
+		"toelichting": null
+	}
+}, {
+	"model": "catalogi.statustype",
+	"pk": 13,
+	"fields": {
+		"uuid": "f6e86315-98af-40f4-9398-de16fa551b74",
+		"zaaktype": 3,
+		"statustype_omschrijving": "Zaak afgerond",
+		"statustype_omschrijving_generiek": "De zaak is compleet en kan worden afgesloten.",
+		"statustypevolgnummer": 3,
+		"informeren": true,
+		"statustekst": "",
+		"toelichting": null
+	}
+}, {
+	"model": "catalogi.statustype",
+	"pk": 14,
+	"fields": {
+		"uuid": "56e080e6-0d25-46fb-85a5-0f607aaa7452",
+		"zaaktype": 1,
+		"statustype_omschrijving": "Intake afgerond",
+		"statustype_omschrijving_generiek": "Intake afgerond",
+		"statustypevolgnummer": 1,
+		"informeren": true,
+		"statustekst": "",
+		"toelichting": null
+	}
+}, {
+	"model": "catalogi.statustype",
+	"pk": 15,
+	"fields": {
+		"uuid": "14f9ab09-36e9-410e-9b79-f5ad0e924de7",
+		"zaaktype": 1,
+		"statustype_omschrijving": "Inhoudelijk behandeld",
+		"statustype_omschrijving_generiek": "Inhoudelijk behandeld",
+		"statustypevolgnummer": 2,
+		"informeren": true,
+		"statustekst": "",
+		"toelichting": null
+	}
+}, {
+	"model": "catalogi.statustype",
+	"pk": 16,
+	"fields": {
+		"uuid": "2e996f75-2bdb-4925-9781-1be4673ada86",
+		"zaaktype": 1,
+		"statustype_omschrijving": "Zaak afgerond",
+		"statustype_omschrijving_generiek": "Zaak afgerond",
+		"statustypevolgnummer": 3,
+		"informeren": false,
+		"statustekst": "",
+		"toelichting": null
+	}
+}, {
+	"model": "catalogi.statustype",
+	"pk": 17,
+	"fields": {
+		"uuid": "db993472-9325-4c9f-aad4-ec26ff2e7b5f",
+		"zaaktype": 5,
+		"statustype_omschrijving": "Pand uit beheer",
+		"statustype_omschrijving_generiek": "",
+		"statustypevolgnummer": 2,
+		"informeren": false,
+		"statustekst": "",
+		"toelichting": null
+	}
+}, {
+	"model": "catalogi.statustype",
+	"pk": 18,
+	"fields": {
+		"uuid": "b4549cab-3476-4abf-8e9e-a4397c9d3499",
+		"zaaktype": 5,
+		"statustype_omschrijving": "Pand beheren",
+		"statustype_omschrijving_generiek": "",
+		"statustypevolgnummer": 1,
+		"informeren": false,
+		"statustekst": "",
+		"toelichting": null
+	}
+}, {
+	"model": "catalogi.statustype",
+	"pk": 19,
+	"fields": {
+		"uuid": "82bc1cb5-5a35-4245-8ba8-099983def8c6",
+		"zaaktype": 6,
+		"statustype_omschrijving": "Intake afgerond",
+		"statustype_omschrijving_generiek": "",
+		"statustypevolgnummer": 1,
+		"informeren": false,
+		"statustekst": "",
+		"toelichting": null
+	}
+}, {
+	"model": "catalogi.statustype",
+	"pk": 20,
+	"fields": {
+		"uuid": "2d01b2c6-843b-49f1-af48-8d9913a3a4dd",
+		"zaaktype": 6,
+		"statustype_omschrijving": "Melding inhoudelijk behandeld",
+		"statustype_omschrijving_generiek": "",
+		"statustypevolgnummer": 2,
+		"informeren": false,
+		"statustekst": "",
+		"toelichting": null
+	}
+}, {
+	"model": "catalogi.statustype",
+	"pk": 21,
+	"fields": {
+		"uuid": "50e033f3-7c37-4c44-8466-5fadffe7ab36",
+		"zaaktype": 6,
+		"statustype_omschrijving": "Zaak afgerond",
+		"statustype_omschrijving_generiek": "",
+		"statustypevolgnummer": 3,
+		"informeren": false,
+		"statustekst": "",
+		"toelichting": null
+	}
+}, {
+	"model": "catalogi.zaaktype",
+	"pk": 1,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "7dc9fdc5-b2f8-465f-9584-8f59ca84488b",
+		"identificatie": "1",
+		"zaaktype_omschrijving": "Melding Openbare Ruimte",
+		"zaaktype_omschrijving_generiek": "",
+		"vertrouwelijkheidaanduiding": "openbaar",
+		"doel": "Melding registreren",
+		"aanleiding": "melding in de openbare ruimte",
+		"toelichting": "",
+		"indicatie_intern_of_extern": "extern",
+		"handeling_initiator": "melden",
+		"onderwerp": "Melding",
+		"handeling_behandelaar": "behandelen",
+		"doorlooptijd_behandeling": "P30D",
+		"servicenorm_behandeling": null,
+		"opschorting_en_aanhouding_mogelijk": true,
+		"verlenging_mogelijk": true,
+		"verlengingstermijn": "P14D",
+		"trefwoorden": "[]",
+		"publicatie_indicatie": false,
+		"publicatietekst": "",
+		"verantwoordingsrelatie": "[]",
+		"versiedatum": "2020-01-08",
+		"producten_of_diensten": "[\"https://example.com/abcd\"]",
+		"selectielijst_procestype": "https://referentielijsten-api.vng.cloud/api/v1/procestypen/e1b73b12-b2f6-4c4e-8929-94f84dd2a57d",
+		"referentieproces_naam": "Verzoeken behandelen",
+		"referentieproces_link": "",
+		"catalogus": 1,
+		"deelzaaktypen": []
+	}
+}, {
+	"model": "catalogi.zaaktype",
+	"pk": 2,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "c60b0447-9ad0-4f6d-8729-fe32d69231e9",
+		"identificatie": "2",
+		"zaaktype_omschrijving": "Aanvraag evenementenvergunning behandelen",
+		"zaaktype_omschrijving_generiek": "",
+		"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+		"doel": "Behandelen van een aanvraag voor een evenementenvergunning",
+		"aanleiding": "Aanvraag voor een evenementenvergunning",
+		"toelichting": "",
+		"indicatie_intern_of_extern": "extern",
+		"handeling_initiator": "Aanvragen",
+		"onderwerp": "Evenementenvergunning",
+		"handeling_behandelaar": "Behandelen",
+		"doorlooptijd_behandeling": "P84D",
+		"servicenorm_behandeling": null,
+		"opschorting_en_aanhouding_mogelijk": true,
+		"verlenging_mogelijk": true,
+		"verlengingstermijn": "P28D",
+		"trefwoorden": "[]",
+		"publicatie_indicatie": false,
+		"publicatietekst": "",
+		"verantwoordingsrelatie": "[]",
+		"versiedatum": "2020-01-08",
+		"producten_of_diensten": "[\"http://www.example.nl\"]",
+		"selectielijst_procestype": "https://referentielijsten-api.vng.cloud/api/v1/procestypen/e1b73b12-b2f6-4c4e-8929-94f84dd2a57d",
+		"referentieproces_naam": "Behandelen aanvragen",
+		"referentieproces_link": "",
+		"catalogus": 1,
+		"deelzaaktypen": []
+	}
+}, {
+	"model": "catalogi.zaaktype",
+	"pk": 3,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "79387def-23a2-47e4-a3b3-a31e128f5200",
+		"identificatie": "3",
+		"zaaktype_omschrijving": "Aanvraag huwelijk behandelen",
+		"zaaktype_omschrijving_generiek": "Aanvraag huwelijk behandelen",
+		"vertrouwelijkheidaanduiding": "intern",
+		"doel": "Aanvraag huwelijk behandelen",
+		"aanleiding": "Burgers zijn in het huwelijksbootje gestapt",
+		"toelichting": "",
+		"indicatie_intern_of_extern": "extern",
+		"handeling_initiator": "Indienen",
+		"onderwerp": "Huwelijk",
+		"handeling_behandelaar": "Behandelen",
+		"doorlooptijd_behandeling": "P5D",
+		"servicenorm_behandeling": null,
+		"opschorting_en_aanhouding_mogelijk": false,
+		"verlenging_mogelijk": false,
+		"verlengingstermijn": null,
+		"trefwoorden": "[]",
+		"publicatie_indicatie": false,
+		"publicatietekst": "",
+		"verantwoordingsrelatie": "[]",
+		"versiedatum": "2020-01-08",
+		"producten_of_diensten": "[\"http://www.example.nl\"]",
+		"selectielijst_procestype": "https://referentielijsten-api.vng.cloud/api/v1/procestypen/39a1711c-f94b-4282-8ac3-7c545d8ecb04",
+		"referentieproces_naam": "Huwelijk",
+		"referentieproces_link": "",
+		"catalogus": 1,
+		"deelzaaktypen": []
+	}
+}, {
+	"model": "catalogi.zaaktype",
+	"pk": 4,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-08",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "3fef530b-af33-41f3-80f9-ba4ba0a5d425",
+		"identificatie": "4",
+		"zaaktype_omschrijving": "Subsidieaanvraag behandelen",
+		"zaaktype_omschrijving_generiek": "Subsidieaanvraag behandelen",
+		"vertrouwelijkheidaanduiding": "intern",
+		"doel": "Het nemen van een besluit naar aanleiding van een aanvraag voor subsidie, waarin bepaald wordt of de subsidie verleend kan worden.",
+		"aanleiding": "Een natuurlijk of niet-natuurlijk persoon heeft een aanvraag gedaan voor het ontvangen van subsidie ten behoeve van het uitvoeren van een activiteit.",
+		"toelichting": "",
+		"indicatie_intern_of_extern": "extern",
+		"handeling_initiator": "Aanvragen",
+		"onderwerp": "Subsidies",
+		"handeling_behandelaar": "Behandelen",
+		"doorlooptijd_behandeling": "P40D",
+		"servicenorm_behandeling": "P25D",
+		"opschorting_en_aanhouding_mogelijk": true,
+		"verlenging_mogelijk": true,
+		"verlengingstermijn": "P10D",
+		"trefwoorden": "[\"subsidie\", \"subsidieaanvraag\", \"subsidieverlening\"]",
+		"publicatie_indicatie": false,
+		"publicatietekst": "",
+		"verantwoordingsrelatie": "[]",
+		"versiedatum": "2020-01-08",
+		"producten_of_diensten": "[\"http://www.example.nl\"]",
+		"selectielijst_procestype": "https://referentielijsten-api.vng.cloud/api/v1/procestypen/849d8c36-6d99-460a-b049-1cfe4ea74216",
+		"referentieproces_naam": "Subsidieaanvraag behandelen",
+		"referentieproces_link": "",
+		"catalogus": 1,
+		"deelzaaktypen": []
+	}
+}, {
+	"model": "catalogi.zaaktype",
+	"pk": 5,
+	"fields": {
+		"datum_begin_geldigheid": "2020-01-28",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "b90d4e2d-fa22-4170-ba30-2a9fe5274f70",
+		"identificatie": "1",
+		"zaaktype_omschrijving": "Panden registratie",
+		"zaaktype_omschrijving_generiek": "",
+		"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+		"doel": "Dossier opbouw van panden in bezit van gemeente Utrecht",
+		"aanleiding": "Het in beheer nemen van een pand",
+		"toelichting": "",
+		"indicatie_intern_of_extern": "intern",
+		"handeling_initiator": "Beheren",
+		"onderwerp": "Pand",
+		"handeling_behandelaar": "Onderhouden",
+		"doorlooptijd_behandeling": "P100D",
+		"servicenorm_behandeling": null,
+		"opschorting_en_aanhouding_mogelijk": false,
+		"verlenging_mogelijk": false,
+		"verlengingstermijn": null,
+		"trefwoorden": "[]",
+		"publicatie_indicatie": false,
+		"publicatietekst": "",
+		"verantwoordingsrelatie": "[]",
+		"versiedatum": "2020-01-28",
+		"producten_of_diensten": "[\"http://www.example.nl\"]",
+		"selectielijst_procestype": "https://referentielijsten-api.vng.cloud/api/v1/procestypen/a6f9ac8e-52bb-4b06-aaab-6d0628982356",
+		"referentieproces_naam": "Panden",
+		"referentieproces_link": "",
+		"catalogus": 2,
+		"deelzaaktypen": []
+	}
+}, {
+	"model": "catalogi.zaaktype",
+	"pk": 6,
+	"fields": {
+		"datum_begin_geldigheid": "2020-04-28",
+		"datum_einde_geldigheid": null,
+		"concept": false,
+		"uuid": "3f7e7d29-7045-45c0-8e3b-4a0bb5861e93",
+		"identificatie": "5",
+		"zaaktype_omschrijving": "Incidentmelding behandelen",
+		"zaaktype_omschrijving_generiek": "",
+		"vertrouwelijkheidaanduiding": "beperkt_openbaar",
+		"doel": "Een oplossing vinden voor gemelde overlast van milieu-activiteiten of neen gemeld voorval bij een milieu-inrichting of op een milieulocatie.",
+		"aanleiding": "Door een burger, bedrijf of andere organisatie of vanuit de eigen organisatie is – bij de ODH, het bevoegd gezag of een andere OD (milieutelefoon) - een klacht of (overlast)melding ingediend naar naanleiding van (vermeende) milieuhinder, een bedrijf heeft, of vanuit de eigen organisatie is, een voorval gemeld (bij één van de genoemde organisaties) met betrekking tot milieuactiviteiten.",
+		"toelichting": "Het gaat hier om een klacht, een overlast- of een voorvalmelding. Het gaat niet om een expliciet verzoek tot handhaving cq. verzoek tot toepassen sanctie (zie daarvoor het zaaktype ‘Handhavingsverzoek behandelen’). De melding kan gedaan zijn bij de ODH, het bevoegd gezag of een andere OD. Indien de melding niet rechtstreeks bij de ODH gedaan is, is het uitgangspunt dat het bevoegd gezag of de andere OD (m.u.v. de provincie) zelf ook een zaak over de melding heeft lopen (om bij eventueel contact met de melder te weten waarover het gaat) en vanuit de ODH geïnformeerd wil worden over de voortgang middels statusmeldingen. Wel informeert de ODH de melder rechtstreeks. In de praktijk komt het voor dat de melder weliswaar contact heeft gezocht met het bevoegd gezag maar aldaar is doorverwezen naar de ODH. Die melding is in dat geval niet bekend bij het bevoegd gezag. Het doel van de zaak is een oplossing voor het probleem te vinden. Maar het gemelde probleem wordt gedurende de uitvoering van de zaak niet altijd opgelost.",
+		"indicatie_intern_of_extern": "extern",
+		"handeling_initiator": "Indienen",
+		"onderwerp": "Incidentmelding",
+		"handeling_behandelaar": "Behandelen",
+		"doorlooptijd_behandeling": "P26D",
+		"servicenorm_behandeling": "P26D",
+		"opschorting_en_aanhouding_mogelijk": true,
+		"verlenging_mogelijk": true,
+		"verlengingstermijn": "P20D",
+		"trefwoorden": "[]",
+		"publicatie_indicatie": false,
+		"publicatietekst": "",
+		"verantwoordingsrelatie": "[]",
+		"versiedatum": "2020-04-28",
+		"producten_of_diensten": "[\"http://www.example.nl\"]",
+		"selectielijst_procestype": "https://selectielijst.openzaak.nl/api/v1/procestypen/3030daa1-d516-4cd9-8276-ef0977e32b20",
+		"referentieproces_naam": "Incidentmelding behandelen",
+		"referentieproces_link": "",
+		"catalogus": 1,
+		"deelzaaktypen": []
+	}
+}]
