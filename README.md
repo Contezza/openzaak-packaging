@@ -8,10 +8,7 @@ Gebruik `clean install` om Docker bestand te genereren. Deze komt in `target/` m
 
 ## Release
 
-1. Maak een nieuwe branch met het versienummer, bijvoorbeeld `1.0.0`. 
-2. Maak vervolgens de nodige wijzigingen in de nieuw aangemaakte branch. 
-3. Wanneer alles goed staat, doe je een laatste commit in de branch met als commentaar `create-release`. Gitlab CI zal vervolgens de docker image publiceren. 
-4. Nadat release is uitgevoerd is er ook een tag gemaakt. Dit houdt in dat je de branch kunt mergen met `master` en vervolgens mag je de branch verwijderen.
+1. Geef commit in de master branch met als commentaar `create-release`. Gitlab CI zal vervolgens de docker image publiceren. 
 
 ## Image
 

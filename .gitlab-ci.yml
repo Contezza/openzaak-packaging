@@ -15,8 +15,8 @@ release:
   script:
      - docker login -u $CNTZ_DOCKER_QUAY_USER -p $CNTZ_DOCKER_QUAY_PASSWD quay.io
      - docker login -u $CNTZ_DOCKER_HUB_USER -p $CNTZ_DOCKER_HUB_PASSWD hub.contezza.nl
-     - git checkout -B $CI_COMMIT_REF_NAME
-     - mvn release:prepare release:perform release:clean -Darguments="-DskipTests=true" -DreleaseVersion=$CI_COMMIT_REF_NAME -Pdocker-build-release $MAVEN_CLI_OPTS
+     - git checkout -B master
+     - mvn release:prepare release:perform release:clean -Darguments="-DskipTests=true" -Pdocker-build-release $MAVEN_CLI_OPTS
   only:
     variables:
       - $CI_COMMIT_MESSAGE =~ /create-release/

@@ -16,7 +16,7 @@ services:
       - CACHE_AXES=${project.artifactId}-redis:6379/0
       - DB_HOST=${project.artifactId}-db
       # possible options: tezza.json, uhr.json
-      - IMPORT_JSON=uhr.json
+      - IMPORT_JSON=tezza.json
     ports:
       - 8000:8000
     depends_on:
