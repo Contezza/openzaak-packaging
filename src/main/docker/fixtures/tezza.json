@@ -153,7 +153,7 @@
 		"fields": {
 			"_admin_name": "Referentiezaaktypecatalogus Veiligheidsregio's",
 			"uuid": "3a87bb4c-6876-43a0-bfbf-1c5c960ecf28",
-			"domein": "VRN",
+			"domein": "VR",
 			"rsin": "811215878",
 			"contactpersoon_beheer_naam": "Mark van den Broek",
 			"contactpersoon_beheer_telefoonnummer": "",
