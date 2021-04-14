@@ -1,5 +1,4 @@
-[
-	{
+[{
 		"model": "vng_api_common.jwtsecret",
 		"pk": 2,
 		"fields": {
@@ -48,7 +47,7 @@
 			"api_type": "drc",
 			"api_root": "http://tezza-services-platform.local:8080/alfresco/service/drc/v1/",
 			"extra": {
-				
+
 			},
 			"client_id": "b91d00dc-c762-4211-9c10-5918c81e5de6",
 			"secret": "8fBLx4sY4ZUWVjsjfYHtYwYS",
@@ -69,7 +68,7 @@
 			"api_type": "nrc",
 			"api_root": "http://tezza-open-notificaties.local:8000/api/v1/",
 			"extra": {
-				
+
 			},
 			"client_id": "tezza-notificaties-test",
 			"secret": "4RhynhXSxDeQqepF",
@@ -90,7 +89,7 @@
 			"api_type": "orc",
 			"api_root": "https://bag.basisregistraties.overheid.nl/api/v1/",
 			"extra": {
-				
+
 			},
 			"client_id": "",
 			"secret": "",
@@ -111,7 +110,7 @@
 			"api_type": "orc",
 			"api_root": "https://selectielijst.openzaak.nl/api/v1/",
 			"extra": {
-				
+
 			},
 			"client_id": "",
 			"secret": "",
@@ -136,8 +135,7 @@
 			"contactpersoon_beheer_telefoonnummer": "",
 			"contactpersoon_beheer_emailadres": ""
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.catalogus",
 		"pk": 2,
 		"fields": {
@@ -149,8 +147,19 @@
 			"contactpersoon_beheer_telefoonnummer": "",
 			"contactpersoon_beheer_emailadres": ""
 		}
-	},
-	{
+	}, {
+		"model": "catalogi.catalogus",
+		"pk": 3,
+		"fields": {
+			"_admin_name": "Referentiezaaktypecatalogus Veiligheidsregio's",
+			"uuid": "3a87bb4c-6876-43a0-bfbf-1c5c960ecf28",
+			"domein": "VRN",
+			"rsin": "811215878",
+			"contactpersoon_beheer_naam": "Mark van den Broek",
+			"contactpersoon_beheer_telefoonnummer": "",
+			"contactpersoon_beheer_emailadres": ""
+		}
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 1,
 		"fields": {
@@ -160,8 +169,7 @@
 			"kardinaliteit": "1",
 			"waardenverzameling": "[]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 2,
 		"fields": {
@@ -171,8 +179,7 @@
 			"kardinaliteit": "1",
 			"waardenverzameling": "[]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 3,
 		"fields": {
@@ -182,8 +189,7 @@
 			"kardinaliteit": "1",
 			"waardenverzameling": "[\"Positieve getallen\"]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 4,
 		"fields": {
@@ -193,8 +199,7 @@
 			"kardinaliteit": "1",
 			"waardenverzameling": "[\"'Ja' en 'Nee'\"]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 5,
 		"fields": {
@@ -204,8 +209,7 @@
 			"kardinaliteit": "1",
 			"waardenverzameling": "[]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 6,
 		"fields": {
@@ -215,8 +219,7 @@
 			"kardinaliteit": "N",
 			"waardenverzameling": "[]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 9,
 		"fields": {
@@ -226,8 +229,7 @@
 			"kardinaliteit": "1",
 			"waardenverzameling": "[]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 10,
 		"fields": {
@@ -237,8 +239,7 @@
 			"kardinaliteit": "N",
 			"waardenverzameling": "[]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 11,
 		"fields": {
@@ -248,8 +249,7 @@
 			"kardinaliteit": "1",
 			"waardenverzameling": "[]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 12,
 		"fields": {
@@ -259,8 +259,7 @@
 			"kardinaliteit": "1",
 			"waardenverzameling": "[\"Geldig IBAN\"]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 13,
 		"fields": {
@@ -270,8 +269,7 @@
 			"kardinaliteit": "1",
 			"waardenverzameling": "[]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 14,
 		"fields": {
@@ -281,8 +279,7 @@
 			"kardinaliteit": "N",
 			"waardenverzameling": "[]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 15,
 		"fields": {
@@ -292,8 +289,7 @@
 			"kardinaliteit": "1",
 			"waardenverzameling": "[]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 16,
 		"fields": {
@@ -303,8 +299,7 @@
 			"kardinaliteit": "1",
 			"waardenverzameling": "[]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 17,
 		"fields": {
@@ -314,8 +309,7 @@
 			"kardinaliteit": "1",
 			"waardenverzameling": "[\"Ja\", \"Nee\"]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 18,
 		"fields": {
@@ -325,8 +319,7 @@
 			"kardinaliteit": "1",
 			"waardenverzameling": "[\"Gemeente\", \"Burger\", \"Bedrijf\"]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 19,
 		"fields": {
@@ -336,8 +329,7 @@
 			"kardinaliteit": "1",
 			"waardenverzameling": "[\"Ja\", \"Nee\"]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 20,
 		"fields": {
@@ -347,8 +339,7 @@
 			"kardinaliteit": "1",
 			"waardenverzameling": "[\"Ja\", \"Nee\"]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 21,
 		"fields": {
@@ -358,8 +349,7 @@
 			"kardinaliteit": "1",
 			"waardenverzameling": "[\"Ja\", \"Nee\"]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 22,
 		"fields": {
@@ -369,8 +359,7 @@
 			"kardinaliteit": "1",
 			"waardenverzameling": "[\"Ja\", \"Nee\"]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 23,
 		"fields": {
@@ -380,8 +369,7 @@
 			"kardinaliteit": "1",
 			"waardenverzameling": "[\"Ja\", \"Nee\", \"n.v.t.\"]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschapspecificatie",
 		"pk": 24,
 		"fields": {
@@ -391,8 +379,7 @@
 			"kardinaliteit": "1",
 			"waardenverzameling": "[]"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 1,
 		"fields": {
@@ -403,8 +390,7 @@
 			"toelichting": "",
 			"zaaktype": 2
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 2,
 		"fields": {
@@ -415,8 +401,7 @@
 			"toelichting": "",
 			"zaaktype": 2
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 3,
 		"fields": {
@@ -427,8 +412,7 @@
 			"toelichting": "",
 			"zaaktype": 4
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 4,
 		"fields": {
@@ -439,8 +423,7 @@
 			"toelichting": "",
 			"zaaktype": 4
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 5,
 		"fields": {
@@ -451,8 +434,7 @@
 			"toelichting": "",
 			"zaaktype": 4
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 6,
 		"fields": {
@@ -463,8 +445,7 @@
 			"toelichting": "",
 			"zaaktype": 4
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 9,
 		"fields": {
@@ -475,8 +456,7 @@
 			"toelichting": "",
 			"zaaktype": 4
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 10,
 		"fields": {
@@ -487,8 +467,7 @@
 			"toelichting": "",
 			"zaaktype": 4
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 11,
 		"fields": {
@@ -499,8 +478,7 @@
 			"toelichting": "",
 			"zaaktype": 4
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 12,
 		"fields": {
@@ -511,8 +489,7 @@
 			"toelichting": "",
 			"zaaktype": 4
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 13,
 		"fields": {
@@ -523,8 +500,7 @@
 			"toelichting": "",
 			"zaaktype": 4
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 14,
 		"fields": {
@@ -535,8 +511,7 @@
 			"toelichting": "",
 			"zaaktype": 4
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 15,
 		"fields": {
@@ -547,8 +522,7 @@
 			"toelichting": "",
 			"zaaktype": 4
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 16,
 		"fields": {
@@ -559,8 +533,7 @@
 			"toelichting": "",
 			"zaaktype": 4
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 17,
 		"fields": {
@@ -571,8 +544,7 @@
 			"toelichting": "",
 			"zaaktype": 4
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 18,
 		"fields": {
@@ -583,8 +555,7 @@
 			"toelichting": "",
 			"zaaktype": 4
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 19,
 		"fields": {
@@ -595,8 +566,7 @@
 			"toelichting": "",
 			"zaaktype": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 20,
 		"fields": {
@@ -607,8 +577,7 @@
 			"toelichting": "De organisatie waarbij de incidentmelding is gedaan gemeente [naam] / provincie Zuid-Holland / Omgevingsdienst [naam] / Milieutelefoon",
 			"zaaktype": 6
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 21,
 		"fields": {
@@ -619,8 +588,7 @@
 			"toelichting": "Geurklacht / Geluidsklacht / Stofmelding / Calamiteit. Van belang om klacht af te kunnen handelen, om te achterhalen wat voor overlast wordt ondervonden. En om tijdsduur te kunnen ondervangen.",
 			"zaaktype": 6
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 22,
 		"fields": {
@@ -631,8 +599,7 @@
 			"toelichting": "Is relevant voor het vervolgtraject, om te achterhalen of de klacht gegrond is.",
 			"zaaktype": 6
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 23,
 		"fields": {
@@ -643,8 +610,7 @@
 			"toelichting": "Is relevant voor het vervolgtraject, om te achterhalen of de klacht gegrond is.",
 			"zaaktype": 6
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 24,
 		"fields": {
@@ -655,8 +621,7 @@
 			"toelichting": "Degene die meldt, mag dit anoniem doen. De naam van de melder wordt niet vermeld in de documenten.",
 			"zaaktype": 6
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 25,
 		"fields": {
@@ -667,8 +632,7 @@
 			"toelichting": "",
 			"zaaktype": 8
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 26,
 		"fields": {
@@ -679,8 +643,7 @@
 			"toelichting": "",
 			"zaaktype": 8
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 27,
 		"fields": {
@@ -691,8 +654,7 @@
 			"toelichting": "",
 			"zaaktype": 8
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 28,
 		"fields": {
@@ -703,8 +665,7 @@
 			"toelichting": "",
 			"zaaktype": 8
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 29,
 		"fields": {
@@ -715,8 +676,7 @@
 			"toelichting": "",
 			"zaaktype": 8
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 35,
 		"fields": {
@@ -727,8 +687,7 @@
 			"toelichting": "",
 			"zaaktype": 9
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 36,
 		"fields": {
@@ -739,8 +698,7 @@
 			"toelichting": "",
 			"zaaktype": 9
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 37,
 		"fields": {
@@ -751,8 +709,7 @@
 			"toelichting": "",
 			"zaaktype": 9
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 38,
 		"fields": {
@@ -763,8 +720,7 @@
 			"toelichting": "",
 			"zaaktype": 9
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.eigenschap",
 		"pk": 39,
 		"fields": {
@@ -775,8 +731,7 @@
 			"toelichting": "",
 			"zaaktype": 9
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 2,
 		"fields": {
@@ -788,8 +743,7 @@
 			"vertrouwelijkheidaanduiding": "openbaar",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 3,
 		"fields": {
@@ -801,8 +755,7 @@
 			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 4,
 		"fields": {
@@ -814,8 +767,7 @@
 			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 5,
 		"fields": {
@@ -827,8 +779,7 @@
 			"vertrouwelijkheidaanduiding": "openbaar",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 6,
 		"fields": {
@@ -840,8 +791,7 @@
 			"vertrouwelijkheidaanduiding": "openbaar",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 7,
 		"fields": {
@@ -853,8 +803,7 @@
 			"vertrouwelijkheidaanduiding": "openbaar",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 8,
 		"fields": {
@@ -866,8 +815,7 @@
 			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 9,
 		"fields": {
@@ -879,8 +827,7 @@
 			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 10,
 		"fields": {
@@ -892,8 +839,7 @@
 			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 11,
 		"fields": {
@@ -905,8 +851,7 @@
 			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 12,
 		"fields": {
@@ -918,8 +863,7 @@
 			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 13,
 		"fields": {
@@ -931,8 +875,7 @@
 			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 14,
 		"fields": {
@@ -944,8 +887,7 @@
 			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 15,
 		"fields": {
@@ -957,8 +899,7 @@
 			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 16,
 		"fields": {
@@ -970,8 +911,7 @@
 			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 19,
 		"fields": {
@@ -983,8 +923,7 @@
 			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 20,
 		"fields": {
@@ -996,8 +935,7 @@
 			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 24,
 		"fields": {
@@ -1009,8 +947,7 @@
 			"vertrouwelijkheidaanduiding": "openbaar",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 25,
 		"fields": {
@@ -1022,8 +959,7 @@
 			"vertrouwelijkheidaanduiding": "openbaar",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 26,
 		"fields": {
@@ -1035,8 +971,7 @@
 			"vertrouwelijkheidaanduiding": "openbaar",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 27,
 		"fields": {
@@ -1048,8 +983,7 @@
 			"vertrouwelijkheidaanduiding": "openbaar",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 28,
 		"fields": {
@@ -1061,8 +995,7 @@
 			"vertrouwelijkheidaanduiding": "openbaar",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 29,
 		"fields": {
@@ -1074,8 +1007,7 @@
 			"vertrouwelijkheidaanduiding": "openbaar",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 30,
 		"fields": {
@@ -1087,8 +1019,7 @@
 			"vertrouwelijkheidaanduiding": "openbaar",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 31,
 		"fields": {
@@ -1100,8 +1031,7 @@
 			"vertrouwelijkheidaanduiding": "openbaar",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 32,
 		"fields": {
@@ -1113,8 +1043,7 @@
 			"vertrouwelijkheidaanduiding": "openbaar",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 33,
 		"fields": {
@@ -1126,8 +1055,7 @@
 			"vertrouwelijkheidaanduiding": "openbaar",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 34,
 		"fields": {
@@ -1139,8 +1067,7 @@
 			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 35,
 		"fields": {
@@ -1152,8 +1079,7 @@
 			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 36,
 		"fields": {
@@ -1165,8 +1091,7 @@
 			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 37,
 		"fields": {
@@ -1178,8 +1103,7 @@
 			"vertrouwelijkheidaanduiding": "openbaar",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 38,
 		"fields": {
@@ -1191,8 +1115,7 @@
 			"vertrouwelijkheidaanduiding": "openbaar",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.informatieobjecttype",
 		"pk": 39,
 		"fields": {
@@ -1204,8 +1127,175 @@
 			"vertrouwelijkheidaanduiding": "openbaar",
 			"catalogus": 1
 		}
-	},
-	{
+	}, {
+		"model": "catalogi.informatieobjecttype",
+		"pk": 40,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "614a6d36-5fe1-4a38-b317-ee4173d8bb8a",
+			"omschrijving": "Verzoek om controle",
+			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+			"catalogus": 3
+		}
+	}, {
+		"model": "catalogi.informatieobjecttype",
+		"pk": 41,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "285ad62d-46e6-41f0-91be-f2d30066c47a",
+			"omschrijving": "Verzoek om voorlopige voorziening",
+			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+			"catalogus": 3
+		}
+	}, {
+		"model": "catalogi.informatieobjecttype",
+		"pk": 42,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "c2e0a000-33eb-44b4-9a56-9bd9e847096b",
+			"omschrijving": "Verzoek tot wijziging last onder dwangsom",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"catalogus": 3
+		}
+	}, {
+		"model": "catalogi.informatieobjecttype",
+		"pk": 43,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "7b4b763d-3963-4fe6-b099-cb8b7ad89a89",
+			"omschrijving": "Zienswijze",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"catalogus": 3
+		}
+	}, {
+		"model": "catalogi.informatieobjecttype",
+		"pk": 44,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "7aab79d8-6ddb-4972-be02-48c4040e72ef",
+			"omschrijving": "Aanvraag",
+			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+			"catalogus": 3
+		}
+	}, {
+		"model": "catalogi.informatieobjecttype",
+		"pk": 45,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "3682be40-3b1a-42e9-85ac-3be0e01c3fb5",
+			"omschrijving": "Advies",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"catalogus": 3
+		}
+	}, {
+		"model": "catalogi.informatieobjecttype",
+		"pk": 46,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "283ea1bb-bfa9-4add-a001-630b778163bb",
+			"omschrijving": "Adviesaanvraag",
+			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+			"catalogus": 3
+		}
+	}, {
+		"model": "catalogi.informatieobjecttype",
+		"pk": 47,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "f9dc4eda-7ba7-4005-b681-442d40c42bf1",
+			"omschrijving": "Beroepschrift",
+			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+			"catalogus": 3
+		}
+	}, {
+		"model": "catalogi.informatieobjecttype",
+		"pk": 48,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "b19feabb-f417-4f0a-89b5-c6f1f32bc673",
+			"omschrijving": "Bezwaarschrift",
+			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+			"catalogus": 3
+		}
+	}, {
+		"model": "catalogi.informatieobjecttype",
+		"pk": 49,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "6bcad10d-cc26-4bfe-beb2-985b66bb7b6c",
+			"omschrijving": "Controlerapport",
+			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+			"catalogus": 3
+		}
+	}, {
+		"model": "catalogi.informatieobjecttype",
+		"pk": 50,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "cc71ca13-7306-4de9-be7b-0127ab97a8e1",
+			"omschrijving": "Handhavingsverzoek",
+			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+			"catalogus": 3
+		}
+	}, {
+		"model": "catalogi.informatieobjecttype",
+		"pk": 51,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "ccd4aa4b-5bae-4606-8ec2-ca944ef12945",
+			"omschrijving": "Incidentmelding",
+			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+			"catalogus": 3
+		}
+	}, {
+		"model": "catalogi.informatieobjecttype",
+		"pk": 52,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "31ab8fd6-9ba9-41dd-9b58-90fb4e923e98",
+			"omschrijving": "Inspectieagenda",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"catalogus": 3
+		}
+	}, {
+		"model": "catalogi.informatieobjecttype",
+		"pk": 53,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "ea28d0a2-98ea-44bd-bccb-a77a967cb0d6",
+			"omschrijving": "Ontvangstbevestiging",
+			"vertrouwelijkheidaanduiding": "zaakvertrouwelijk",
+			"catalogus": 3
+		}
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 6,
 		"fields": {
@@ -1216,8 +1306,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 7,
 		"fields": {
@@ -1228,8 +1317,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 8,
 		"fields": {
@@ -1240,8 +1328,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 9,
 		"fields": {
@@ -1252,8 +1339,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 10,
 		"fields": {
@@ -1264,8 +1350,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 11,
 		"fields": {
@@ -1276,8 +1361,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 12,
 		"fields": {
@@ -1288,8 +1372,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 13,
 		"fields": {
@@ -1300,8 +1383,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 14,
 		"fields": {
@@ -1312,8 +1394,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 15,
 		"fields": {
@@ -1324,8 +1405,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 16,
 		"fields": {
@@ -1336,8 +1416,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 17,
 		"fields": {
@@ -1348,8 +1427,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 18,
 		"fields": {
@@ -1360,8 +1438,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 19,
 		"fields": {
@@ -1372,8 +1449,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 20,
 		"fields": {
@@ -1384,8 +1460,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 23,
 		"fields": {
@@ -1396,8 +1471,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 24,
 		"fields": {
@@ -1408,8 +1482,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 28,
 		"fields": {
@@ -1420,8 +1493,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 29,
 		"fields": {
@@ -1432,8 +1504,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 30,
 		"fields": {
@@ -1444,8 +1515,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 31,
 		"fields": {
@@ -1456,8 +1526,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 32,
 		"fields": {
@@ -1468,8 +1537,7 @@
 			"richting": "intern",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 33,
 		"fields": {
@@ -1480,8 +1548,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 34,
 		"fields": {
@@ -1492,8 +1559,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 35,
 		"fields": {
@@ -1504,8 +1570,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 36,
 		"fields": {
@@ -1516,8 +1581,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 37,
 		"fields": {
@@ -1528,8 +1592,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 38,
 		"fields": {
@@ -1540,8 +1603,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 39,
 		"fields": {
@@ -1552,8 +1614,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 40,
 		"fields": {
@@ -1564,8 +1625,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 41,
 		"fields": {
@@ -1576,8 +1636,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 42,
 		"fields": {
@@ -1588,8 +1647,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 43,
 		"fields": {
@@ -1600,8 +1658,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 44,
 		"fields": {
@@ -1612,8 +1669,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 45,
 		"fields": {
@@ -1624,8 +1680,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 46,
 		"fields": {
@@ -1636,8 +1691,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 47,
 		"fields": {
@@ -1648,8 +1702,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 48,
 		"fields": {
@@ -1660,8 +1713,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 49,
 		"fields": {
@@ -1672,8 +1724,7 @@
 			"richting": "inkomend",
 			"statustype": 19
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 50,
 		"fields": {
@@ -1684,8 +1735,7 @@
 			"richting": "inkomend",
 			"statustype": 19
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 51,
 		"fields": {
@@ -1696,8 +1746,7 @@
 			"richting": "uitgaand",
 			"statustype": 19
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 52,
 		"fields": {
@@ -1708,8 +1757,7 @@
 			"richting": "intern",
 			"statustype": 20
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 53,
 		"fields": {
@@ -1720,8 +1768,7 @@
 			"richting": "uitgaand",
 			"statustype": 21
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 54,
 		"fields": {
@@ -1732,8 +1779,7 @@
 			"richting": "uitgaand",
 			"statustype": 19
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 55,
 		"fields": {
@@ -1744,8 +1790,7 @@
 			"richting": "uitgaand",
 			"statustype": 20
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 69,
 		"fields": {
@@ -1756,8 +1801,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 70,
 		"fields": {
@@ -1768,8 +1812,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 71,
 		"fields": {
@@ -1780,8 +1823,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 72,
 		"fields": {
@@ -1792,8 +1834,7 @@
 			"richting": "intern",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 73,
 		"fields": {
@@ -1804,8 +1845,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 74,
 		"fields": {
@@ -1816,8 +1856,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 75,
 		"fields": {
@@ -1828,8 +1867,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 76,
 		"fields": {
@@ -1840,8 +1878,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 77,
 		"fields": {
@@ -1852,8 +1889,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 78,
 		"fields": {
@@ -1864,8 +1900,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 79,
 		"fields": {
@@ -1876,8 +1911,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 80,
 		"fields": {
@@ -1888,8 +1922,7 @@
 			"richting": "intern",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 81,
 		"fields": {
@@ -1900,8 +1933,7 @@
 			"richting": "intern",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 82,
 		"fields": {
@@ -1912,8 +1944,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 83,
 		"fields": {
@@ -1924,8 +1955,7 @@
 			"richting": "inkomend",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 84,
 		"fields": {
@@ -1936,8 +1966,7 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 85,
 		"fields": {
@@ -1948,8 +1977,348 @@
 			"richting": "uitgaand",
 			"statustype": null
 		}
-	},
-	{
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 86,
+		"fields": {
+			"uuid": "e3f876ee-98a8-47f8-880a-3cf41602c356",
+			"zaaktype": 13,
+			"informatieobjecttype": 44,
+			"volgnummer": 1,
+			"richting": "inkomend",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 87,
+		"fields": {
+			"uuid": "6485babc-8c41-41ff-95a8-40b49c4901b6",
+			"zaaktype": 12,
+			"informatieobjecttype": 46,
+			"volgnummer": 1,
+			"richting": "inkomend",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 88,
+		"fields": {
+			"uuid": "6f22934f-7c5d-4a1a-8c8d-257f6c73dda7",
+			"zaaktype": 18,
+			"informatieobjecttype": 46,
+			"volgnummer": 3,
+			"richting": "uitgaand",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 89,
+		"fields": {
+			"uuid": "ae0881d8-9f56-4bb6-a0c4-caf2b86f847c",
+			"zaaktype": 15,
+			"informatieobjecttype": 47,
+			"volgnummer": 1,
+			"richting": "inkomend",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 90,
+		"fields": {
+			"uuid": "5a1d19ac-9767-426d-bbfa-5985a0bd664e",
+			"zaaktype": 23,
+			"informatieobjecttype": 48,
+			"volgnummer": 1,
+			"richting": "inkomend",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 91,
+		"fields": {
+			"uuid": "e0093e17-9ad1-4eb4-b595-295093f078c7",
+			"zaaktype": 19,
+			"informatieobjecttype": 49,
+			"volgnummer": 1,
+			"richting": "intern",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 92,
+		"fields": {
+			"uuid": "a60c6556-7ea0-49d3-b4bb-b3ef7af5a569",
+			"zaaktype": 20,
+			"informatieobjecttype": 50,
+			"volgnummer": 1,
+			"richting": "inkomend",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 93,
+		"fields": {
+			"uuid": "cfd74d94-4d63-4a25-ac94-958afea739b0",
+			"zaaktype": 17,
+			"informatieobjecttype": 52,
+			"volgnummer": 2,
+			"richting": "uitgaand",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 94,
+		"fields": {
+			"uuid": "70273465-675e-4de2-9ecd-1938ff23bf41",
+			"zaaktype": 12,
+			"informatieobjecttype": 53,
+			"volgnummer": 2,
+			"richting": "uitgaand",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 95,
+		"fields": {
+			"uuid": "794ee9e7-0d99-41cc-b4c3-f598a520550f",
+			"zaaktype": 13,
+			"informatieobjecttype": 53,
+			"volgnummer": 2,
+			"richting": "uitgaand",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 96,
+		"fields": {
+			"uuid": "74bc21f3-b914-4ec5-89b6-77125f545126",
+			"zaaktype": 15,
+			"informatieobjecttype": 53,
+			"volgnummer": 3,
+			"richting": "uitgaand",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 97,
+		"fields": {
+			"uuid": "5461d797-3448-4392-8006-9faba98b537f",
+			"zaaktype": 23,
+			"informatieobjecttype": 53,
+			"volgnummer": 2,
+			"richting": "uitgaand",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 98,
+		"fields": {
+			"uuid": "17b060b5-b753-4995-8beb-4ac0880b9602",
+			"zaaktype": 18,
+			"informatieobjecttype": 53,
+			"volgnummer": 2,
+			"richting": "uitgaand",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 99,
+		"fields": {
+			"uuid": "c9f6769f-3c48-4e99-b8a5-478871603227",
+			"zaaktype": 20,
+			"informatieobjecttype": 53,
+			"volgnummer": 2,
+			"richting": "uitgaand",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 100,
+		"fields": {
+			"uuid": "fb4581ca-5e4c-4daf-9829-d830a98bcdaa",
+			"zaaktype": 17,
+			"informatieobjecttype": 40,
+			"volgnummer": 1,
+			"richting": "inkomend",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 101,
+		"fields": {
+			"uuid": "9fe5f039-f56e-4bfd-b53a-2882d9a49483",
+			"zaaktype": 19,
+			"informatieobjecttype": 42,
+			"volgnummer": 2,
+			"richting": "inkomend",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 102,
+		"fields": {
+			"uuid": "0f16b1aa-314a-4832-885a-56eeac9a936d",
+			"zaaktype": 11,
+			"informatieobjecttype": 44,
+			"volgnummer": 1,
+			"richting": "inkomend",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 103,
+		"fields": {
+			"uuid": "217e07c4-93dd-46fe-ae0f-7666fda6f295",
+			"zaaktype": 25,
+			"informatieobjecttype": 45,
+			"volgnummer": 2,
+			"richting": "inkomend",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 104,
+		"fields": {
+			"uuid": "77318ac5-0598-4cae-8b58-04527a05f972",
+			"zaaktype": 10,
+			"informatieobjecttype": 46,
+			"volgnummer": 1,
+			"richting": "inkomend",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 105,
+		"fields": {
+			"uuid": "f4ad1c8d-3cae-4e86-acf7-87ecff968ef7",
+			"zaaktype": 14,
+			"informatieobjecttype": 46,
+			"volgnummer": 2,
+			"richting": "inkomend",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 106,
+		"fields": {
+			"uuid": "409d31a9-6357-4350-9321-13fdff98f882",
+			"zaaktype": 25,
+			"informatieobjecttype": 46,
+			"volgnummer": 1,
+			"richting": "intern",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 107,
+		"fields": {
+			"uuid": "b505cd9a-bdd9-41f8-842c-a74bb3ad12a5",
+			"zaaktype": 14,
+			"informatieobjecttype": 49,
+			"volgnummer": 1,
+			"richting": "intern",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 108,
+		"fields": {
+			"uuid": "ea8cd1bc-8475-4198-8c30-ead93ebb3158",
+			"zaaktype": 21,
+			"informatieobjecttype": 51,
+			"volgnummer": 1,
+			"richting": "inkomend",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 109,
+		"fields": {
+			"uuid": "ffe78ee8-f76d-4ec5-8c24-fa833a6531ac",
+			"zaaktype": 11,
+			"informatieobjecttype": 53,
+			"volgnummer": 2,
+			"richting": "uitgaand",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 110,
+		"fields": {
+			"uuid": "d68ad584-2fbf-4483-8b26-f32b9523f921",
+			"zaaktype": 24,
+			"informatieobjecttype": 53,
+			"volgnummer": 2,
+			"richting": "uitgaand",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 111,
+		"fields": {
+			"uuid": "f8ecf13a-c0c0-4c49-8acc-c6f546c4ca26",
+			"zaaktype": 16,
+			"informatieobjecttype": 53,
+			"volgnummer": 3,
+			"richting": "uitgaand",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 112,
+		"fields": {
+			"uuid": "4cbab67d-7272-423b-8566-b5a0aef15141",
+			"zaaktype": 10,
+			"informatieobjecttype": 53,
+			"volgnummer": 2,
+			"richting": "uitgaand",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 113,
+		"fields": {
+			"uuid": "6e51f3cd-b0f0-4bc1-b188-a00e4f990bc9",
+			"zaaktype": 21,
+			"informatieobjecttype": 53,
+			"volgnummer": 2,
+			"richting": "uitgaand",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 114,
+		"fields": {
+			"uuid": "77ec7620-6503-4926-93be-b9b42aaa3cd0",
+			"zaaktype": 22,
+			"informatieobjecttype": 53,
+			"volgnummer": 1,
+			"richting": "uitgaand",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 115,
+		"fields": {
+			"uuid": "c3577208-2414-41e9-acd3-4e619115e253",
+			"zaaktype": 16,
+			"informatieobjecttype": 41,
+			"volgnummer": 1,
+			"richting": "inkomend",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 116,
+		"fields": {
+			"uuid": "3834c872-2a0d-43d1-8446-4c80781141fd",
+			"zaaktype": 24,
+			"informatieobjecttype": 43,
+			"volgnummer": 1,
+			"richting": "inkomend",
+			"statustype": null
+		}
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 1,
 		"fields": {
@@ -1969,8 +2338,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 2,
 		"fields": {
@@ -1990,8 +2358,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 4,
 		"fields": {
@@ -2011,8 +2378,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 5,
 		"fields": {
@@ -2032,8 +2398,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": "De melding is goedgekeurd"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 6,
 		"fields": {
@@ -2053,8 +2418,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 7,
 		"fields": {
@@ -2074,8 +2438,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 8,
 		"fields": {
@@ -2095,8 +2458,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 9,
 		"fields": {
@@ -2116,8 +2478,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 10,
 		"fields": {
@@ -2137,8 +2498,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 11,
 		"fields": {
@@ -2158,8 +2518,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 12,
 		"fields": {
@@ -2179,8 +2538,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 13,
 		"fields": {
@@ -2200,8 +2558,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 14,
 		"fields": {
@@ -2221,8 +2578,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 15,
 		"fields": {
@@ -2242,8 +2598,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 16,
 		"fields": {
@@ -2263,8 +2618,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 17,
 		"fields": {
@@ -2284,8 +2638,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 18,
 		"fields": {
@@ -2305,8 +2658,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 19,
 		"fields": {
@@ -2326,8 +2678,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 21,
 		"fields": {
@@ -2347,8 +2698,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": "Toegekend (Blijvend bewaren)"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 26,
 		"fields": {
@@ -2368,8 +2718,7 @@
 			"brondatum_archiefprocedure_procestermijn": "P1Y",
 			"toelichting": "Verleend (Na vervallen belang)"
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 27,
 		"fields": {
@@ -2389,8 +2738,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 28,
 		"fields": {
@@ -2410,8 +2758,7 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.resultaattype",
 		"pk": 29,
 		"fields": {
@@ -2431,8 +2778,747 @@
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
-	},
-	{
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 30,
+		"fields": {
+			"uuid": "d7f927aa-6602-48d3-ac5d-95de5d8aaeeb",
+			"zaaktype": 12,
+			"omschrijving": "Vastgesteld",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/43ac0469-e0c0-4985-a6ce-8ec285d2df47",
+			"omschrijving_generiek": "Vastgesteld",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/bc2b1f0f-51e6-4f0e-917f-cd010a985bd5",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P1826D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 31,
+		"fields": {
+			"uuid": "d29d66ef-8834-441e-af4f-03345b865df8",
+			"zaaktype": 12,
+			"omschrijving": "Ingetrokken",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/a6a0bd73-262a-401a-b629-9c4a908c69b5",
+			"omschrijving_generiek": "Ingetrokken",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/2af58a6a-451a-4b0f-9008-246a855be88b",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 32,
+		"fields": {
+			"uuid": "c88fcf1c-90ec-40ae-a4ef-5368dc388f11",
+			"zaaktype": 12,
+			"omschrijving": "Buiten behandeling",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/ce8cf476-0b59-496f-8eee-957a7c6e2506",
+			"omschrijving_generiek": "Afgebroken",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/d7477e4a-4c67-4e33-86a2-1274bd301235",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 33,
+		"fields": {
+			"uuid": "b75aa162-b236-413c-a2c5-67676e13466c",
+			"zaaktype": 11,
+			"omschrijving": "Geweigerd",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/1f750958-431c-4916-bc01-af5d3a753b41",
+			"omschrijving_generiek": "Geweigerd",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/f572cb0e-244a-4682-b57e-0c044c468387",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P1826D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 34,
+		"fields": {
+			"uuid": "527b3adb-a4f6-4849-a388-381ec4f77150",
+			"zaaktype": 13,
+			"omschrijving": "Afgebroken",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/ce8cf476-0b59-496f-8eee-957a7c6e2506",
+			"omschrijving_generiek": "Afgebroken",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/0d978967-6bf2-452f-951a-c16bff338f42",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 35,
+		"fields": {
+			"uuid": "222b3c53-a87d-40bc-977e-c20ba5ce8e93",
+			"zaaktype": 11,
+			"omschrijving": "Verleend",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/f7d2dc14-1b71-4179-aed3-4e7abcfbeb0d",
+			"omschrijving_generiek": "Verleend",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/2e86a8ca-0269-446c-8da2-6f4d08be422d",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "ander_datumkenmerk",
+			"brondatum_archiefprocedure_datumkenmerk": "Te beoordelen door record manager",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "overige",
+			"brondatum_archiefprocedure_registratie": "Te beoordelen door record manager",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 36,
+		"fields": {
+			"uuid": "d8f4d0bb-f29f-4f3a-bd63-99480ae7201f",
+			"zaaktype": 13,
+			"omschrijving": "Geweigerd",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/1f750958-431c-4916-bc01-af5d3a753b41",
+			"omschrijving_generiek": "Geweigerd",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/f572cb0e-244a-4682-b57e-0c044c468387",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P1826D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 37,
+		"fields": {
+			"uuid": "ef82944c-67e5-4e22-982f-f8b1317b0375",
+			"zaaktype": 13,
+			"omschrijving": "Ingetrokken",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/a6a0bd73-262a-401a-b629-9c4a908c69b5",
+			"omschrijving_generiek": "Ingetrokken",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/12421a71-3dc3-42df-a0dc-820c1744c7b7",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 38,
+		"fields": {
+			"uuid": "26071371-9638-4e64-9d08-7af6dbda9942",
+			"zaaktype": 13,
+			"omschrijving": "Verleend",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/f7d2dc14-1b71-4179-aed3-4e7abcfbeb0d",
+			"omschrijving_generiek": "Verleend",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/2e86a8ca-0269-446c-8da2-6f4d08be422d",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "ander_datumkenmerk",
+			"brondatum_archiefprocedure_datumkenmerk": "Te beoordelen door record manager",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "overige",
+			"brondatum_archiefprocedure_registratie": "Te beoordelen door record manager",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 39,
+		"fields": {
+			"uuid": "bc4a7af8-c080-4fe8-9903-3ce4058a4774",
+			"zaaktype": 24,
+			"omschrijving": "Afgebroken",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/ce8cf476-0b59-496f-8eee-957a7c6e2506",
+			"omschrijving_generiek": "Afgebroken",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/c68b5f02-e30a-4226-aae7-bf24d0eb07f6",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 40,
+		"fields": {
+			"uuid": "f3bf1186-f490-46d8-a75a-a34608df3feb",
+			"zaaktype": 24,
+			"omschrijving": "Verwerkt",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/f33dbd16-68ae-4820-acb5-5f437bca5edb",
+			"omschrijving_generiek": "Verwerkt",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/f969d912-1cd7-42f0-97ad-7b5cd24115d4",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P1826D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 41,
+		"fields": {
+			"uuid": "5e32968d-5221-46a2-8226-588516e4dd85",
+			"zaaktype": 15,
+			"omschrijving": "Afgebroken",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/ce8cf476-0b59-496f-8eee-957a7c6e2506",
+			"omschrijving_generiek": "Afgebroken",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/c68b5f02-e30a-4226-aae7-bf24d0eb07f6",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 42,
+		"fields": {
+			"uuid": "4e313cef-968a-4627-97e4-c8538e139fc6",
+			"zaaktype": 15,
+			"omschrijving": "Afgehandeld",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/7cb315fb-4f7b-4a43-aca1-e4522e4c73b3",
+			"omschrijving_generiek": "Afgehandeld",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/f969d912-1cd7-42f0-97ad-7b5cd24115d4",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P1826D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 43,
+		"fields": {
+			"uuid": "2aac8654-ea0b-4626-909a-d38c58ac3da4",
+			"zaaktype": 16,
+			"omschrijving": "Afgebroken",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/ce8cf476-0b59-496f-8eee-957a7c6e2506",
+			"omschrijving_generiek": "Afgebroken",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/c68b5f02-e30a-4226-aae7-bf24d0eb07f6",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 44,
+		"fields": {
+			"uuid": "1fefa17b-f348-4238-8ab7-6a9cd7943185",
+			"zaaktype": 11,
+			"omschrijving": "Afgebroken",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/ce8cf476-0b59-496f-8eee-957a7c6e2506",
+			"omschrijving_generiek": "Afgebroken",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/0d978967-6bf2-452f-951a-c16bff338f42",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 45,
+		"fields": {
+			"uuid": "53d08eae-d91b-4054-9655-755b08280c2a",
+			"zaaktype": 16,
+			"omschrijving": "Afgehandeld",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/7cb315fb-4f7b-4a43-aca1-e4522e4c73b3",
+			"omschrijving_generiek": "Afgehandeld",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/f969d912-1cd7-42f0-97ad-7b5cd24115d4",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P1826D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 46,
+		"fields": {
+			"uuid": "37f9eca8-9c54-41d3-8007-7c1330022da5",
+			"zaaktype": 23,
+			"omschrijving": "Afgebroken",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/ce8cf476-0b59-496f-8eee-957a7c6e2506",
+			"omschrijving_generiek": "Afgebroken",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/c68b5f02-e30a-4226-aae7-bf24d0eb07f6",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 47,
+		"fields": {
+			"uuid": "9c26f48b-fc67-4608-a66b-efc47a668d40",
+			"zaaktype": 23,
+			"omschrijving": "Afgehandeld",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/7cb315fb-4f7b-4a43-aca1-e4522e4c73b3",
+			"omschrijving_generiek": "Afgehandeld",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/f969d912-1cd7-42f0-97ad-7b5cd24115d4",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P1826D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 48,
+		"fields": {
+			"uuid": "55e4e5ee-0941-4dd6-952d-0ec47c9ec091",
+			"zaaktype": 10,
+			"omschrijving": "Buiten behandeling",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/ce8cf476-0b59-496f-8eee-957a7c6e2506",
+			"omschrijving_generiek": "Afgebroken",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/d7477e4a-4c67-4e33-86a2-1274bd301235",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 49,
+		"fields": {
+			"uuid": "20da643e-a87b-4111-b1cd-18afb7d1bebd",
+			"zaaktype": 10,
+			"omschrijving": "Ingetrokken",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/a6a0bd73-262a-401a-b629-9c4a908c69b5",
+			"omschrijving_generiek": "Ingetrokken",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/2af58a6a-451a-4b0f-9008-246a855be88b",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 50,
+		"fields": {
+			"uuid": "3eaf0a40-d99c-4739-a2d7-3d7dfac6914f",
+			"zaaktype": 10,
+			"omschrijving": "Vastgesteld",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/43ac0469-e0c0-4985-a6ce-8ec285d2df47",
+			"omschrijving_generiek": "Vastgesteld",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/bc2b1f0f-51e6-4f0e-917f-cd010a985bd5",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P1826D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 51,
+		"fields": {
+			"uuid": "4ea45cd3-b960-40a0-9ce6-ba9bb5796bf7",
+			"zaaktype": 17,
+			"omschrijving": "Afgebroken",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/ce8cf476-0b59-496f-8eee-957a7c6e2506",
+			"omschrijving_generiek": "Afgebroken",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/aa8448d5-97de-4387-a365-d876e9d4b396",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 52,
+		"fields": {
+			"uuid": "1e0503a0-31ba-426e-8482-a73d2432e25d",
+			"zaaktype": 17,
+			"omschrijving": "Toezicht uitgevoerd",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/ce8cf476-0b59-496f-8eee-957a7c6e2506",
+			"omschrijving_generiek": "Afgebroken",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/f3fa6648-6cfe-47c5-916f-669e18ea9113",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P1826D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 53,
+		"fields": {
+			"uuid": "8d6c521c-9f05-4330-ba37-17f64b1f7eb2",
+			"zaaktype": 14,
+			"omschrijving": "Afgebroken",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/ce8cf476-0b59-496f-8eee-957a7c6e2506",
+			"omschrijving_generiek": "Afgebroken",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/aa8448d5-97de-4387-a365-d876e9d4b396",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 54,
+		"fields": {
+			"uuid": "df64d750-7389-4301-a3ee-6ae93885f073",
+			"zaaktype": 14,
+			"omschrijving": "Hand. Uitgevoerd",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/7cb315fb-4f7b-4a43-aca1-e4522e4c73b3",
+			"omschrijving_generiek": "Afgehandeld",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/0254cc34-4dea-4476-9e44-1db81ee7ffd3",
+			"archiefnominatie": "blijvend_bewaren",
+			"archiefactietermijn": "P3652D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 55,
+		"fields": {
+			"uuid": "c2055d0d-3f40-44be-b0e0-58cbb1ac6e0c",
+			"zaaktype": 18,
+			"omschrijving": "Afgebroken",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/ce8cf476-0b59-496f-8eee-957a7c6e2506",
+			"omschrijving_generiek": "Afgebroken",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/aa8448d5-97de-4387-a365-d876e9d4b396",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 56,
+		"fields": {
+			"uuid": "86bb4838-b7d3-4d50-b636-3af98ba8ce1b",
+			"zaaktype": 18,
+			"omschrijving": "Toezicht uitgevoerd",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/fb65d251-1518-4185-865f-b8bdcfad07b1",
+			"omschrijving_generiek": "Toegekend",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/f3fa6648-6cfe-47c5-916f-669e18ea9113",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P1826D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 57,
+		"fields": {
+			"uuid": "764ea40c-d9db-46e5-85a3-76e9bfbb5721",
+			"zaaktype": 25,
+			"omschrijving": "Afgebroken",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/ce8cf476-0b59-496f-8eee-957a7c6e2506",
+			"omschrijving_generiek": "Afgebroken",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/aa8448d5-97de-4387-a365-d876e9d4b396",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 58,
+		"fields": {
+			"uuid": "8a1de866-b617-4712-b6e4-2da78f38b9f5",
+			"zaaktype": 25,
+			"omschrijving": "Hand. Uitgevoerd",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/7cb315fb-4f7b-4a43-aca1-e4522e4c73b3",
+			"omschrijving_generiek": "Afgehandeld",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/0254cc34-4dea-4476-9e44-1db81ee7ffd3",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P3652D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 59,
+		"fields": {
+			"uuid": "3b14f63c-189a-4b71-bbf0-c4f8bbf1c508",
+			"zaaktype": 20,
+			"omschrijving": "Afgebroken",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/ce8cf476-0b59-496f-8eee-957a7c6e2506",
+			"omschrijving_generiek": "Afgebroken",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/6f5d3859-78c5-467a-9e2f-43d71cf52a6c",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 60,
+		"fields": {
+			"uuid": "3cc994f8-94af-4511-9d49-0ad821ead97f",
+			"zaaktype": 20,
+			"omschrijving": "Afgewezen",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/e6a0c939-3404-45b0-88e3-76c94fb80ea7",
+			"omschrijving_generiek": "Afgewezen",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/9d6e6675-8764-4c55-9a47-626c2dc399f8",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 61,
+		"fields": {
+			"uuid": "c4620004-ab50-4834-ac27-3fd3ba6d906b",
+			"zaaktype": 20,
+			"omschrijving": "Ingewilligd",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/fb65d251-1518-4185-865f-b8bdcfad07b1",
+			"omschrijving_generiek": "Toegekend",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/3fc7002b-31b6-4abe-82af-b6d46a9a1736",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P1826D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 62,
+		"fields": {
+			"uuid": "529caa20-f6f5-4e5b-b601-2b206a729b45",
+			"zaaktype": 21,
+			"omschrijving": "Afgebroken",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/ce8cf476-0b59-496f-8eee-957a7c6e2506",
+			"omschrijving_generiek": "Afgebroken",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/aa8448d5-97de-4387-a365-d876e9d4b396",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 63,
+		"fields": {
+			"uuid": "c33fa5a4-95dc-4761-a3d6-a69200eb64d9",
+			"zaaktype": 21,
+			"omschrijving": "Toezicht uitgevoerd",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/7cb315fb-4f7b-4a43-aca1-e4522e4c73b3",
+			"omschrijving_generiek": "Afgehandeld",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/f3fa6648-6cfe-47c5-916f-669e18ea9113",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P1826D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 64,
+		"fields": {
+			"uuid": "693d7579-e595-424a-ad8f-dfb9d741ef18",
+			"zaaktype": 19,
+			"omschrijving": "Afgebroken",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/ce8cf476-0b59-496f-8eee-957a7c6e2506",
+			"omschrijving_generiek": "Afgebroken",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/aa8448d5-97de-4387-a365-d876e9d4b396",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 65,
+		"fields": {
+			"uuid": "70a62e65-cdaf-4c39-b464-46fc69606dda",
+			"zaaktype": 19,
+			"omschrijving": "Hand. Uitgevoerd",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/ce8cf476-0b59-496f-8eee-957a7c6e2506",
+			"omschrijving_generiek": "Afgebroken",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/0254cc34-4dea-4476-9e44-1db81ee7ffd3",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P3652D",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 66,
+		"fields": {
+			"uuid": "8d4c36d6-e322-4415-8c36-f2605321ab04",
+			"zaaktype": 22,
+			"omschrijving": "Geaccepteerd",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/f7d2dc14-1b71-4179-aed3-4e7abcfbeb0d",
+			"omschrijving_generiek": "Verleend",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/2e86a8ca-0269-446c-8da2-6f4d08be422d",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P365D",
+			"brondatum_archiefprocedure_afleidingswijze": "ander_datumkenmerk",
+			"brondatum_archiefprocedure_datumkenmerk": "Te beoordelen door record manager",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "overige",
+			"brondatum_archiefprocedure_registratie": "Te beoordelen door record manager",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 1,
 		"fields": {
@@ -2441,8 +3527,7 @@
 			"omschrijving_generiek": "behandelaar",
 			"zaaktype": 2
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 2,
 		"fields": {
@@ -2451,8 +3536,7 @@
 			"omschrijving_generiek": "behandelaar",
 			"zaaktype": 4
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 3,
 		"fields": {
@@ -2461,8 +3545,7 @@
 			"omschrijving_generiek": "behandelaar",
 			"zaaktype": 3
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 4,
 		"fields": {
@@ -2471,8 +3554,7 @@
 			"omschrijving_generiek": "behandelaar",
 			"zaaktype": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 5,
 		"fields": {
@@ -2481,8 +3563,7 @@
 			"omschrijving_generiek": "belanghebbende",
 			"zaaktype": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 6,
 		"fields": {
@@ -2491,8 +3572,7 @@
 			"omschrijving_generiek": "belanghebbende",
 			"zaaktype": 2
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 7,
 		"fields": {
@@ -2501,8 +3581,7 @@
 			"omschrijving_generiek": "belanghebbende",
 			"zaaktype": 3
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 8,
 		"fields": {
@@ -2511,8 +3590,7 @@
 			"omschrijving_generiek": "belanghebbende",
 			"zaaktype": 4
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 9,
 		"fields": {
@@ -2521,8 +3599,7 @@
 			"omschrijving_generiek": "zaakcoordinator",
 			"zaaktype": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 10,
 		"fields": {
@@ -2531,8 +3608,7 @@
 			"omschrijving_generiek": "zaakcoordinator",
 			"zaaktype": 2
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 11,
 		"fields": {
@@ -2541,8 +3617,7 @@
 			"omschrijving_generiek": "zaakcoordinator",
 			"zaaktype": 3
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 12,
 		"fields": {
@@ -2551,8 +3626,7 @@
 			"omschrijving_generiek": "zaakcoordinator",
 			"zaaktype": 4
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 13,
 		"fields": {
@@ -2561,8 +3635,7 @@
 			"omschrijving_generiek": "behandelaar",
 			"zaaktype": 5
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 14,
 		"fields": {
@@ -2571,8 +3644,7 @@
 			"omschrijving_generiek": "initiator",
 			"zaaktype": 1
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 15,
 		"fields": {
@@ -2581,8 +3653,7 @@
 			"omschrijving_generiek": "initiator",
 			"zaaktype": 2
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 16,
 		"fields": {
@@ -2591,8 +3662,7 @@
 			"omschrijving_generiek": "initiator",
 			"zaaktype": 3
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 17,
 		"fields": {
@@ -2601,8 +3671,7 @@
 			"omschrijving_generiek": "initiator",
 			"zaaktype": 4
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 18,
 		"fields": {
@@ -2611,8 +3680,7 @@
 			"omschrijving_generiek": "behandelaar",
 			"zaaktype": 6
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 19,
 		"fields": {
@@ -2621,8 +3689,7 @@
 			"omschrijving_generiek": "initiator",
 			"zaaktype": 6
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 20,
 		"fields": {
@@ -2631,8 +3698,7 @@
 			"omschrijving_generiek": "zaakcoordinator",
 			"zaaktype": 6
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 21,
 		"fields": {
@@ -2641,8 +3707,7 @@
 			"omschrijving_generiek": "belanghebbende",
 			"zaaktype": 6
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 25,
 		"fields": {
@@ -2651,8 +3716,7 @@
 			"omschrijving_generiek": "belanghebbende",
 			"zaaktype": 8
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 26,
 		"fields": {
@@ -2661,8 +3725,7 @@
 			"omschrijving_generiek": "behandelaar",
 			"zaaktype": 8
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 27,
 		"fields": {
@@ -2671,8 +3734,7 @@
 			"omschrijving_generiek": "initiator",
 			"zaaktype": 8
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 28,
 		"fields": {
@@ -2681,8 +3743,7 @@
 			"omschrijving_generiek": "initiator",
 			"zaaktype": 9
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 29,
 		"fields": {
@@ -2691,8 +3752,7 @@
 			"omschrijving_generiek": "behandelaar",
 			"zaaktype": 9
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.roltype",
 		"pk": 30,
 		"fields": {
@@ -2701,8 +3761,1006 @@
 			"omschrijving_generiek": "belanghebbende",
 			"zaaktype": 9
 		}
-	},
-	{
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 31,
+		"fields": {
+			"uuid": "6eb1b4a2-5729-4331-b5c4-de3192619f73",
+			"omschrijving": "Administratief medewerker",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 12
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 32,
+		"fields": {
+			"uuid": "ced9c2af-33fb-4cd4-9354-e019bbf68ba2",
+			"omschrijving": "Adviesaanvrager",
+			"omschrijving_generiek": "initiator",
+			"zaaktype": 12
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 33,
+		"fields": {
+			"uuid": "db58df98-70a6-48de-a21d-ccb0eaea47b8",
+			"omschrijving": "Adviseur",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 12
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 34,
+		"fields": {
+			"uuid": "c9e6f672-6168-4505-a8de-c93e225708b4",
+			"omschrijving": "Beoordelaar",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 12
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 35,
+		"fields": {
+			"uuid": "34bcc99e-2e4e-4ed8-976d-d13061d57758",
+			"omschrijving": "Zaakverantwoordelijke",
+			"omschrijving_generiek": "beslisser",
+			"zaaktype": 12
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 36,
+		"fields": {
+			"uuid": "f2f23fa6-46e2-44e3-ab4a-c4a19518a2fb",
+			"omschrijving": "Aanvrager",
+			"omschrijving_generiek": "initiator",
+			"zaaktype": 11
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 37,
+		"fields": {
+			"uuid": "518e80d1-d1d6-4631-b08f-49a3190b3704",
+			"omschrijving": "Administratief medewerker",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 11
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 38,
+		"fields": {
+			"uuid": "fe813317-299a-48e2-bd1d-ab0d0879e0a5",
+			"omschrijving": "Adviseur",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 11
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 39,
+		"fields": {
+			"uuid": "0ff7b681-c218-4ea8-b431-09fd22102b5a",
+			"omschrijving": "Andere organisatie",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 11
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 40,
+		"fields": {
+			"uuid": "903cce05-3d6c-4389-87d3-647ae8d52c4d",
+			"omschrijving": "Derde belanghebbende",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 11
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 41,
+		"fields": {
+			"uuid": "bac0bf53-6706-4106-a83b-fba54e8d7c58",
+			"omschrijving": "Gemachtigde",
+			"omschrijving_generiek": "initiator",
+			"zaaktype": 11
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 42,
+		"fields": {
+			"uuid": "f40bc7b3-7cbb-4463-b91d-01a6eb9e1131",
+			"omschrijving": "Zaakbehandelaar",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 11
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 43,
+		"fields": {
+			"uuid": "d71d9c32-38b9-4f93-a7cd-2ed676775ace",
+			"omschrijving": "Zaakverantwoordelijke",
+			"omschrijving_generiek": "beslisser",
+			"zaaktype": 11
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 44,
+		"fields": {
+			"uuid": "81db9453-b875-48bd-b47c-c621c2cddd15",
+			"omschrijving": "Aanvrager",
+			"omschrijving_generiek": "initiator",
+			"zaaktype": 13
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 45,
+		"fields": {
+			"uuid": "d0ac5399-3b88-40ad-ba72-a7ce2561e04f",
+			"omschrijving": "Administratief medewerker",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 13
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 46,
+		"fields": {
+			"uuid": "03302f25-be2e-4182-a4eb-46ef3be075c7",
+			"omschrijving": "Adviseur",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 13
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 47,
+		"fields": {
+			"uuid": "d3d0c1a0-8e6b-419f-87ac-07fb99540198",
+			"omschrijving": "Andere organisatie",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 13
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 48,
+		"fields": {
+			"uuid": "977512a2-21ae-4f8c-95e1-f3e047eddaee",
+			"omschrijving": "Derde belanghebbende",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 13
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 49,
+		"fields": {
+			"uuid": "2697f3ed-538f-4295-a970-8d24716f0772",
+			"omschrijving": "Gemachtigde",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 13
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 50,
+		"fields": {
+			"uuid": "34ebbddf-b1b0-4eb4-a9c7-7a2e36d20ca4",
+			"omschrijving": "Zaakbehandelaar",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 13
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 51,
+		"fields": {
+			"uuid": "5252a865-6a93-49df-8ad8-bfa764a3810b",
+			"omschrijving": "Zaakverantwoordelijke",
+			"omschrijving_generiek": "beslisser",
+			"zaaktype": 13
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 52,
+		"fields": {
+			"uuid": "4e4f258d-7dc8-4e19-80f0-9e2d1fec0214",
+			"omschrijving": "Administratief medewerker",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 24
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 53,
+		"fields": {
+			"uuid": "9280a9e8-f732-4229-bde5-47bfc67c5d0e",
+			"omschrijving": "Adviseur",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 24
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 54,
+		"fields": {
+			"uuid": "c0e99348-0869-47b3-a108-85985abad2ac",
+			"omschrijving": "Zienswijzebehandelaar",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 24
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 55,
+		"fields": {
+			"uuid": "f575cf9a-4fb7-4908-ac40-e9d0b1c3c9b1",
+			"omschrijving": "Zienswijze-indiener",
+			"omschrijving_generiek": "initiator",
+			"zaaktype": 24
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 56,
+		"fields": {
+			"uuid": "37361434-04cc-4577-9169-cb741190a8b6",
+			"omschrijving": "Administratief medewerker",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 15
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 57,
+		"fields": {
+			"uuid": "adb6fb07-72fb-4cb9-bc25-8aea98f4164b",
+			"omschrijving": "Adviseur",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 15
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 58,
+		"fields": {
+			"uuid": "0b4eda31-1f06-4af0-baa3-09db3ea330f1",
+			"omschrijving": "Bevoegd gezag",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 15
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 59,
+		"fields": {
+			"uuid": "c8d79acd-d201-4dff-8b97-f945fb9c3443",
+			"omschrijving": "Derde belanghebbende",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 15
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 60,
+		"fields": {
+			"uuid": "1343a4a1-1538-4e71-8598-810d929ec114",
+			"omschrijving": "Indiener beroepschrift",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 15
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 61,
+		"fields": {
+			"uuid": "3ca2cb78-8751-4a7a-a9f2-bfa525cfaffe",
+			"omschrijving": "Rechtsprekende instantie",
+			"omschrijving_generiek": "initiator",
+			"zaaktype": 15
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 62,
+		"fields": {
+			"uuid": "499cb36e-bf0d-464b-a5ca-51177cd43463",
+			"omschrijving": "Verweerder",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 15
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 63,
+		"fields": {
+			"uuid": "dd06e5ab-2b2f-4f7b-91d7-3883815f6b25",
+			"omschrijving": "Zaakverantwoordelijke",
+			"omschrijving_generiek": "beslisser",
+			"zaaktype": 15
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 64,
+		"fields": {
+			"uuid": "33507bec-207c-41d3-a545-e9482877c633",
+			"omschrijving": "Administratief medewerker",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 16
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 65,
+		"fields": {
+			"uuid": "d4a80e9d-6729-4053-b121-fc0ca051745a",
+			"omschrijving": "Adviseur",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 16
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 66,
+		"fields": {
+			"uuid": "610a8da4-f734-41a0-bc58-169528426c06",
+			"omschrijving": "Bevoegd gezag",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 16
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 67,
+		"fields": {
+			"uuid": "b90a7267-8d51-4e6d-9d3f-cc57e29490a1",
+			"omschrijving": "Derde belanghebbende",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 16
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 68,
+		"fields": {
+			"uuid": "ef6f450c-a7e9-4057-bc1d-cda9fb6a9c6d",
+			"omschrijving": "Indiener verzoekschrift",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 16
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 69,
+		"fields": {
+			"uuid": "e881f0cf-ca9e-4e4e-88ff-30869bf57dea",
+			"omschrijving": "Rechtsprekende instantie",
+			"omschrijving_generiek": "initiator",
+			"zaaktype": 16
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 70,
+		"fields": {
+			"uuid": "f5080d6a-c55f-405e-aeca-e76d77675d09",
+			"omschrijving": "Verweerder",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 16
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 71,
+		"fields": {
+			"uuid": "481a8d8a-f748-45fa-b718-1795fbd86f1a",
+			"omschrijving": "Zaakverantwoordelijke",
+			"omschrijving_generiek": "beslisser",
+			"zaaktype": 16
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 72,
+		"fields": {
+			"uuid": "72149ee9-7a55-4b62-b42b-74591093add9",
+			"omschrijving": "Administratief medewerker",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 23
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 73,
+		"fields": {
+			"uuid": "b20f052d-ab1e-4eb9-a28e-fbd42eb62e49",
+			"omschrijving": "Adviescommissie Bezwaar(schriften)",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 23
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 74,
+		"fields": {
+			"uuid": "93b41953-ac9d-48fe-85a8-5c81623c9bcd",
+			"omschrijving": "Adviseur",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 23
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 75,
+		"fields": {
+			"uuid": "c76364ff-8450-4814-8b06-de995016537d",
+			"omschrijving": "Bevoegd gezag",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 23
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 76,
+		"fields": {
+			"uuid": "1d0ab52c-477a-4f6f-bdb6-efa0dae9aa06",
+			"omschrijving": "Belanghebbende",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 23
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 77,
+		"fields": {
+			"uuid": "2bf32e9d-5efc-4d1f-9108-12fd7d9d68fe",
+			"omschrijving": "Indiener bezwaarschrift",
+			"omschrijving_generiek": "initiator",
+			"zaaktype": 23
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 78,
+		"fields": {
+			"uuid": "7687d5e6-6587-4b82-99d8-3ae8826836c5",
+			"omschrijving": "Verweerder",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 23
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 79,
+		"fields": {
+			"uuid": "084fd06d-b3c4-4b2a-b093-dfa6806f619c",
+			"omschrijving": "Zaakverantwoordelijke",
+			"omschrijving_generiek": "beslisser",
+			"zaaktype": 23
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 80,
+		"fields": {
+			"uuid": "6d50ebe9-7f0f-4064-8f72-0d3e9c930af7",
+			"omschrijving": "Administratief medewerker",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 10
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 81,
+		"fields": {
+			"uuid": "b157bd8d-aac7-4913-a477-db111057b17e",
+			"omschrijving": "Adviesaanvrager",
+			"omschrijving_generiek": "initiator",
+			"zaaktype": 10
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 82,
+		"fields": {
+			"uuid": "5ecbff82-f417-44d5-872d-fbe0d2bee9e1",
+			"omschrijving": "Adviseur",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 10
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 83,
+		"fields": {
+			"uuid": "8bd554d7-b474-4383-94ad-3735e6685941",
+			"omschrijving": "Beoordelaar",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 10
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 84,
+		"fields": {
+			"uuid": "05393514-f89c-42a4-a803-ff5419d1c789",
+			"omschrijving": "Zaakverantwoordelijke",
+			"omschrijving_generiek": "beslisser",
+			"zaaktype": 10
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 85,
+		"fields": {
+			"uuid": "4dba4290-13de-4afe-9217-1b4d17d63544",
+			"omschrijving": "Administratief medewerker",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 17
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 86,
+		"fields": {
+			"uuid": "bf47fe44-0ba1-41dd-8b0a-40a6e00f8c4d",
+			"omschrijving": "Belanghebbende",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 17
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 87,
+		"fields": {
+			"uuid": "6dc021bf-8909-4f79-be0e-68c2efffaf1d",
+			"omschrijving": "Collegiaal toetser",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 17
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 88,
+		"fields": {
+			"uuid": "1d389802-0a88-4879-915c-1c77ab500682",
+			"omschrijving": "Functionaris",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 17
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 89,
+		"fields": {
+			"uuid": "e71aae6d-ae4d-4ad1-911d-6369c8487fa8",
+			"omschrijving": "Initiatiefnemer",
+			"omschrijving_generiek": "initiator",
+			"zaaktype": 17
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 90,
+		"fields": {
+			"uuid": "237cb238-9aa4-4794-9b02-931b102971da",
+			"omschrijving": "Inspecteur",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 17
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 91,
+		"fields": {
+			"uuid": "39dccb7a-9fba-49af-8679-622458c1da6e",
+			"omschrijving": "Inspectieleider",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 17
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 92,
+		"fields": {
+			"uuid": "67c5c6ef-660d-4baa-a3ad-a5518e01ac8e",
+			"omschrijving": "Overige betrokkene",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 17
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 93,
+		"fields": {
+			"uuid": "28270fba-90fe-4474-a987-731883a5188c",
+			"omschrijving": "Administratief medewerker",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 14
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 94,
+		"fields": {
+			"uuid": "c2e46f6f-7c50-4b8c-8edc-3b7cdf2e200d",
+			"omschrijving": "Adviseur",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 14
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 95,
+		"fields": {
+			"uuid": "bedd80e4-0d07-4e07-8be0-109cb061f324",
+			"omschrijving": "Ander bevoegd gezag",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 14
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 96,
+		"fields": {
+			"uuid": "288e3062-d9f0-406f-b839-72d1a0444053",
+			"omschrijving": "LoB-behandelaar",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 14
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 97,
+		"fields": {
+			"uuid": "38eb793e-966f-42a6-ad56-a761437a2c56",
+			"omschrijving": "Overtreder",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 14
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 98,
+		"fields": {
+			"uuid": "eb01d96b-24bb-4f28-8a3d-cc1628803883",
+			"omschrijving": "Rechthebbende",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 14
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 99,
+		"fields": {
+			"uuid": "5170ed7f-7f29-4a16-8598-4aeeb9255410",
+			"omschrijving": "Toezichthouder",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 14
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 100,
+		"fields": {
+			"uuid": "2bf81821-5456-4846-b076-8458f471c151",
+			"omschrijving": "Verzoeker toepassing bestuursdwang",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 14
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 101,
+		"fields": {
+			"uuid": "74a2c395-2df0-4cf0-aff5-c2debfecdfe7",
+			"omschrijving": "Zaakverantwoordelijke",
+			"omschrijving_generiek": "beslisser",
+			"zaaktype": 14
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 102,
+		"fields": {
+			"uuid": "cca30630-69e1-474f-b221-79106ee7f727",
+			"omschrijving": "Administratief medewerker",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 18
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 103,
+		"fields": {
+			"uuid": "cc33384a-be5f-424e-a9f0-9d76c8fc0f6b",
+			"omschrijving": "Adviseur",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 18
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 104,
+		"fields": {
+			"uuid": "17b99305-d6cd-44bc-95f8-27daf1608380",
+			"omschrijving": "Belanghebbende",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 18
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 105,
+		"fields": {
+			"uuid": "e857fa1e-94fa-40a5-8754-2b2683e67d27",
+			"omschrijving": "Ketenpartner",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 18
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 106,
+		"fields": {
+			"uuid": "6aa6f6b9-fa4e-4475-b113-b8864a90a79a",
+			"omschrijving": "Toezichtinitiator",
+			"omschrijving_generiek": "initiator",
+			"zaaktype": 18
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 107,
+		"fields": {
+			"uuid": "b2c9df01-3e23-47e9-9290-06cc1b654854",
+			"omschrijving": "Zaakverantwoordelijke",
+			"omschrijving_generiek": "beslisser",
+			"zaaktype": 18
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 108,
+		"fields": {
+			"uuid": "d1696194-e94b-4a0b-9afd-8d8c23b53a0a",
+			"omschrijving": "Toezichthouder",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 18
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 109,
+		"fields": {
+			"uuid": "20f2af61-eee8-4075-8dd8-10743359619f",
+			"omschrijving": "Toezichthouder",
+			"omschrijving_generiek": "initiator",
+			"zaaktype": 25
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 110,
+		"fields": {
+			"uuid": "20586def-6bf3-4b71-b2a9-7a82d42ec8df",
+			"omschrijving": "(Vermeend) overtreder",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 25
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 111,
+		"fields": {
+			"uuid": "8c958482-2650-4054-96ec-0ad74f848e83",
+			"omschrijving": "Zaakverantwoordelijke",
+			"omschrijving_generiek": "beslisser",
+			"zaaktype": 25
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 112,
+		"fields": {
+			"uuid": "0467a429-3607-45ef-8605-aed4c538d5bf",
+			"omschrijving": "Administratief medewerker",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 25
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 113,
+		"fields": {
+			"uuid": "f5040c35-097a-4ec7-92ab-7bb389340bab",
+			"omschrijving": "Adviseur",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 25
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 114,
+		"fields": {
+			"uuid": "6c776d8f-9485-489f-9fc9-e6103ca4f5ec",
+			"omschrijving": "Ander bevoegd gezag",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 25
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 115,
+		"fields": {
+			"uuid": "43322661-6cc6-46a0-bf6c-854e43170753",
+			"omschrijving": "Derde belanghebbende",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 25
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 116,
+		"fields": {
+			"uuid": "d6595653-12c4-496a-8e3c-ec4d6d4a9e13",
+			"omschrijving": "Jurist",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 25
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 117,
+		"fields": {
+			"uuid": "5ed3f9c0-6049-4643-a633-d64025bbacec",
+			"omschrijving": "Administratief medewerker",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 20
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 118,
+		"fields": {
+			"uuid": "807d7811-9983-43c1-8e7b-96d3e017b9b4",
+			"omschrijving": "Adviseur",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 20
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 119,
+		"fields": {
+			"uuid": "cf0072eb-5ba6-4536-b50d-391f93d55f4f",
+			"omschrijving": "Andere organisatie",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 20
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 120,
+		"fields": {
+			"uuid": "666c6d19-49a0-4533-b366-430cd16c16e3",
+			"omschrijving": "Indiener",
+			"omschrijving_generiek": "initiator",
+			"zaaktype": 20
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 121,
+		"fields": {
+			"uuid": "5bc02637-6486-41e1-b7f1-1de8a9014ef5",
+			"omschrijving": "Vermeende overtreder",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 20
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 122,
+		"fields": {
+			"uuid": "b27ff852-527c-4921-8eeb-33ac4929f1fe",
+			"omschrijving": "Zaakbehandelaar",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 20
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 123,
+		"fields": {
+			"uuid": "85de89d1-61fb-4c84-84b1-ff05dd072930",
+			"omschrijving": "Zaakverantwoordelijke",
+			"omschrijving_generiek": "beslisser",
+			"zaaktype": 20
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 124,
+		"fields": {
+			"uuid": "0f699f5d-0c31-41b7-861a-09bf02d9c837",
+			"omschrijving": "Administratief medewerker",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 21
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 125,
+		"fields": {
+			"uuid": "ca959b4f-aee4-43be-8496-0fefe2309604",
+			"omschrijving": "Adviseur",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 21
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 126,
+		"fields": {
+			"uuid": "1f2ce3aa-84e1-4a6a-b120-f65b8a414cae",
+			"omschrijving": "Andere organisatie",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 21
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 127,
+		"fields": {
+			"uuid": "8da4d5d9-b58b-449c-ae75-dbfc2c3a1c67",
+			"omschrijving": "Melder",
+			"omschrijving_generiek": "initiator",
+			"zaaktype": 21
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 128,
+		"fields": {
+			"uuid": "f6d2fab0-5a03-4b89-a6c0-540baa360c22",
+			"omschrijving": "Meldingbehandelaar",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 21
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 129,
+		"fields": {
+			"uuid": "e74de02e-c29e-40f4-8646-41f87a5b1684",
+			"omschrijving": "Zaakverantwoordelijke",
+			"omschrijving_generiek": "beslisser",
+			"zaaktype": 21
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 130,
+		"fields": {
+			"uuid": "c63ae54b-7b75-499d-8add-56666600fce3",
+			"omschrijving": "Administratief medewerker",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 19
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 131,
+		"fields": {
+			"uuid": "5214a508-23c2-4394-90a6-245264340d39",
+			"omschrijving": "Adviseur",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 19
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 132,
+		"fields": {
+			"uuid": "d4009545-a20b-46b2-b6e7-92e2ca50ec5e",
+			"omschrijving": "LoB-behandelaar",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 19
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 133,
+		"fields": {
+			"uuid": "086b3dec-0511-42ab-88fc-cc55c2ed8768",
+			"omschrijving": "Overtreder",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 19
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 134,
+		"fields": {
+			"uuid": "ecb668e6-be67-4c27-94d1-6c46954a0454",
+			"omschrijving": "Rechthebbende",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 19
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 135,
+		"fields": {
+			"uuid": "81269bde-0c7f-45dc-9ae5-1231909bbc0b",
+			"omschrijving": "Toezichthouder",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 19
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 136,
+		"fields": {
+			"uuid": "50d14f19-fd46-4988-86cc-8ff867e26fe5",
+			"omschrijving": "Verzoeker invordering dwangsom",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 19
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 137,
+		"fields": {
+			"uuid": "b6f29ece-8289-4bca-a323-f673b907b4e5",
+			"omschrijving": "Zaakverantwoordelijke",
+			"omschrijving_generiek": "beslisser",
+			"zaaktype": 19
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 138,
+		"fields": {
+			"uuid": "d1b11ac3-a940-4fa5-9157-1c09ce900ff1",
+			"omschrijving": "Administratief medewerker",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 22
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 139,
+		"fields": {
+			"uuid": "13bf5c12-4263-49e4-8493-39890b525725",
+			"omschrijving": "Adviseur",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 22
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 140,
+		"fields": {
+			"uuid": "253d767b-c1da-4b18-990d-48b3ca655c6f",
+			"omschrijving": "Zaakverantwoordelijke",
+			"omschrijving_generiek": "beslisser",
+			"zaaktype": 22
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 141,
+		"fields": {
+			"uuid": "6640998a-8b50-4860-899d-bc6eaeb48ee5",
+			"omschrijving": "Initiator",
+			"omschrijving_generiek": "initiator",
+			"zaaktype": 22
+		}
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 3,
 		"fields": {
@@ -2715,8 +4773,7 @@
 			"statustekst": "We hebben uw melding ontvangen",
 			"toelichting": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 4,
 		"fields": {
@@ -2729,8 +4786,7 @@
 			"statustekst": "We hebben uw melding in behandeling genomen",
 			"toelichting": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 5,
 		"fields": {
@@ -2743,8 +4799,7 @@
 			"statustekst": "We hebben uw melding afgehandeld",
 			"toelichting": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 6,
 		"fields": {
@@ -2757,8 +4812,7 @@
 			"statustekst": "Geachte heer/mevrouw, Op %ZAAK.Registratiedatum% hebben wij van u een aanvraag ontvangen voor een subsidie. Uw aanvraag is bij ons in behandeling genomen onder zaaknummer %ZAAK.ZaakIdentificatie%. Wij vragen u dit zaaknummer te gebruiken in geval van correspondentie over deze aanvraag. U wordt per e-mail op de hoogte gehouden van de status van de behandeling van uw aanvraag.",
 			"toelichting": "Initi\u00eble status van de zaak waarbij de subsidieaanvraag ontvangen is en naar aanleiding daarvan de zaak aangemaakt en de behandelaar bepaald is. De aanvrager is een ontvangstbevestiging gezonden."
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 7,
 		"fields": {
@@ -2771,8 +4825,7 @@
 			"statustekst": "Geachte heer/mevrouw, Op %ZAAK.Registratiedatum% hebben wij van u een aanvraag ontvangen voor een subsidie. Uw aanvraag is in behandeling onder zaaknummer %ZAAK.ZaakIdentificatie%. Wij hebben uw aanvraag getoetst op de indieningsvereisten; uw aanvraag %EIGENSCHAP.Uitslag_toetsing% aan de gestelde eisen.",
 			"toelichting": "De subsidieaanvraag is getoetst op de indieningsvereisten. De uitkomst van deze toets wordt vastgelegd in de eigenschap \u2018Uitslag toetsing\u2019. Indien er niet aan de indieningseisen wordt voldaan, dan wordt de subsidieaanvraag buiten behandeling gesteld en de volgende twee statussen overgeslagen."
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 8,
 		"fields": {
@@ -2785,8 +4838,7 @@
 			"statustekst": "n.v.t.",
 			"toelichting": "De subsidieaanvraag is inhoudelijk beoordeeld aan de hand van de beleidsdoelen en een advies is opgesteld voor de beslisser. Eventueel is er gebruik gemaakt van een externe adviseur om te komen tot het advies."
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 9,
 		"fields": {
@@ -2799,8 +4851,7 @@
 			"statustekst": "Geachte heer/mevrouw, Op %ZAAK.Registratiedatum% hebben wij van u een aanvraag ontvangen voor een subsidie. Uw aanvraag is in behandeling onder zaaknummer %ZAAK.ZaakIdentificatie%. De gemeente heeft een besluit genomen over uw subsidieaanvraag onder besluitnummer %BESLUIT. Besluitidentificatie%. Het besluit van de gemeente is %BESLUIT.Toelichting% Het schriftelijke besluit van uw aanvraag wordt zo spoedig mogelijk per post naar u toegestuurd.",
 			"toelichting": "De beslisser heeft het besluit op de subsidieaanvraag vastgesteld. De aanvrager is hiervan op de hoogte gesteld."
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 10,
 		"fields": {
@@ -2813,8 +4864,7 @@
 			"statustekst": "Geachte heer/mevrouw, Op %ZAAK.Registratiedatum% hebben wij een aanvraag ontvangen voor een subsidie. Uw aanvraag is bij ons in behandeling onder zaaknummer %ZAAK.ZaakIdentificatie%. Onlangs bent u al op de hoogte gesteld van het besluit. Met deze e-mail willen wij u mededelen dat het besluit per post naar u is toegestuurd en dat wij de zaak hebben afgesloten.",
 			"toelichting": "Het besluit is schriftelijk kenbaar gemaakt aan de aanvrager van de subsidie. De zaak is gearchiveerd en afgehandeld."
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 11,
 		"fields": {
@@ -2827,8 +4877,7 @@
 			"statustekst": "",
 			"toelichting": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 12,
 		"fields": {
@@ -2841,8 +4890,7 @@
 			"statustekst": "",
 			"toelichting": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 13,
 		"fields": {
@@ -2855,8 +4903,7 @@
 			"statustekst": "",
 			"toelichting": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 14,
 		"fields": {
@@ -2869,8 +4916,7 @@
 			"statustekst": "",
 			"toelichting": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 15,
 		"fields": {
@@ -2883,8 +4929,7 @@
 			"statustekst": "",
 			"toelichting": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 16,
 		"fields": {
@@ -2897,8 +4942,7 @@
 			"statustekst": "",
 			"toelichting": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 17,
 		"fields": {
@@ -2911,8 +4955,7 @@
 			"statustekst": "",
 			"toelichting": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 18,
 		"fields": {
@@ -2925,8 +4968,7 @@
 			"statustekst": "",
 			"toelichting": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 19,
 		"fields": {
@@ -2939,8 +4981,7 @@
 			"statustekst": "",
 			"toelichting": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 20,
 		"fields": {
@@ -2953,8 +4994,7 @@
 			"statustekst": "",
 			"toelichting": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 21,
 		"fields": {
@@ -2967,8 +5007,7 @@
 			"statustekst": "",
 			"toelichting": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 22,
 		"fields": {
@@ -2981,8 +5020,7 @@
 			"statustekst": "",
 			"toelichting": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 23,
 		"fields": {
@@ -2995,8 +5033,7 @@
 			"statustekst": "",
 			"toelichting": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 24,
 		"fields": {
@@ -3009,8 +5046,7 @@
 			"statustekst": "",
 			"toelichting": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 28,
 		"fields": {
@@ -3023,8 +5059,7 @@
 			"statustekst": "",
 			"toelichting": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 29,
 		"fields": {
@@ -3037,8 +5072,7 @@
 			"statustekst": "",
 			"toelichting": null
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.statustype",
 		"pk": 30,
 		"fields": {
@@ -3051,8 +5085,1164 @@
 			"statustekst": "",
 			"toelichting": null
 		}
-	},
-	{
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 31,
+		"fields": {
+			"uuid": "d9bb20e9-b0f6-4211-b347-f77e9c5e5da5",
+			"zaaktype": 12,
+			"statustype_omschrijving": "Zaak afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 6,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 32,
+		"fields": {
+			"uuid": "e3079eaf-9817-4701-ae22-3ac574d04d37",
+			"zaaktype": 12,
+			"statustype_omschrijving": "Adviesrapport vastgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 5,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 33,
+		"fields": {
+			"uuid": "907192f8-1f66-4e28-a7c7-c82ea78134f5",
+			"zaaktype": 12,
+			"statustype_omschrijving": "Beoordeling uitgevoerd",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 4,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 34,
+		"fields": {
+			"uuid": "f2479ca7-f209-43af-b84c-76afeaeab9d8",
+			"zaaktype": 12,
+			"statustype_omschrijving": "Getoetst op behandelbaarheid",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 3,
+			"informeren": true,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 35,
+		"fields": {
+			"uuid": "9b22f57b-27c1-4cc3-bdff-c40741d4906c",
+			"zaaktype": 12,
+			"statustype_omschrijving": "Intake afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 2,
+			"informeren": true,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 36,
+		"fields": {
+			"uuid": "09eb711f-1b86-4d50-9379-95bff0ddc7ec",
+			"zaaktype": 12,
+			"statustype_omschrijving": "Zaak gestart",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 1,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 37,
+		"fields": {
+			"uuid": "5b647f8a-1180-4cd2-bfe6-337ec4b35191",
+			"zaaktype": 11,
+			"statustype_omschrijving": "Zaak afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 5,
+			"informeren": true,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 38,
+		"fields": {
+			"uuid": "93a66953-bea3-4365-87a7-3fd89dcf097b",
+			"zaaktype": 11,
+			"statustype_omschrijving": "Beschikking vastgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 4,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 39,
+		"fields": {
+			"uuid": "91444a5d-0817-49be-b77c-4e974ca63e37",
+			"zaaktype": 11,
+			"statustype_omschrijving": "Getoetst aan regelgeving",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 3,
+			"informeren": true,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 40,
+		"fields": {
+			"uuid": "a7548e4e-0c28-4a4d-94ee-39b76b662045",
+			"zaaktype": 11,
+			"statustype_omschrijving": "Intake afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 2,
+			"informeren": true,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 41,
+		"fields": {
+			"uuid": "68685956-7cdf-4398-a538-98cebf2dd7c9",
+			"zaaktype": 11,
+			"statustype_omschrijving": "Zaak gestart",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 1,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 42,
+		"fields": {
+			"uuid": "d255ef17-e907-4d8d-a92a-9c7c3a7251ce",
+			"zaaktype": 13,
+			"statustype_omschrijving": "Zaak afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 8,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 43,
+		"fields": {
+			"uuid": "d056a80c-2cac-406a-99e9-7f8f7632c80b",
+			"zaaktype": 13,
+			"statustype_omschrijving": "Beschikking opgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 7,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 44,
+		"fields": {
+			"uuid": "4aa2a163-90a7-4da6-8510-2e04ef11422b",
+			"zaaktype": 13,
+			"statustype_omschrijving": "Beschikking opgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 6,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 45,
+		"fields": {
+			"uuid": "8f40088c-d4a1-416d-81c0-3f2342fccf32",
+			"zaaktype": 13,
+			"statustype_omschrijving": "Ontwerpbeschikking ter inzage gelegd",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 5,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 46,
+		"fields": {
+			"uuid": "b3e10978-e5a0-41ee-9ece-a03c114653f8",
+			"zaaktype": 13,
+			"statustype_omschrijving": "Ontwerpbeschikking opgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 4,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 47,
+		"fields": {
+			"uuid": "7d881796-28c1-4dca-9f5c-db30a419ea81",
+			"zaaktype": 13,
+			"statustype_omschrijving": "Getoetst aan regelgeving",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 3,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 48,
+		"fields": {
+			"uuid": "5ffe4ff1-6ba9-49e8-ad9d-a7fe9831969c",
+			"zaaktype": 13,
+			"statustype_omschrijving": "Intake afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 2,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 49,
+		"fields": {
+			"uuid": "ac819d6e-0754-4313-9b4a-aad6602db3e7",
+			"zaaktype": 13,
+			"statustype_omschrijving": "Zaak gestart",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 1,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 50,
+		"fields": {
+			"uuid": "c70194f7-78ce-4195-ae8a-c0285c84b41a",
+			"zaaktype": 24,
+			"statustype_omschrijving": "Zaak afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 4,
+			"informeren": true,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 51,
+		"fields": {
+			"uuid": "a715fbef-0a84-4506-b72a-03f7975ea6b5",
+			"zaaktype": 24,
+			"statustype_omschrijving": "Zienswijze beoordeeld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 3,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 52,
+		"fields": {
+			"uuid": "41b52355-5b4a-4603-b39a-76ab0a24b721",
+			"zaaktype": 24,
+			"statustype_omschrijving": "Intake afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 2,
+			"informeren": true,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 53,
+		"fields": {
+			"uuid": "873f5c1f-3abd-462e-8cf3-d98b4528ecc8",
+			"zaaktype": 24,
+			"statustype_omschrijving": "Zaak gestart",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 1,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 54,
+		"fields": {
+			"uuid": "f743a0aa-460c-44a1-aafe-d466657c932e",
+			"zaaktype": 15,
+			"statustype_omschrijving": "Zaak afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 7,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 55,
+		"fields": {
+			"uuid": "ca3c69e1-b7e5-4f9e-9f64-b55e2ded4f9a",
+			"zaaktype": 15,
+			"statustype_omschrijving": "Zitting bijgewoond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 6,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 56,
+		"fields": {
+			"uuid": "72b340cc-e03d-4378-b108-38daafc29c42",
+			"zaaktype": 15,
+			"statustype_omschrijving": "Gereageerd op aanvullende informatie",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 5,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 57,
+		"fields": {
+			"uuid": "68ff58f7-588e-4e48-b9a9-09dd59c886aa",
+			"zaaktype": 15,
+			"statustype_omschrijving": "Verweerschrift ingediend",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 4,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 58,
+		"fields": {
+			"uuid": "27052833-efbd-469d-bba2-1b2afd874824",
+			"zaaktype": 15,
+			"statustype_omschrijving": "Stukken toegezonden",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 3,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 59,
+		"fields": {
+			"uuid": "12dbf70e-b1f1-41b2-aeba-5ada06767c5f",
+			"zaaktype": 15,
+			"statustype_omschrijving": "Intake afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 2,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 60,
+		"fields": {
+			"uuid": "acc8abc8-c715-4fb2-b066-929b293f2b25",
+			"zaaktype": 15,
+			"statustype_omschrijving": "Zaak gestart",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 1,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 61,
+		"fields": {
+			"uuid": "afb6270c-99d3-4d53-a806-9b51df3e7ff4",
+			"zaaktype": 16,
+			"statustype_omschrijving": "Zaak afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 5,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 62,
+		"fields": {
+			"uuid": "98e86637-38bb-4a62-a188-f78d80405e87",
+			"zaaktype": 16,
+			"statustype_omschrijving": "Zitting bijgewoond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 4,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 63,
+		"fields": {
+			"uuid": "d3a85def-f022-49d7-8efa-b7b3d17ce1c9",
+			"zaaktype": 16,
+			"statustype_omschrijving": "Stukken toegezonden",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 3,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 64,
+		"fields": {
+			"uuid": "75aa80f7-cc1a-4b52-81ae-32ba2fd105f5",
+			"zaaktype": 16,
+			"statustype_omschrijving": "Intake afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 2,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 65,
+		"fields": {
+			"uuid": "95f09048-2d89-4f43-8858-323815b70fd1",
+			"zaaktype": 16,
+			"statustype_omschrijving": "Zaak gestart",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 1,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 66,
+		"fields": {
+			"uuid": "405d73a9-d757-4cb3-9526-ff7790270f6b",
+			"zaaktype": 23,
+			"statustype_omschrijving": "Zaak afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 8,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 67,
+		"fields": {
+			"uuid": "834e09d2-4aa7-4e50-aef6-320d3a735558",
+			"zaaktype": 23,
+			"statustype_omschrijving": "Besluit vastgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 7,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 68,
+		"fields": {
+			"uuid": "33c4de8e-587c-4091-85be-a51c6947ab34",
+			"zaaktype": 23,
+			"statustype_omschrijving": "Conceptbeslissing opgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 6,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 69,
+		"fields": {
+			"uuid": "69dbe4a5-a3b3-4e04-bc09-db2d0a02bc7f",
+			"zaaktype": 23,
+			"statustype_omschrijving": "Hoorzitting bijgewoond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 5,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 70,
+		"fields": {
+			"uuid": "3ab54750-ed6f-46af-b703-1ae53c3ef556",
+			"zaaktype": 23,
+			"statustype_omschrijving": "Bezwaar beoordeeld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 4,
+			"informeren": true,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 71,
+		"fields": {
+			"uuid": "18138c40-2352-4bc8-b963-8f4c93916330",
+			"zaaktype": 23,
+			"statustype_omschrijving": "Ontvankelijkheid bepaald",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 3,
+			"informeren": true,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 72,
+		"fields": {
+			"uuid": "2db16a51-2fe6-4f79-ab39-db115a2ff3ab",
+			"zaaktype": 23,
+			"statustype_omschrijving": "Intake afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 2,
+			"informeren": true,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 73,
+		"fields": {
+			"uuid": "76a65d88-5034-4dfb-8c40-418b3a1f1010",
+			"zaaktype": 23,
+			"statustype_omschrijving": "Zaak gestart",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 1,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 74,
+		"fields": {
+			"uuid": "15776a9a-8adc-497c-9fe8-12faa24d8367",
+			"zaaktype": 10,
+			"statustype_omschrijving": "Zaak afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 4,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 75,
+		"fields": {
+			"uuid": "4f3d4b3b-74fc-43e8-8ffc-caad6012b8bd",
+			"zaaktype": 10,
+			"statustype_omschrijving": "Inhoudelijk behandeld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 3,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 76,
+		"fields": {
+			"uuid": "66bcf59a-f2ac-4110-9f49-5933ed75043e",
+			"zaaktype": 10,
+			"statustype_omschrijving": "Intake afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 2,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 77,
+		"fields": {
+			"uuid": "2205deb4-a0d6-472d-bd04-91c6a31d518c",
+			"zaaktype": 10,
+			"statustype_omschrijving": "Zaak gestart",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 1,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 78,
+		"fields": {
+			"uuid": "cd9ba567-9a28-4fb7-85f9-c9d88bbb7215",
+			"zaaktype": 17,
+			"statustype_omschrijving": "Inspectie afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 8,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 79,
+		"fields": {
+			"uuid": "6add5984-1b43-456b-aad7-583109ac5830",
+			"zaaktype": 17,
+			"statustype_omschrijving": "Inspectierapport vastgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 7,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 80,
+		"fields": {
+			"uuid": "02661506-8037-4953-8073-7ed05ee28044",
+			"zaaktype": 17,
+			"statustype_omschrijving": "Inspectierapport opgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 6,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 81,
+		"fields": {
+			"uuid": "766cf683-3afe-4259-a562-64a48adae176",
+			"zaaktype": 17,
+			"statustype_omschrijving": "Inspectie(bezoek) uitgevoerd",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 5,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 82,
+		"fields": {
+			"uuid": "913a34a0-1952-47ed-ab6e-933a483623ed",
+			"zaaktype": 17,
+			"statustype_omschrijving": "Inspectie voorbereid",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 4,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 83,
+		"fields": {
+			"uuid": "6a47f74f-eb3e-489d-95ff-690fd81b5894",
+			"zaaktype": 17,
+			"statustype_omschrijving": "Inspectieagenda vastgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 3,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 84,
+		"fields": {
+			"uuid": "32ee5c1c-257a-443e-b0b1-3a943bb12ee2",
+			"zaaktype": 17,
+			"statustype_omschrijving": "Inspectie ingepland",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 2,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 85,
+		"fields": {
+			"uuid": "8512f61b-5ef9-446e-9232-625281204f26",
+			"zaaktype": 17,
+			"statustype_omschrijving": "Inspectie ge\u00efnitieerd",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 1,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 86,
+		"fields": {
+			"uuid": "00dcddb4-5592-4a5f-9d7e-c17c7d5deb16",
+			"zaaktype": 14,
+			"statustype_omschrijving": "Zaak afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 6,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 87,
+		"fields": {
+			"uuid": "44462cd8-0e80-4d63-ac9d-f048876045d2",
+			"zaaktype": 14,
+			"statustype_omschrijving": "Beschikking kostenverhaal vastgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 5,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 88,
+		"fields": {
+			"uuid": "2abd925b-257f-4d16-a216-0ba42190798c",
+			"zaaktype": 14,
+			"statustype_omschrijving": "Beschikking kostenverhaal opgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 4,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 89,
+		"fields": {
+			"uuid": "2a0bab11-5398-4ff6-bde1-d8a829c0afb0",
+			"zaaktype": 14,
+			"statustype_omschrijving": "Bestuursdwang toegepast",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 3,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 90,
+		"fields": {
+			"uuid": "e6650d61-3ae1-4e57-ae2b-b65f6f34ac0b",
+			"zaaktype": 14,
+			"statustype_omschrijving": "Bestuursdwang voorbereid",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 2,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 91,
+		"fields": {
+			"uuid": "6f3fd2c9-b3b7-4c9a-8977-8dbdda80fc53",
+			"zaaktype": 14,
+			"statustype_omschrijving": "Uitvoering getoetst",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 1,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 92,
+		"fields": {
+			"uuid": "d7e1b72e-6752-4571-b327-6d13afd4c082",
+			"zaaktype": 18,
+			"statustype_omschrijving": "Zaak afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 6,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 93,
+		"fields": {
+			"uuid": "d11736f6-60cb-46e7-b52f-3920b835ca7d",
+			"zaaktype": 18,
+			"statustype_omschrijving": "Bevindingen vastgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 5,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 94,
+		"fields": {
+			"uuid": "b073c7dd-3c3a-4603-8eaf-0344b77bfdc3",
+			"zaaktype": 18,
+			"statustype_omschrijving": "Bevindingen opgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 4,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 95,
+		"fields": {
+			"uuid": "a4446af5-0946-4223-b343-d6056849300e",
+			"zaaktype": 18,
+			"statustype_omschrijving": "Controle(bezoek) uitgevoerd",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 3,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 96,
+		"fields": {
+			"uuid": "5700708e-9336-4b43-b26a-8376462ad7f1",
+			"zaaktype": 18,
+			"statustype_omschrijving": "Controle voorbereid",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 2,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 97,
+		"fields": {
+			"uuid": "935a49c8-aac2-48ca-8161-feaba9c041e9",
+			"zaaktype": 18,
+			"statustype_omschrijving": "Controle ge\u00efnitieerd",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 1,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 98,
+		"fields": {
+			"uuid": "7ac589b6-6904-4ced-a852-b63ab258b71e",
+			"zaaktype": 25,
+			"statustype_omschrijving": "Zaak afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 4,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 99,
+		"fields": {
+			"uuid": "a508ba13-67ad-487f-a846-e1dcb99184de",
+			"zaaktype": 25,
+			"statustype_omschrijving": "Handhavingsbesluit vastgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 3,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 100,
+		"fields": {
+			"uuid": "5444f76a-7730-449a-999e-4812ca926c03",
+			"zaaktype": 25,
+			"statustype_omschrijving": "Handhavingsbesluit opgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 2,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 101,
+		"fields": {
+			"uuid": "ddb841f8-bf68-4735-906e-a5b117bfa205",
+			"zaaktype": 25,
+			"statustype_omschrijving": "Handhavingsvoornemen voorgelegd",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 1,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 102,
+		"fields": {
+			"uuid": "98239c3f-b68d-4163-926e-848d0b720c11",
+			"zaaktype": 20,
+			"statustype_omschrijving": "Zaak afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 5,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 103,
+		"fields": {
+			"uuid": "49e76dcb-3760-4ae0-9f75-b7f102397f02",
+			"zaaktype": 20,
+			"statustype_omschrijving": "Beschikking vastgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 4,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 104,
+		"fields": {
+			"uuid": "8bcb1858-92e4-4e92-87cc-97a61e7950bd",
+			"zaaktype": 20,
+			"statustype_omschrijving": "Verzoek inhoudelijk behandeld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 3,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 105,
+		"fields": {
+			"uuid": "3d7193ea-8946-4949-8145-60d6b55d52b2",
+			"zaaktype": 20,
+			"statustype_omschrijving": "Intake afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 2,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 106,
+		"fields": {
+			"uuid": "0ee2a313-2d7a-4609-9473-f53deed63381",
+			"zaaktype": 20,
+			"statustype_omschrijving": "Zaak gestart",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 1,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 107,
+		"fields": {
+			"uuid": "41d38aab-a39f-45fe-b43e-4b363904f68d",
+			"zaaktype": 21,
+			"statustype_omschrijving": "Zaak afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 4,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 108,
+		"fields": {
+			"uuid": "f72254a5-5687-40b7-a952-eb5a8ad88b9c",
+			"zaaktype": 21,
+			"statustype_omschrijving": "Onderzoek uitgevoerd",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 3,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 109,
+		"fields": {
+			"uuid": "c3085c45-af57-45e5-9c5d-6770833372c6",
+			"zaaktype": 21,
+			"statustype_omschrijving": "Intake afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 2,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 110,
+		"fields": {
+			"uuid": "3903dd14-a44e-48b2-afa6-dd6ca486e0d2",
+			"zaaktype": 21,
+			"statustype_omschrijving": "Zaak gestart",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 1,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 111,
+		"fields": {
+			"uuid": "db7b5d50-f978-4c85-9008-63c1e13e383e",
+			"zaaktype": 19,
+			"statustype_omschrijving": "Zaak afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 5,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 112,
+		"fields": {
+			"uuid": "fc6ad7be-def6-4b5c-9b5e-f46582f67cd2",
+			"zaaktype": 19,
+			"statustype_omschrijving": "Beschikking vastgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 4,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 113,
+		"fields": {
+			"uuid": "cb00d1b3-7e70-4e06-83c5-f861b58435ce",
+			"zaaktype": 19,
+			"statustype_omschrijving": "Beschikking opgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 3,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 114,
+		"fields": {
+			"uuid": "7fe586ca-588e-4ea6-8a3b-a35ea2310fcb",
+			"zaaktype": 19,
+			"statustype_omschrijving": "Inhoudelijk beoordeeld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 2,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 115,
+		"fields": {
+			"uuid": "ae52e2f6-aed0-4184-9f77-79e29bc5a83d",
+			"zaaktype": 19,
+			"statustype_omschrijving": "Uitvoering getoetst",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 1,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 116,
+		"fields": {
+			"uuid": "1f266dda-a069-4df0-8cf1-fa8254c784ac",
+			"zaaktype": 22,
+			"statustype_omschrijving": "Zaak afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 4,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 117,
+		"fields": {
+			"uuid": "77f8bc14-0117-4156-94d1-28eeeececeeb",
+			"zaaktype": 22,
+			"statustype_omschrijving": "Registreerbaarheid getoetst",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 3,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 118,
+		"fields": {
+			"uuid": "d863ae41-3d22-4671-91af-441f5f97f92d",
+			"zaaktype": 22,
+			"statustype_omschrijving": "Intake afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 2,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 119,
+		"fields": {
+			"uuid": "566c8a0a-4cd0-43ea-bf9f-692a5584986d",
+			"zaaktype": 22,
+			"statustype_omschrijving": "Zaak gestart",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 1,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
 		"model": "catalogi.zaaktype",
 		"pk": 1,
 		"fields": {
@@ -3089,8 +6279,7 @@
 			"catalogus": 1,
 			"deelzaaktypen": []
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktype",
 		"pk": 2,
 		"fields": {
@@ -3127,8 +6316,7 @@
 			"catalogus": 1,
 			"deelzaaktypen": []
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktype",
 		"pk": 3,
 		"fields": {
@@ -3165,8 +6353,7 @@
 			"catalogus": 1,
 			"deelzaaktypen": []
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktype",
 		"pk": 4,
 		"fields": {
@@ -3203,8 +6390,7 @@
 			"catalogus": 1,
 			"deelzaaktypen": []
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktype",
 		"pk": 5,
 		"fields": {
@@ -3241,8 +6427,7 @@
 			"catalogus": 2,
 			"deelzaaktypen": []
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktype",
 		"pk": 6,
 		"fields": {
@@ -3279,8 +6464,7 @@
 			"catalogus": 1,
 			"deelzaaktypen": []
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktype",
 		"pk": 8,
 		"fields": {
@@ -3317,8 +6501,7 @@
 			"catalogus": 1,
 			"deelzaaktypen": []
 		}
-	},
-	{
+	}, {
 		"model": "catalogi.zaaktype",
 		"pk": 9,
 		"fields": {
@@ -3353,6 +6536,598 @@
 			"referentieproces_naam": "Behandelen Vergunningen & Ontheffingen",
 			"referentieproces_link": "https://publisher.sensus-processmanagement.com",
 			"catalogus": 1,
+			"deelzaaktypen": []
+		}
+	}, {
+		"model": "catalogi.zaaktype",
+		"pk": 10,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "a36b6242-8942-408a-8b80-bde2d5f54c7b",
+			"identificatie": "2",
+			"zaaktype_omschrijving": "Advies verstrekken (informeel) / Vooroverleg voeren",
+			"zaaktype_omschrijving_generiek": "Advies verstrekken (informeel)",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"doel": "Het (vroegtijdig) inbrengen van kennis, inzicht en (voorlopige) standpunten voor een onderhanden of mogelijk toekomstige beoordeling van plannen, aanvragen e.d.",
+			"aanleiding": "Een burger, bedrijf of andere overheidsorganisatie verzoekt om de inbreng van expertise of de eigen organisatie verzoekt om de inbreng van expertise (advies op projectplan), waarbij die inbreng vanuit een zelfstandige zaak geleverd wordt.",
+			"toelichting": "Een informeel advies is richtinggevend en vrijblijvend en heeft geen wettelijke basis, in tegenstelling tot een zaak van het type \"Advies verstrekken\", waarbij het advies gebaseerd is op wettelijke bevoegdheden en waarvan de uitkomsten niet vrijblijvend zijn.\r\n\r\nHet informeel advies kan bijvoorbeeld betreffen:\r\n\r\nhet vooroverleg zoals dat veelal voorafgaat aan de aanvraag voor een vergunning of de indiening van een melding activiteit.\r\nde beoordeling van stedenbouwkundige plannen, inrichtingsschetsen e.d. in het kader van het toetsen van (ontwerp) ruimtelijk plan.\r\neen intern advies: interne advisering betreft met name de inbreng van expertise ten behoeve van beleidsontwikkeling, beheer/onderhoud en uitvoeringsprojecten.",
+			"indicatie_intern_of_extern": "extern",
+			"handeling_initiator": "Aanvragen",
+			"onderwerp": "Advies (informeel)",
+			"handeling_behandelaar": "Verstrekken",
+			"doorlooptijd_behandeling": "P28D",
+			"servicenorm_behandeling": "P14D",
+			"opschorting_en_aanhouding_mogelijk": false,
+			"verlenging_mogelijk": true,
+			"verlengingstermijn": "P14D",
+			"trefwoorden": "[]",
+			"publicatie_indicatie": false,
+			"publicatietekst": "",
+			"verantwoordingsrelatie": "[]",
+			"versiedatum": "2021-04-14",
+			"producten_of_diensten": "[\"http://www.example.nl\"]",
+			"selectielijst_procestype": "https://selectielijst.openzaak.nl/api/v1/procestypen/25a67e51-05ba-4dfc-b230-f606525c31a0",
+			"selectielijst_procestype_jaar": 2017,
+			"referentieproces_naam": "Advies verstrekken (informeel) / Vooroverleg voeren",
+			"referentieproces_link": "",
+			"catalogus": 3,
+			"deelzaaktypen": []
+		}
+	}, {
+		"model": "catalogi.zaaktype",
+		"pk": 11,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "48ec8e9e-11be-4a88-b1f8-d8d7d184d3e2",
+			"identificatie": "10",
+			"zaaktype_omschrijving": "Aanvraag beschikking regulier behandelen",
+			"zaaktype_omschrijving_generiek": "Vergunningaanvraag regulier behandelen",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"doel": "Een besluit nemen op een aanvraag voor een vergunning, ontheffing of vergelijkbare beschikking op basis van een beoordeling van die aanvraag in een reguliere procedure.",
+			"aanleiding": "De zaakbehandelende organisatie heeft een aanvraag voor een vergunning ontvangen, of start zelf ambtshalve een traject voor het wijzigen of intrekken van een beschikking, waarop een reguliere procedure (Titel 4.1 Algemene wet bestuursrecht) van toepassing is.",
+			"toelichting": "Tijdens de intake wordt geverifieerd of de aanvraag in een reguliere procedure behandeld kan worden. Is dit niet mogelijk dan betreft het een zaak van het type \u00b4Aanvraag beschikking uitgebreid behandelen\u00b4. Ook kan geconstateerd worden dat volstaan kan worden met het behandelen als melding met een zaak van het type \u2018Melding activiteit behandelen\u2019.",
+			"indicatie_intern_of_extern": "extern",
+			"handeling_initiator": "Aanvragen",
+			"onderwerp": "Vergunning reguliere procedure",
+			"handeling_behandelaar": "Behandelen",
+			"doorlooptijd_behandeling": "P56D",
+			"servicenorm_behandeling": "P56D",
+			"opschorting_en_aanhouding_mogelijk": true,
+			"verlenging_mogelijk": true,
+			"verlengingstermijn": "P42D",
+			"trefwoorden": "[]",
+			"publicatie_indicatie": true,
+			"publicatietekst": "",
+			"verantwoordingsrelatie": "[]",
+			"versiedatum": "2021-04-14",
+			"producten_of_diensten": "[\"http://www.example.nl\"]",
+			"selectielijst_procestype": "https://selectielijst.openzaak.nl/api/v1/procestypen/7ff2b005-4d84-47fe-983a-732bfa958ff5",
+			"selectielijst_procestype_jaar": 2017,
+			"referentieproces_naam": "Behandelen aanvraag vergunning",
+			"referentieproces_link": "",
+			"catalogus": 3,
+			"deelzaaktypen": []
+		}
+	}, {
+		"model": "catalogi.zaaktype",
+		"pk": 12,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "3e6adc08-ca7b-4609-b4e6-561bfe44a53c",
+			"identificatie": "1",
+			"zaaktype_omschrijving": "Advies verstrekken",
+			"zaaktype_omschrijving_generiek": "Advies verstrekken (formeel)",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"doel": "E\u00e9n of meer (aan)vragen en/of plannen die betrekking hebben op de fysieke leefomgeving \r\n\r\ntoetsen aan geldende regelgeving, en/of\r\ntoetsen aan (vastgesteld) beleid, en/of\r\nverifi\u00ebren of de gevolgen van die (aan)vragen en/of plannen voor het beheergebied van de zaakbehandelende organisatie in voldoende mate zijn geborgd\r\nen de resultaten daarvan kenbaar maken aan de aanvrager van het advies, of - indien het advies ongevraagd wordt verstrekt - de belanghebbenden bij het advies.",
+			"aanleiding": "Een (andere) overheidsorganisatie behandelt \u00e9\u00e9n of meer (aan)vragen en/of plannen die betrekking hebben op de fysieke leefomgeving. De zaakbehandelende organisatie\r\n\r\nis op grond van regelgeving formeel om advies gevraagd of heeft op grond van regelgeving het recht ongevraagd te adviseren, of\r\nis op grond van diens expertise - zonder dat daartoe op grond van regelgeving enige verplichting bestaat - om advies gevraagd.",
+			"toelichting": "De beoordeling van de (aan)vragen en/of plannen vindt plaats op grond van in regelgeving omschreven bevoegdheden (bijvoorbeeld: de zaakbehandelende organisatie wordt daarin genoemd als te raadplegen adviseur), of - als die grondslag niet aanwezig is - met een expliciet beroep op de deskundigheid van de zaakbehandelende organisatie door \u00e9\u00e9n of meer belanghebbenden bij de (aan)vragen / de plannen. Het resultaat van de beoordeling - het door de zaakbehandelende organisatie verstrekte advies - is om die reden niet vrijblijvend: het niet overnemen van het oordeel van de zaakbehandelende organisatie zal moeten worden gemotiveerd door de aanvrager van het advies. Het niet volgen van het uitgebrachte advies kan (later) leiden tot het indienen van een zienswijze, het instellen van bezwaar of beroep of tot (een verzoek om) handhaving, zowel door de zaakbehandelende organisatie als door andere belanghebbenden. \r\n\r\nHet verstrekken van een richtinggevend, maar vrijblijvend advies, is een zaak van het zaaktype 'Advies verstrekken (informeel)'.",
+			"indicatie_intern_of_extern": "extern",
+			"handeling_initiator": "Aanvragen",
+			"onderwerp": "Advies (formeel)",
+			"handeling_behandelaar": "Verstrekken",
+			"doorlooptijd_behandeling": "P28D",
+			"servicenorm_behandeling": "P14D",
+			"opschorting_en_aanhouding_mogelijk": false,
+			"verlenging_mogelijk": true,
+			"verlengingstermijn": "P14D",
+			"trefwoorden": "[]",
+			"publicatie_indicatie": false,
+			"publicatietekst": "",
+			"verantwoordingsrelatie": "[]",
+			"versiedatum": "2021-04-14",
+			"producten_of_diensten": "[\"https://pdcztc.veiligheidsregio.wiki/bin/view/Producten/PD_j8Ol1zLg4iP5E/variant/PV_6v2Ka0KWNcpWM/\", \"https://pdcztc.veiligheidsregio.wiki/bin/view/Producten/PD_j8Ol1zLg4iP5E/variant/PV_jadOl8nxBcdDq/\", \"https://pdcztc.veiligheidsregio.wiki/bin/view/Producten/PD_j8Ol1zLg4iP5E/variant/PV_95vNGkXgrsxLM/\", \"https://pdcztc.veiligheidsregio.wiki/bin/view/Producten/PD_j8Ol1zLg4iP5E/variant/PV_jBmrLnNGNCN0B/\", \"https://pdcztc.veiligheidsregio.wiki/bin/view/Producten/PD_j8Ol1zLg4iP5E/variant/PV_j8OlprX0XTGOE/\"]",
+			"selectielijst_procestype": "https://selectielijst.openzaak.nl/api/v1/procestypen/e1b73b12-b2f6-4c4e-8929-94f84dd2a57d",
+			"selectielijst_procestype_jaar": 2017,
+			"referentieproces_naam": "Advies verstrekken",
+			"referentieproces_link": "",
+			"catalogus": 3,
+			"deelzaaktypen": []
+		}
+	}, {
+		"model": "catalogi.zaaktype",
+		"pk": 13,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "6f452c39-5c24-4a21-9cca-a3ae9dff187d",
+			"identificatie": "11",
+			"zaaktype_omschrijving": "Aanvraag beschikking uitgebreid behandelen",
+			"zaaktype_omschrijving_generiek": "Vergunningaanvraag uitgebreid behandelen",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"doel": "Een besluit nemen op een aanvraag voor een vergunning, ontheffing of vergelijkbare beschikking op basis van een beoordeling van die aanvraag in een uitgebreide procedure.",
+			"aanleiding": "De zaakbehandelende organisatie heeft een aanvraag voor een beschikking ontvangen of start zelf ambtshalve een traject voor het wijzigen of intrekken van een beschikking, waarop een uitgebreide procedure (Uniforme openbare voorbereidingsprocedure, Afdeling 3.4 Algemene wet bestuursrecht) van toepassing is.",
+			"toelichting": "Tijdens de intake wordt geverifieerd dat de aanvraag in een uitgebreide procedure behandeld kan worden. Is dit niet mogelijk dan betreft het een zaak van het type \u00b4Aanvraag beschikking regulier behandelen\u00b4. Ook kan geconstateerd worden dat volstaan kan worden met het behandelen als melding met een zaak van het type \u2018Melding activiteit behandelen\u2019.",
+			"indicatie_intern_of_extern": "extern",
+			"handeling_initiator": "Aanvragen",
+			"onderwerp": "Beschikking uitgebreide procedure",
+			"handeling_behandelaar": "Behandelen",
+			"doorlooptijd_behandeling": "P182D",
+			"servicenorm_behandeling": "P182D",
+			"opschorting_en_aanhouding_mogelijk": true,
+			"verlenging_mogelijk": true,
+			"verlengingstermijn": "P42D",
+			"trefwoorden": "[]",
+			"publicatie_indicatie": true,
+			"publicatietekst": "",
+			"verantwoordingsrelatie": "[]",
+			"versiedatum": "2021-04-14",
+			"producten_of_diensten": "[\"http://www.example.nl\"]",
+			"selectielijst_procestype": "https://selectielijst.openzaak.nl/api/v1/procestypen/7ff2b005-4d84-47fe-983a-732bfa958ff5",
+			"selectielijst_procestype_jaar": 2017,
+			"referentieproces_naam": "Behandelen aanvraag vergunning",
+			"referentieproces_link": "",
+			"catalogus": 3,
+			"deelzaaktypen": []
+		}
+	}, {
+		"model": "catalogi.zaaktype",
+		"pk": 14,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "53ca4c3a-6555-4ef9-9d6a-5759f6507ab4",
+			"identificatie": "3",
+			"zaaktype_omschrijving": "Last onder bestuursdwang ten uitvoer leggen",
+			"zaaktype_omschrijving_generiek": "Bestuursdwang ten uitvoer leggen",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"doel": "Controleren of de overtreder de last tot geheel of gedeeltelijk herstel van de overtreding, be\u00ebindigen van de overtreding, het voorkomen van herhaling van de overtreding, dan wel het wegnemen of beperken van de gevolgen van de overtreding heeft uitgevoerd en, indien uit de controle blijkt dat de last niet is uitgevoerd, de last zelf - op kosten van de overtreder - ten uitvoer te leggen.",
+			"aanleiding": "Mogelijke aanleidingen:\r\n\r\nin een zaak van het zaaktype 'Handhavingsbesluit nemen' is aan de overtreder een last onder bestuursdwang opgelegd en is een gerelateerde vervolgzaak van onderhavig zaaktype gepland (na het verstrijken van de begunstigingstermijn als bedoeld in art. 5:24, lid 2 Algemene wet bestuursrecht);\r\nin een zaak van het zaaktype 'Handhavingsbesluit nemen' is besloten bestuursdwang toe te passen zonder voorafgaande last (art. 5:31, lid 1 Algemene wet bestuursrecht);\r\nin een zaak van het zaaktype 'Aanvraag beschikking regulier behandelen' is op verzoek van een belanghebbende besloten tot toepassing van bestuursdwang ter herstel van een overtreding waarvoor eerder (in een zaak van het zaaktype 'Handhavingsbesluit nemen') een last onder bestuursdwang is opgelegd (art. 5:31a Algemene wet bestuursrecht);\r\nin een zaak van het zaaktype 'Controle uitvoeren' is geconstateerd dat de noodzaak bestuursdwang toe te passen zo spoedeisend is dat een besluit niet kan worden afgewacht, en de bestuursdwang terstond moet worden toegepast. Het handhavingsbesluit (te nemen in een gerelateerde vervolgzaak van het zaaktype 'Handhavingsbesluit nemen') waarin tot de spoedeisende toepassing van de bestuurdwang wordt besloten, wordt vervolgens zo spoedig mogelijk bekendgemaakt (art. 5:31, lid 2 Algemene wet bestuursrecht).",
+			"toelichting": "In een zaak van het zaaktype 'Handhavingsbesluit nemen' is aan de overtreder een last onder bestuursdwang opgelegd. Om te controleren of de last is uitgevoerd en, indien dit niet het geval is, de last zelf uit te voeren op kosten van de overtreder, is een zaak van onderhavig zaaktype gepland. De feitelijke handelingen die nodig zijn voor de toepassing van de bestuursdwang (lees: het geheel of gedeeltelijk herstel van de overtreding), zijn afhankelijk van de aard van de overtreding. Na toepassing van de bestuursdwang wordt een beschikking genomen over het verhaal van de kosten op de overtreder.\r\n\r\nDe feitelijke invordering van de kosten wordt beschouwd als een financieel administratief proces en is geen onderdeel van onderhavig zaaktype.\r\n\r\nDe vermelde zaakstatussen betreffen de normale gang van zaken. Bij een spoedprocedure kunnen statussen korter of alleen pro forma doorlopen worden.",
+			"indicatie_intern_of_extern": "intern",
+			"handeling_initiator": "Opleggen",
+			"onderwerp": "Last onder bestuursdwang",
+			"handeling_behandelaar": "Ten uitvoer leggen",
+			"doorlooptijd_behandeling": "P28D",
+			"servicenorm_behandeling": "P14D",
+			"opschorting_en_aanhouding_mogelijk": true,
+			"verlenging_mogelijk": true,
+			"verlengingstermijn": "P14D",
+			"trefwoorden": "[]",
+			"publicatie_indicatie": false,
+			"publicatietekst": "",
+			"verantwoordingsrelatie": "[]",
+			"versiedatum": "2021-04-14",
+			"producten_of_diensten": "[\"http://www.example.nl\"]",
+			"selectielijst_procestype": "https://selectielijst.openzaak.nl/api/v1/procestypen/c844637e-6393-4202-b030-e1bffb08a9b0",
+			"selectielijst_procestype_jaar": 2017,
+			"referentieproces_naam": "Last onder bestuursdwang ten uitvoer leggen",
+			"referentieproces_link": "",
+			"catalogus": 3,
+			"deelzaaktypen": []
+		}
+	}, {
+		"model": "catalogi.zaaktype",
+		"pk": 15,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "1c020926-006e-4103-ba5b-5cf5d7149832",
+			"identificatie": "13",
+			"zaaktype_omschrijving": "Beroep behandelen",
+			"zaaktype_omschrijving_generiek": "Beroep behandelen",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"doel": "Het bij de rechtsprekende instantie verdedigen van een genomen besluit.",
+			"aanleiding": "Van de rechtsprekende instantie is een beroepschrift (of de mededeling dat een beroepschrift is ingediend) ontvangen tegen een genomen besluit.",
+			"toelichting": "Onderhavig zaaktype wordt gebruikt voor het verdedigen van een besluit in beroep, in hoger beroep en in zaken waarin eiser zich verzet tegen de uitspraak na vereenvoudigde behandeling.\r\n\r\nHet beroepschrift is door de partij die het besluit bestrijdt gericht aan de rechtsprekende instantie en ter verweer doorgestuurd naar de zaakbehandelende organisatie.\r\n\r\nAlle in dit zaaktype genoemde termijnen zijn louter indicatief. In elke zaak van dit zaaktype zal de rechtsprekende instantie de termijnen stellen die de zaakbehandelende organisatie dient te volgen.\r\n\r\nAls een ander bevoegd gezag de verweerder is in de beroepzaak en aan de zaakbehandelende organisatie vraagt om een bijdrage aan het verweer, dan is sprake van een zaak van het zaaktype \u2018Advies verstrekken\u2019.",
+			"indicatie_intern_of_extern": "extern",
+			"handeling_initiator": "Indienen",
+			"onderwerp": "Beroepschrift",
+			"handeling_behandelaar": "Behandelen",
+			"doorlooptijd_behandeling": "P56D",
+			"servicenorm_behandeling": "P56D",
+			"opschorting_en_aanhouding_mogelijk": true,
+			"verlenging_mogelijk": true,
+			"verlengingstermijn": "P42D",
+			"trefwoorden": "[]",
+			"publicatie_indicatie": false,
+			"publicatietekst": "",
+			"verantwoordingsrelatie": "[]",
+			"versiedatum": "2021-04-14",
+			"producten_of_diensten": "[\"http://www.example.nl\"]",
+			"selectielijst_procestype": "https://selectielijst.openzaak.nl/api/v1/procestypen/1e12ad30-b900-4e7f-b3b7-569673cee0b0",
+			"selectielijst_procestype_jaar": 2017,
+			"referentieproces_naam": "Beroep behandelen",
+			"referentieproces_link": "",
+			"catalogus": 3,
+			"deelzaaktypen": []
+		}
+	}, {
+		"model": "catalogi.zaaktype",
+		"pk": 16,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "51717532-51d4-422b-9b3c-d038f55353c7",
+			"identificatie": "14",
+			"zaaktype_omschrijving": "Voorlopige voorziening behandelen",
+			"zaaktype_omschrijving_generiek": "Voorlopige voorziening behandelen",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"doel": "Het bij de voorzieningenrechter van een rechtsprekende instantie verdedigen van een genomen besluit, in afwachting van de behandeling van het bezwaar, beroep of hoger beroep tegen dat besluit.",
+			"aanleiding": "De zaakbehandelende organisatie heeft van de rechtsprekende instantie bericht ontvangen dat een verzoek tot het treffen van een voorlopige voorziening is ontvangen met betrekking tot een bestreden besluit, waartegen de indiener van het verzoek om voorlopige voorziening bezwaar heeft gemaakt, of beroep of hoger beroep heeft ingesteld.",
+			"toelichting": "Het verzoek om voorlopige voorziening is door de partij die het besluit bestrijdt - en daartegen bezwaar heeft aangetekend of (hoger) beroep heeft ingesteld - gericht aan de rechtsprekende instantie en ter verweer doorgestuurd naar de zaakbehandelende organisatie.\r\n\r\nAlle in dit zaaktype genoemde termijnen zijn louter indicatief. In elke zaak van dit zaaktype zal de rechtsprekende instantie de termijnen stellen die de zaakbehandelende organisatie dient te volgen.\r\n\r\nAls een ander bevoegd gezag de verweerder is in de voorlopige voorziening-zaak en aan de zaakbehandelende organisatie vraagt om een bijdrage aan het verweer, dan is sprake van een zaak van het zaaktype \u2018Advies verstrekken\u2019.",
+			"indicatie_intern_of_extern": "extern",
+			"handeling_initiator": "Indienen",
+			"onderwerp": "Verzoek om voorlopige voorziening",
+			"handeling_behandelaar": "Behandelen",
+			"doorlooptijd_behandeling": "P56D",
+			"servicenorm_behandeling": "P56D",
+			"opschorting_en_aanhouding_mogelijk": false,
+			"verlenging_mogelijk": false,
+			"verlengingstermijn": null,
+			"trefwoorden": "[]",
+			"publicatie_indicatie": false,
+			"publicatietekst": "",
+			"verantwoordingsrelatie": "[]",
+			"versiedatum": "2021-04-14",
+			"producten_of_diensten": "[\"http://www.example.nl\"]",
+			"selectielijst_procestype": "https://selectielijst.openzaak.nl/api/v1/procestypen/1e12ad30-b900-4e7f-b3b7-569673cee0b0",
+			"selectielijst_procestype_jaar": 2017,
+			"referentieproces_naam": "Voorlopige voorziening behandelen",
+			"referentieproces_link": "",
+			"catalogus": 3,
+			"deelzaaktypen": []
+		}
+	}, {
+		"model": "catalogi.zaaktype",
+		"pk": 17,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "6fbc120b-c7eb-4f61-9759-88465daa29f9",
+			"identificatie": "20",
+			"zaaktype_omschrijving": "Seveso-inspectie uitvoeren",
+			"zaaktype_omschrijving_generiek": "Toezicht houden",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"doel": "Vanuit bestuursrechtelijke bevoegdheid beoordelen of een situatie in overeenstemming is met geldende wet- en regelgeving, verstrekte vergunningen en meldingen van activiteiten.",
+			"aanleiding": "Een afgehandelde vergunningaanvraag (zowel voor begeleiding van de realisatie van de vergunning als voor toezicht bij een afgewezen aanvraag), een gerealiseerde vergunning, een verwerkte melding (van een activiteit), een kennisgeving, een eerder uitgevoerde controle, een melding van overlast of ongewoon voorval, een verzoek (door een belanghebbende), een \u2018toevallige\u2019 waarneming, een handhavingstraject, een project dan wel het gepland zijn van toezicht.",
+			"toelichting": "Het betreft het toezicht houden op de verleende vergunningen, de verwerkte meldingen en het zich houden aan vigerende wet- en regelgeving.\r\n\r\nElke inspectiezaak betreft \u00e9\u00e9n inspectie met daaruit voortvloeiende bevindingen. Een herinspectie is een nieuwe toezichtzaak.\r\n\r\nBeschreven is het meest voorkomende toezichtproces, waarvan een inspectiebezoek deel uit maakt. Het inspecteren van Seveso-inrichtingen, kan meerdere dagen in beslag nemen.\r\n\r\nDe in het zaaktype vastgelegde termijnen (doorlooptijd behandeling, servicenorm behandeling, doorlooptijden statussen) zijn 'redelijke termijnen' voor de uitvoering van veelvoorkomende inspecties. De afspraken over deze termijnen dienen vooral ter beheersing van individuele zaken \u00e9n zaken waaraan zaken van dit zaaktype een bijdrage leveren (zoals de behandeling van een handhavingsverzoek, het nemen van een handhavingsbesluit en de lasten onder bestuursdwang en dwangsom). Voor inspecties van Seveso-inrichtingen is een wettelijke termijn voorgeschreven: voor deze inspecties geldt dat de conclusies van de inspectie binnen vier maanden aan de exploitant van de inrichting moeten worden medegedeeld (art. 13, lid 13 Besluit risico's zware ongevallen 2015 resp. art. 13.23, lid 1 Omgevingsbesluit). \r\n\r\nAls het gevoerde toezicht aanleiding geeft tot handhaving, dan vindt die plaats in een gerelateerde (vervolg)zaak van het zaaktype \u2018Handhavingsbesluit nemen\u2019. Deze gerelateerde (vervolg)zaak wordt uitgevoerd door de toezichthoudende instanties met ondersteuning van de eigen applicatie(s).",
+			"indicatie_intern_of_extern": "intern",
+			"handeling_initiator": "Aanvraag",
+			"onderwerp": "Inspectie",
+			"handeling_behandelaar": "Uitvoeren",
+			"doorlooptijd_behandeling": "P180D",
+			"servicenorm_behandeling": null,
+			"opschorting_en_aanhouding_mogelijk": true,
+			"verlenging_mogelijk": true,
+			"verlengingstermijn": "P90D",
+			"trefwoorden": "[]",
+			"publicatie_indicatie": false,
+			"publicatietekst": "",
+			"verantwoordingsrelatie": "[]",
+			"versiedatum": "2021-04-14",
+			"producten_of_diensten": "[\"http://www.example.nl\"]",
+			"selectielijst_procestype": "https://selectielijst.openzaak.nl/api/v1/procestypen/c844637e-6393-4202-b030-e1bffb08a9b0",
+			"selectielijst_procestype_jaar": 2017,
+			"referentieproces_naam": "Toezicht houden",
+			"referentieproces_link": "",
+			"catalogus": 3,
+			"deelzaaktypen": []
+		}
+	}, {
+		"model": "catalogi.zaaktype",
+		"pk": 18,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "aeab08e9-ce35-42c8-9a3a-1072211ba141",
+			"identificatie": "4",
+			"zaaktype_omschrijving": "Controle uitvoeren",
+			"zaaktype_omschrijving_generiek": "Toezicht houden",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"doel": "Vanuit bestuursrechtelijke bevoegdheid beoordelen of een situatie in overeenstemming is met geldende wet- en regelgeving, verstrekte vergunningen en meldingen van activiteiten.",
+			"aanleiding": "Een afgehandelde vergunningaanvraag (zowel voor begeleiding van de realisatie van de vergunning als voor toezicht bij een afgewezen aanvraag), een gerealiseerde vergunning, een verwerkte melding (van een activiteit), een eerder uitgevoerde controle, een melding van overlast of ongewoon voorval, een verzoek (door een belanghebbende), een \u2018toevallige\u2019 waarneming, een handhavingstraject, een project dan wel het gepland zijn van toezicht.",
+			"toelichting": "Het betreft het controleren van / toezicht houden op de verleende vergunningen, de verwerkte meldingen en het zich houden aan vigerende wet- en regelgeving.\r\n\r\nElke controlezaak betreft \u00e9\u00e9n controle met daaruit voortvloeiende bevindingen. Een hercontrole is een nieuwe toezichtzaak.\r\n\r\nBeschreven is het meest voorkomende toezichtproces, waarvan een controlebezoek deel uit maakt. In het meest eenvoudige geval betreft de controle het inzien van het dossier en het daaruit bijvoorbeeld constateren dat niet voldaan is aan de plicht tot het indienen van een rapportage (administratieve controle). In complexe gevallen, bijvoorbeeld het controleren van activiteiten die betrekking hebben op het Besluit risico's zware ongevallen 2015, kan een controle meerdere dagen in beslag nemen.\r\n\r\nDe in het zaaktype vastgelegde termijnen (doorlooptijd behandeling, servicenorm behandeling, doorlooptijden statussen) zijn 'redelijke termijnen' voor de uitvoering van veelvoorkomende controles. De afspraken over deze termijnen dienen vooral ter beheersing van individuele zaken \u00e9n zaken waaraan zaken van dit zaaktype een bijdrage leveren (zoals de behandeling van een handhavingsverzoek, het nemen van een handhavingsbesluit en de lasten onder bestuursdwang en dwangsom). Uitsluitend voor inspecties van inrichtingen waarop het Besluit risico's zware ongevallen 2015 van toepassing is, is een wettelijke termijn voorgeschreven: voor deze inspecties geldt dat de conclusies van de inspectie binnen vier maanden aan de exploitant van de inrichting moeten worden medegedeeld (art. 13, lid 13 Besluit risico's zware ongevallen 2015). \r\n\r\nAls het gevoerde toezicht aanleiding geeft tot handhaving, dan vindt die plaats in een gerelateerde (vervolg)zaak van het zaaktype \u2018Handhavingsbesluit nemen\u2019.",
+			"indicatie_intern_of_extern": "intern",
+			"handeling_initiator": "Aanvraag",
+			"onderwerp": "Controle",
+			"handeling_behandelaar": "Uitvoeren",
+			"doorlooptijd_behandeling": "P28D",
+			"servicenorm_behandeling": "P14D",
+			"opschorting_en_aanhouding_mogelijk": true,
+			"verlenging_mogelijk": true,
+			"verlengingstermijn": "P14D",
+			"trefwoorden": "[]",
+			"publicatie_indicatie": false,
+			"publicatietekst": "",
+			"verantwoordingsrelatie": "[]",
+			"versiedatum": "2021-04-14",
+			"producten_of_diensten": "[\"http://www.example.nl\"]",
+			"selectielijst_procestype": "https://selectielijst.openzaak.nl/api/v1/procestypen/c844637e-6393-4202-b030-e1bffb08a9b0",
+			"selectielijst_procestype_jaar": 2017,
+			"referentieproces_naam": "Toezicht houden",
+			"referentieproces_link": "",
+			"catalogus": 3,
+			"deelzaaktypen": []
+		}
+	}, {
+		"model": "catalogi.zaaktype",
+		"pk": 19,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "74def585-bd8e-4e67-8114-1a092774b856",
+			"identificatie": "8",
+			"zaaktype_omschrijving": "Last onder dwangsom ten uitvoer leggen",
+			"zaaktype_omschrijving_generiek": "Last onder dwangsom ten uitvoer leggen",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"doel": "Controleren of de overtreder de last tot geheel of gedeeltelijk herstel van de overtreding, be\u00ebindigen van de overtreding, het voorkomen van herhaling van de overtreding, dan wel het wegnemen of beperken van de gevolgen van de overtreding heeft uitgevoerd en, indien uit de controle blijkt dat de last niet is uitgevoerd, zonodig besluiten tot invordering van de verbeurde dwangsom(men).",
+			"aanleiding": "Mogelijke aanleidingen:\r\n\r\nin een zaak van het zaaktype 'Handhavingsbesluit nemen' is aan de overtreder een last onder dwangsom opgelegd en is een gerelateerde vervolgzaak van onderhavig zaaktype gepland (na het verstrijken van de begunstigingstermijn als bedoeld in art. 5:32a, lid 2 Algemene wet bestuursrecht);\r\nin een zaak van het zaaktype 'Last onder dwangsom ten uitvoer leggen' is geconstateerd dat overtreder de last niet heeft uitgevoerd en is - als het maximale bedrag waarboven geen dwangsom meer wordt verbeurd (art. 5:32b, lid 2 Algemene wet bestuursrecht) nog niet is bereikt - een nieuwe gerelateerde vervolgzaak van onderhavig zaaktype gepland (na het verstrijken van de tijdseenheid als bedoeld in art. 5:32b, lid 1 Algemene wet bestuursrecht);\r\nin een zaak van het zaaktype 'Controle uitvoeren' is een overtreding geconstateerd waarvoor eerder een last onder dwangsom is opgelegd die nog niet is ingetrokken of opgeheven (art. 5:34 Algemene wet bestuursrecht), waarna een zaak van onderhavig zaaktype is gestart;\r\neen belanghebbende, bijvoorbeeld de persoon die verzocht heeft om handhaving van de overtreding waarop de last betrekking heeft, heeft verzocht om invordering van de dwangsom (art. 5:37, lid 2 Algemene wet bestuursrecht), waarna een zaak van onderhavig zaaktype is gestart.",
+			"toelichting": "In een zaak van het zaaktype 'Handhavingsbesluit nemen' is aan de overtreder een last onder dwangsom opgelegd. Om te controleren of de last is uitgevoerd, is een zaak van onderhavig zaaktype gepland. Zolang de last niet is uitgevoerd en het maximale bedrag waarboven geen dwangsom meer wordt verbeurd niet is bereikt, wordt steeds een nieuwe zaak van onderhavig zaaktype gepland. Als de last nog niet is uitgevoerd en het maximale bedrag waarboven geen dwangsom wordt verbeurd is bereikt, wordt een nieuw handhavingsbesluit genomen (in een zaak van het zaaktype 'Handhavingsbesluit nemen').\r\n\r\nOnderdeel van een zaak van dit zaaktype is het nemen van een invorderingsbeschikking. Dit kan in elke zaak van onderhavig zaaktype (waardoor elke verbeurde dwangsom direct kan worden ingevorderd), maar kan ook worden 'opgespaard' tot het maximale bedrag waarboven geen dwangsom meer wordt verbeurd is bereikt (invordering van alle verbeurde dwangsommen in \u00e9\u00e9n keer, via \u00e9\u00e9n invorderingsbeschikking) of tot de last is uitgevoerd. Het is aan de zaakbehandelende organisatie om te bepalen welke benadering naar verwachting het meest effectief zal zijn.\r\n\r\nDe feitelijke invordering van verbeurde dwangsom(men) wordt beschouwd als een financieel administratief proces en is geen onderdeel van onderhavig zaaktype.",
+			"indicatie_intern_of_extern": "intern",
+			"handeling_initiator": "Opleggen",
+			"onderwerp": "Last onder dwangsom",
+			"handeling_behandelaar": "Ten uitvoer leggen",
+			"doorlooptijd_behandeling": "P42D",
+			"servicenorm_behandeling": "P42D",
+			"opschorting_en_aanhouding_mogelijk": true,
+			"verlenging_mogelijk": true,
+			"verlengingstermijn": "P21D",
+			"trefwoorden": "[]",
+			"publicatie_indicatie": false,
+			"publicatietekst": "",
+			"verantwoordingsrelatie": "[]",
+			"versiedatum": "2021-04-14",
+			"producten_of_diensten": "[\"http://www.example.nl\"]",
+			"selectielijst_procestype": "https://selectielijst.openzaak.nl/api/v1/procestypen/c844637e-6393-4202-b030-e1bffb08a9b0",
+			"selectielijst_procestype_jaar": 2017,
+			"referentieproces_naam": "Last onder dwangsom ten uitvoer leggen",
+			"referentieproces_link": "",
+			"catalogus": 3,
+			"deelzaaktypen": []
+		}
+	}, {
+		"model": "catalogi.zaaktype",
+		"pk": 20,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "c6f656d1-495a-4bd9-80bc-1951a10e275e",
+			"identificatie": "6",
+			"zaaktype_omschrijving": "Handhavingsverzoek behandelen",
+			"zaaktype_omschrijving_generiek": "Handhavingsverzoek behandelen",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"doel": "Een beschikking vaststellen op een verzoek van een burger, bedrijf of overheid om een sanctie op een vermeende overtreding toe te passen.",
+			"aanleiding": "Een burger, bedrijf of overheid heeft expliciet een verzoek tot handhaving ingediend.",
+			"toelichting": "Aanleiding is de indiening van een expliciet verzoek tot handhaving cq. verzoek tot toepassen van een sanctie. Aanleiding is dus niet een klacht, incident- of overlastmelding (zie het zaaktype \u2018Incidentmelding behandelen\u2019).\r\n\r\nDe behandeling van het handhavingsverzoek kan leiden tot een handhavingstraject. Dit vindt plaats door een vervolgzaak van het type \u2018Handhavingsbesluit nemen\u2019 te starten.",
+			"indicatie_intern_of_extern": "extern",
+			"handeling_initiator": "Indienen",
+			"onderwerp": "Handhavingsverzoek",
+			"handeling_behandelaar": "Behandelen",
+			"doorlooptijd_behandeling": "P56D",
+			"servicenorm_behandeling": null,
+			"opschorting_en_aanhouding_mogelijk": true,
+			"verlenging_mogelijk": true,
+			"verlengingstermijn": "P28D",
+			"trefwoorden": "[]",
+			"publicatie_indicatie": false,
+			"publicatietekst": "",
+			"verantwoordingsrelatie": "[]",
+			"versiedatum": "2021-04-14",
+			"producten_of_diensten": "[\"http://www.example.nl\"]",
+			"selectielijst_procestype": "https://selectielijst.openzaak.nl/api/v1/procestypen/838e405a-9b12-43c4-a985-d7a7490d422e",
+			"selectielijst_procestype_jaar": 2017,
+			"referentieproces_naam": "Handhavingsverzoek behandelen",
+			"referentieproces_link": "",
+			"catalogus": 3,
+			"deelzaaktypen": []
+		}
+	}, {
+		"model": "catalogi.zaaktype",
+		"pk": 21,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "88f49139-0567-42f3-91f1-fb4c9727ab7f",
+			"identificatie": "7",
+			"zaaktype_omschrijving": "Incidentmelding behandelen",
+			"zaaktype_omschrijving_generiek": "Incidentmelding behandelen",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"doel": "Het identificeren van oorzaak en veroorzaker van een gemeld incident, het bepalen van de daaruit voortvloeiende gevolgen voor de fysieke leefomgeving, het zonodig treffen van maatregelen om die gevolgen te beperken en herhaling te voorkomen en het informeren van melder en andere betrokkenen over deze bevindingen en maatregelen.",
+			"aanleiding": "Door een burger, bedrijf, andere overheid of andere organisatie dan wel vanuit de eigen organisatie is een (milieu)klacht, melding van overlast, melding van een ongewoon voorval (Titel 17.1 Wet milieubeheer, art 1.1 Omgevingswet, juncto Bijlage A Omgevingswet, juncto Afdeling 19.1 Omgevingswet) of melding van (dreigende) milieuschade (Titel 17.2 Wet milieubeheer) ingediend die (vermoedelijk) is gerelateerd aan (een) activiteit(en) waarop de zaakbehandelende organisatie toezicht houdt.",
+			"toelichting": "Het gaat hier om een klacht, een overlast- of een voorvalmelding die vermoedelijk betrekking heeft op / gerelateerd is aan (een) activiteit(en) waarop de zaakbehandelende organisatie toezicht houdt.\r\n\r\nHet gaat niet om een expliciet verzoek tot handhaving cq. verzoek tot opleggen van een sanctie (zie daarvoor het zaaktype \u2018Handhavingsverzoek behandelen\u2019). Evenmin gaat het over klachten over het functioneren van de organisatie of een specifieke medewerker (zoals bedoeld in Hoofdstuk 9 Algemene wet bestuursrecht).\r\n\r\nDe melding kan via verschillende kanalen worden ingediend: tele\u00adfoon, e-mail, website, post, et cetera.\r\n\r\nDe voornaamste functie van een zaak van onderhavig zaaktype is het bepalen van de oorzaak en veroorzaker van een incident, een oplossing voor het probleem te vinden en de melder en andere betrokkenen daarover te informeren. Of het gemelde probleem gedurende de uitvoering van onderhavige zaak wordt opgelost, hangt af van de urgentie, complexiteit en doorlooptijd van de probleemoplossing. Zo niet, dan vindt dat plaats in een gerelateerde (vervolg)zaak (van een ander zaaktype).\r\n\r\nHet kan voorkomen dat een melding gedaan wordt waarvoor de zaakbehandelende organisatie niet tot behandeling bevoegd is. In dat geval wordt de zaak wel geregistreerd, maar niet inhoudelijk behandeld; de melding wordt overgedragen aan het desbetreffende bevoegde gezag.",
+			"indicatie_intern_of_extern": "extern",
+			"handeling_initiator": "Melden",
+			"onderwerp": "Incident",
+			"handeling_behandelaar": "Behandelen",
+			"doorlooptijd_behandeling": "P28D",
+			"servicenorm_behandeling": "P14D",
+			"opschorting_en_aanhouding_mogelijk": false,
+			"verlenging_mogelijk": true,
+			"verlengingstermijn": "P14D",
+			"trefwoorden": "[]",
+			"publicatie_indicatie": false,
+			"publicatietekst": "",
+			"verantwoordingsrelatie": "[]",
+			"versiedatum": "2021-04-14",
+			"producten_of_diensten": "[\"http://www.example.nl\"]",
+			"selectielijst_procestype": "https://selectielijst.openzaak.nl/api/v1/procestypen/c844637e-6393-4202-b030-e1bffb08a9b0",
+			"selectielijst_procestype_jaar": 2017,
+			"referentieproces_naam": "Incidentmelding behandelen",
+			"referentieproces_link": "",
+			"catalogus": 3,
+			"deelzaaktypen": []
+		}
+	}, {
+		"model": "catalogi.zaaktype",
+		"pk": 22,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "8b2e234b-e89c-4565-903b-882a5c0f2627",
+			"identificatie": "9",
+			"zaaktype_omschrijving": "Melding activiteit behandelen",
+			"zaaktype_omschrijving_generiek": "Melding activiteit behandelen",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"doel": "Het verwerken van een melding van het voornemen tot de uitvoering van meldingsplichtige activiteiten.",
+			"aanleiding": "De zaakbehandelende organisatie heeft een melding ontvangen van het voornemen tot de uitvoering van activiteiten (\u2018melding algemene regels\u2019).",
+			"toelichting": "Op grond van geldende wet- en regelgeving geldt voor een initiatief geen vergunningplicht, maar moet het initiatief wel worden gemeld. Zo heeft de zaakbehandelende organisatie kennis van het initiatief, kan de zaakbehandelende organisatie anderen attenderen op de voorgenomen activiteit en heeft de zaakbehandelende organisatie eventueel de mogelijkheid om preventief te toetsen en/of om toezicht te houden. Als het nodig is, kunnen maatwerkvoorschriften worden opgelegd aan de initiatiefnemer. NB. Een melding is enkelvoudig als het gaat om de activiteit die wordt gemeld. Er zijn echter wel situaties dat moet worden overlegd met ketenpartners, bijvoorbeeld als de activiteit in een monumentaal pand plaatsvindt of in een beschermd stadsgezicht.",
+			"indicatie_intern_of_extern": "extern",
+			"handeling_initiator": "Indienen",
+			"onderwerp": "Melding activiteit",
+			"handeling_behandelaar": "Behandelen",
+			"doorlooptijd_behandeling": "P28D",
+			"servicenorm_behandeling": "P28D",
+			"opschorting_en_aanhouding_mogelijk": false,
+			"verlenging_mogelijk": false,
+			"verlengingstermijn": null,
+			"trefwoorden": "[]",
+			"publicatie_indicatie": false,
+			"publicatietekst": "",
+			"verantwoordingsrelatie": "[]",
+			"versiedatum": "2021-04-14",
+			"producten_of_diensten": "[\"http://www.example.nl\"]",
+			"selectielijst_procestype": "https://selectielijst.openzaak.nl/api/v1/procestypen/7ff2b005-4d84-47fe-983a-732bfa958ff5",
+			"selectielijst_procestype_jaar": 2017,
+			"referentieproces_naam": "Behandelen melding activiteit",
+			"referentieproces_link": "",
+			"catalogus": 3,
+			"deelzaaktypen": []
+		}
+	}, {
+		"model": "catalogi.zaaktype",
+		"pk": 23,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "ee34c993-2d37-48b2-9f0d-c9bd8dbe859c",
+			"identificatie": "16",
+			"zaaktype_omschrijving": "Bezwaar behandelen",
+			"zaaktype_omschrijving_generiek": "Bezwaar behandelen",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"doel": "Het nemen van een beslissing op een ontvangen bezwaarschrift.",
+			"aanleiding": "Er is een bezwaarschrift ontvangen tegen een door het bevoegd gezag genomen besluit (niet zijnde een besluit met betrekking tot personeelszaken, belastingen en schadevorde\u00adrin\u00adgen).",
+			"toelichting": "Een zaak van dit type betreft \u00e9\u00e9n van twee procedures, vanaf het moment dat er een bezwaarschrift binnenkomt tot het moment dat er door het bestuur een besluit is genomen inzake het bezwaarschrift. Na ontvangst van het bezwaar gaan er parallel twee procedures lopen:\r\n\r\nDe advisering op het bezwaar door de Adviescommissie Bezwaar(schriften), en\r\nDe behandeling van het bezwaar door het bevoegd gezag waarin zij het bestreden besluit verdedigt vanuit het perspectief van de VTH-taakstelling.\r\nAangezien beide partijen, Adviescommissie Bezwaar(schriften) en bevoegd gezag, hun eigen verantwoordelijkheden hebben, betreft dit twee zaken. Het voorliggende zaaktype betreft de behandeling door het bevoegd gezag ad 2. De behandeling door de Adviescommissie Bezwaar(schriften) betreft een zaak van een ander zaaktype. Kenmerkend is dat beide zaken met elkaar interfereren.\r\n\r\nDit bezwaar-zaaktype is hier beschreven vanuit het perspectief van de VTH-taakstelling. In algemene zin is het mogelijkerwijs ook toepasbaar voor de behandeling van bezwaren op andere domeinen (personeelszaken, belastingen, schadevorde\u00adrin\u00adgen e.d.).",
+			"indicatie_intern_of_extern": "extern",
+			"handeling_initiator": "Indienen",
+			"onderwerp": "Bezwaar",
+			"handeling_behandelaar": "Behandelen",
+			"doorlooptijd_behandeling": "P84D",
+			"servicenorm_behandeling": "P84D",
+			"opschorting_en_aanhouding_mogelijk": true,
+			"verlenging_mogelijk": true,
+			"verlengingstermijn": "P42D",
+			"trefwoorden": "[]",
+			"publicatie_indicatie": false,
+			"publicatietekst": "",
+			"verantwoordingsrelatie": "[]",
+			"versiedatum": "2021-04-14",
+			"producten_of_diensten": "[\"http://www.example.nl\"]",
+			"selectielijst_procestype": "https://selectielijst.openzaak.nl/api/v1/procestypen/1e12ad30-b900-4e7f-b3b7-569673cee0b0",
+			"selectielijst_procestype_jaar": 2017,
+			"referentieproces_naam": "Bezwaar behandelen",
+			"referentieproces_link": "",
+			"catalogus": 3,
+			"deelzaaktypen": []
+		}
+	}, {
+		"model": "catalogi.zaaktype",
+		"pk": 24,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "0f9a6c7e-4770-4f73-b798-2bd4a5b7c5e0",
+			"identificatie": "12",
+			"zaaktype_omschrijving": "Zienswijze behandelen",
+			"zaaktype_omschrijving_generiek": "Zienswijze behandelen",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"doel": "Bepalen of een naar voren gebrachte zienswijze aanleiding geeft om een voorgenomen besluit gemotiveerd te heroverwege",
+			"aanleiding": "Het naar voren brengen van een zienswijze over een voorgenomen besluit van het bevoegd gezag, nadat het bevoegd gezag hiertoe gelegenheid heeft geboden.",
+			"toelichting": "Een zienswijze kan naar voren worden gebracht nadat de zaakbehandelende organisatie hiertoe de gelegenheid heeft geboden. Veelal worden specifieke personen (belanghebbenden) in de gelegenheid gesteld hun zienswijze te geven (zie bijvoorbeeld art. 4:7 en art. 4:8 Algemene wet bestuursrecht), maar bij wettelijk voorschrift of door het bevoegd gezag kan ook zijn bepaald dat anderen een zienswijze naar voren kunnen brengen (zie bijvoorbeeld art. 3:15 lid 2 Algemene wet bestuursrecht voor het naar voren brengen van zienswijzen over het ontwerp van het besluit in de uniforme openbare voorbereidingsprocedure). In dat laatste geval wordt kennisgegeven van - de zakelijke inhoud van - het voorgenomen besluit en wordt in die kennisgeving tevens vermeld wie, op welke wijze, in de gelegenheid worden gesteld zienswijzen naar voren te brengen (art. 3:12 Algemene wet bestuursrecht).\r\n\r\nHet behandelen van zienswijzen kan plaatsvinden in zaken van onderhavig zaaktype 'Zienswijze behandelen': elke ingediende zienswijze over een voorgenomen besluit wordt dan behandeld in separate zaak die een bijdrage levert aan de zaak waarin het besluit waarop de zienswijze betrekking heeft, wordt voorbereid. Voor deze mogelijkheid is gekozen, omdat:\r\n\r\nelke naar voren gebrachte zienswijze een antwoord behoeft;\r\nin sommige situaties (bijvoorbeeld bij de behandeling van een zaak van het zaaktype 'Aanvraag beschikking uitgebreid behandelen') veel zienswijzen kunnen worden ingediend die elk een eigen antwoord behoeven;\r\naan het naar voren brengen van een zienswijze rechtsmiddelen zijn verbonden (bezwaar, beroep) die moeten kunnen worden gerelateerd aan de naar voren gebrachte zienswijze;\r\neen naar voren gebrachte zienswijze - op onderdelen - een specialistische beoordeling kan vergen van een adviseur van het bevoegd gezag.\r\nIndien geen van deze overwegingen aan de orde is bij het behandelen van (een) zienswijzethumb_down in relatie tot een voorgenomen besluit, kan ervoor worden gekozen de behandeling van een zienswijze onderdeel te maken van de behandeling van de zaak waarin het besluit wordt genomen waarop de zienswijze betrekking heeft.",
+			"indicatie_intern_of_extern": "extern",
+			"handeling_initiator": "Indienen",
+			"onderwerp": "Zienswijze",
+			"handeling_behandelaar": "Behandelen",
+			"doorlooptijd_behandeling": "P56D",
+			"servicenorm_behandeling": "P56D",
+			"opschorting_en_aanhouding_mogelijk": true,
+			"verlenging_mogelijk": true,
+			"verlengingstermijn": "P42D",
+			"trefwoorden": "[]",
+			"publicatie_indicatie": false,
+			"publicatietekst": "",
+			"verantwoordingsrelatie": "[]",
+			"versiedatum": "2021-04-14",
+			"producten_of_diensten": "[\"http://www.example.nl\"]",
+			"selectielijst_procestype": "https://selectielijst.openzaak.nl/api/v1/procestypen/1e12ad30-b900-4e7f-b3b7-569673cee0b0",
+			"selectielijst_procestype_jaar": 2017,
+			"referentieproces_naam": "Zienswijze behandelen",
+			"referentieproces_link": "",
+			"catalogus": 3,
+			"deelzaaktypen": []
+		}
+	}, {
+		"model": "catalogi.zaaktype",
+		"pk": 25,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-14",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "b6c6ea11-efc1-433c-923a-5871aadeee8c",
+			"identificatie": "5",
+			"zaaktype_omschrijving": "Handhavingsbesluit nemen",
+			"zaaktype_omschrijving_generiek": "Handhavingsbesluit nemen",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"doel": "Het nemen van een besluit over het opleggen, wijzigen of intrekken van een passende bestuursrechtelijke sanctie naar aanleiding van een geconstateerde of klaarblijkelijk dreigende (art. 5:7 Algemene wet bestuursrecht) overtreding.",
+			"aanleiding": "Mogelijke aanleidingen:\r\n\r\ntijdens het houden van toezicht (een zaak van het zaaktype 'Controle uitvoeren') is een (klaarblijkelijk dreigende) overtreding geconstateerd waartegen handhavend kan worden opgetreden;\r\nde overtreder heeft verzocht om wijziging of intrekking van een eerder opgelegde bestuursrechtelijke sanctie (bijvoorbeeld op grond van art. 5:34 Algemene wet bestuursrecht).",
+			"toelichting": "Het handhavingstraject dat volgt op een geconstateerde of klaarblijkelijk dreigende overtreding bestaat uit een reeks van separate zaken, die volgt op de toezichtzaak waarin de overtreding is geconstateerd. Onderhavige zaak van het zaaktype \u2018Handhavingsbesluit nemen\u2019 is daarin de eerste van het bestuurlijk handhavingstraject. Deze kan leiden tot het opleggen van een sanctie maar ook tot het verder afzien van handhaving. Indien daadwerkelijk tot het opleggen van een sanctie is besloten, volgt daarna een (vervolg)zaak waarin de opgelegde sanctie ten uitvoer wordt gelegd, zoals \u2018Last onder Bestuursdwang ten uitvoer leggen\u2019 of \u2018Last onder dwangsom ten uitvoer leggen\u2019. Het geheel of gedeeltelijk intrekken van een begunstigende beschikking (art. 5.19, lid 1 en lid 2 Wet algemene bepalingen omgevingsrecht, art. 18.10 lid 1 en lid 2 Omgevingswet) of het tijdelijk gedogen (bijvoorbeeld op grond van art. 5.19 lid 3 Wet algemene bepalingen omgevingsrecht, art. 18.10 lid 3 Omgevingswet) zijn tevens mogelijk uitkomsten en dan opgenomen in de hand\u00adhavings\u00adbeschikking. Eventueel is de inhoud van de gedoogverklaring in een parallelle zaak (van type \u2018Aanvraag beschikking regulier behandelen\u2019) tot stand gekomen.  \r\n\r\nDe vermelde statussen betreffen de normale gang van zaken. In spoedeisende gevallen kunnen statussen sneller, pro-forma, of pas achteraf doorlopen worden (art. 5:31 Algemene wet bestuursrecht).",
+			"indicatie_intern_of_extern": "intern",
+			"handeling_initiator": "Initi\u00ebren",
+			"onderwerp": "Handhavingssanctie",
+			"handeling_behandelaar": "Opleggen",
+			"doorlooptijd_behandeling": "P56D",
+			"servicenorm_behandeling": "P56D",
+			"opschorting_en_aanhouding_mogelijk": false,
+			"verlenging_mogelijk": true,
+			"verlengingstermijn": "P42D",
+			"trefwoorden": "[]",
+			"publicatie_indicatie": false,
+			"publicatietekst": "",
+			"verantwoordingsrelatie": "[]",
+			"versiedatum": "2021-04-14",
+			"producten_of_diensten": "[\"http://www.example.nl\"]",
+			"selectielijst_procestype": "https://selectielijst.openzaak.nl/api/v1/procestypen/c844637e-6393-4202-b030-e1bffb08a9b0",
+			"selectielijst_procestype_jaar": 2017,
+			"referentieproces_naam": "Handhavingsbesluit nemen",
+			"referentieproces_link": "",
+			"catalogus": 3,
 			"deelzaaktypen": []
 		}
 	}
