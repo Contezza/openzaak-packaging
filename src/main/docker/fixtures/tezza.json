@@ -1296,6 +1296,30 @@
 			"catalogus": 3
 		}
 	}, {
+		"model": "catalogi.informatieobjecttype",
+		"pk": 54,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-15",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "83be0e23-a6b7-44b1-a37f-bb22bdb75c9a",
+			"omschrijving": "Uitnodiging startbijeenkomst",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"catalogus": 3
+		}
+	}, {
+		"model": "catalogi.informatieobjecttype",
+		"pk": 55,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-15",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "1e890f12-3fc4-4634-8133-2b3dfcae2cd9",
+			"omschrijving": "Verzoek om indiening bedrijfsbrandweerrapport",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"catalogus": 3
+		}
+	}, {
 		"model": "catalogi.zaaktypeinformatieobjecttype",
 		"pk": 6,
 		"fields": {
@@ -2316,6 +2340,28 @@
 			"informatieobjecttype": 43,
 			"volgnummer": 1,
 			"richting": "inkomend",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 117,
+		"fields": {
+			"uuid": "332a3253-bca5-4ff5-a551-cfaf6f475572",
+			"zaaktype": 26,
+			"informatieobjecttype": 54,
+			"volgnummer": 1,
+			"richting": "uitgaand",
+			"statustype": null
+		}
+	}, {
+		"model": "catalogi.zaaktypeinformatieobjecttype",
+		"pk": 118,
+		"fields": {
+			"uuid": "c3b0cc50-c5c6-4cf1-9b59-2e702906be70",
+			"zaaktype": 26,
+			"informatieobjecttype": 55,
+			"volgnummer": 4,
+			"richting": "uitgaand",
 			"statustype": null
 		}
 	}, {
@@ -3515,6 +3561,46 @@
 			"brondatum_archiefprocedure_einddatum_bekend": false,
 			"brondatum_archiefprocedure_objecttype": "overige",
 			"brondatum_archiefprocedure_registratie": "Te beoordelen door record manager",
+			"brondatum_archiefprocedure_procestermijn": null,
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 67,
+		"fields": {
+			"uuid": "8297562c-15fb-43aa-888c-a8d0ca25a457",
+			"zaaktype": 26,
+			"omschrijving": "Aangewezen",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/fb65d251-1518-4185-865f-b8bdcfad07b1",
+			"omschrijving_generiek": "Toegekend",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/478855ca-465d-4d55-aaa2-2a851dce0d25",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P20Y",
+			"brondatum_archiefprocedure_afleidingswijze": "ander_datumkenmerk",
+			"brondatum_archiefprocedure_datumkenmerk": "Te beoordelen door record manager",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "overige",
+			"brondatum_archiefprocedure_registratie": "Te beoordelen door record manager",
+			"brondatum_archiefprocedure_procestermijn": "P1Y",
+			"toelichting": ""
+		}
+	}, {
+		"model": "catalogi.resultaattype",
+		"pk": 68,
+		"fields": {
+			"uuid": "5bdf11c2-e488-4e97-b3fe-41cb444b869a",
+			"zaaktype": 26,
+			"omschrijving": "Niet aangewezen",
+			"resultaattypeomschrijving": "https://selectielijst.openzaak.nl/api/v1/resultaattypeomschrijvingen/e6a0c939-3404-45b0-88e3-76c94fb80ea7",
+			"omschrijving_generiek": "Afgewezen",
+			"selectielijstklasse": "https://selectielijst.openzaak.nl/api/v1/resultaten/3081f6c9-f448-43f2-a091-10e73a2bea63",
+			"archiefnominatie": "vernietigen",
+			"archiefactietermijn": "P20Y",
+			"brondatum_archiefprocedure_afleidingswijze": "afgehandeld",
+			"brondatum_archiefprocedure_datumkenmerk": "",
+			"brondatum_archiefprocedure_einddatum_bekend": false,
+			"brondatum_archiefprocedure_objecttype": "",
+			"brondatum_archiefprocedure_registratie": "",
 			"brondatum_archiefprocedure_procestermijn": null,
 			"toelichting": ""
 		}
@@ -4759,6 +4845,60 @@
 			"omschrijving": "Initiator",
 			"omschrijving_generiek": "initiator",
 			"zaaktype": 22
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 142,
+		"fields": {
+			"uuid": "7d44a2a4-6c18-4ce1-a55c-568958343640",
+			"omschrijving": "Adviseur",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 26
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 143,
+		"fields": {
+			"uuid": "ca3b5fa2-824d-4d11-8db8-dab9a7c804a0",
+			"omschrijving": "Beoordelaar",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 26
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 144,
+		"fields": {
+			"uuid": "fba6cd28-a523-43eb-954f-8ed8ad45ec58",
+			"omschrijving": "Doc. ondersteuner",
+			"omschrijving_generiek": "behandelaar",
+			"zaaktype": 26
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 145,
+		"fields": {
+			"uuid": "1d8f567c-73d2-4e6d-8d7c-eeedba200ddf",
+			"omschrijving": "Drijver inrichting",
+			"omschrijving_generiek": "belanghebbende",
+			"zaaktype": 26
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 146,
+		"fields": {
+			"uuid": "c47e43c8-f0d6-4b02-9f18-250e63ab96cb",
+			"omschrijving": "Verantwoordelijke",
+			"omschrijving_generiek": "beslisser",
+			"zaaktype": 26
+		}
+	}, {
+		"model": "catalogi.roltype",
+		"pk": 147,
+		"fields": {
+			"uuid": "df1bab97-0e82-4ea1-9339-797a96bd5634",
+			"omschrijving": "Wettelijk adviseur",
+			"omschrijving_generiek": "adviseur",
+			"zaaktype": 26
 		}
 	}, {
 		"model": "catalogi.statustype",
@@ -6243,6 +6383,97 @@
 			"toelichting": null
 		}
 	}, {
+		"model": "catalogi.statustype",
+		"pk": 120,
+		"fields": {
+			"uuid": "a68143ba-c1ed-4c27-8121-2cb04f809190",
+			"zaaktype": 26,
+			"statustype_omschrijving": "Bedrijfsbrandweerrapport gevraagd",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 1,
+			"informeren": true,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 121,
+		"fields": {
+			"uuid": "f5340942-06ff-4281-9a49-66aba34d649a",
+			"zaaktype": 26,
+			"statustype_omschrijving": "Bedrijfsbrandweerrapport ontvangen",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 2,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 122,
+		"fields": {
+			"uuid": "3d6ae873-2f34-4ab6-a193-a4fae6e0d5aa",
+			"zaaktype": 26,
+			"statustype_omschrijving": "Inhoudelijk behandeld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 3,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 123,
+		"fields": {
+			"uuid": "10cbe7db-5f1f-4016-bad3-03f9e548cbc5",
+			"zaaktype": 26,
+			"statustype_omschrijving": "Ontwerpbesluit opgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 4,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 124,
+		"fields": {
+			"uuid": "1a9a3a3b-9aa2-4f6a-a79a-49a3b9904e8f",
+			"zaaktype": 26,
+			"statustype_omschrijving": "Zienswijzen beoordeeld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 5,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 125,
+		"fields": {
+			"uuid": "774a0a74-1669-4c81-aa1c-60cb71d5ffc4",
+			"zaaktype": 26,
+			"statustype_omschrijving": "Besluit vastgesteld",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 6,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
+		"model": "catalogi.statustype",
+		"pk": 126,
+		"fields": {
+			"uuid": "d66f5e98-8db1-46bb-a12d-659b7ef1221e",
+			"zaaktype": 26,
+			"statustype_omschrijving": "Zaak afgerond",
+			"statustype_omschrijving_generiek": "",
+			"statustypevolgnummer": 7,
+			"informeren": false,
+			"statustekst": "",
+			"toelichting": null
+		}
+	}, {
 		"model": "catalogi.zaaktype",
 		"pk": 1,
 		"fields": {
@@ -7126,6 +7357,43 @@
 			"selectielijst_procestype": "https://selectielijst.openzaak.nl/api/v1/procestypen/c844637e-6393-4202-b030-e1bffb08a9b0",
 			"selectielijst_procestype_jaar": 2017,
 			"referentieproces_naam": "Handhavingsbesluit nemen",
+			"referentieproces_link": "",
+			"catalogus": 3,
+			"deelzaaktypen": []
+		}
+	}, {
+		"model": "catalogi.zaaktype",
+		"pk": 26,
+		"fields": {
+			"datum_begin_geldigheid": "2021-04-15",
+			"datum_einde_geldigheid": null,
+			"concept": false,
+			"uuid": "50fbb8a3-5ef1-4503-ae86-34a13fc77631",
+			"identificatie": "21",
+			"zaaktype_omschrijving": "Aanwijzing bedrijfsbrandweer beoordelen",
+			"zaaktype_omschrijving_generiek": "Aanwijzing bedrijfsbrandweer beoordelen",
+			"vertrouwelijkheidaanduiding": "openbaar",
+			"doel": "Beoordelen of een inrichting in aanmerking komt voor het hebben van een bedrijfsbrandweer.",
+			"aanleiding": "Op grond van een uitgevoerde controle of verstrekt advies is het vermoeden gerezen dat een inrichting in geval een brand of een ongeval een bijzonder gevaar voor de openbare veiligheid kan opleveren;\r\nof:\r\nOp grond van een uitgevoerde controle (incl. 5-jaarlijkse actualisatie of controle op verzoek van hoofd of bestuurder van de inrichting) of verstrekt advies is het vermoeden gerezen dat een inrichting in geval van brand of een ongeval geen bijzonder gevaar meer zal opleveren voor de openbare veiligheid.",
+			"toelichting": "Indien het bestuur van de veiligheidsregio redelijkerwijs kan vermoeden dat een inrichting in geval van een brand of een ongeval een bijzonder gevaar voor de openbare veiligheid kan opleveren, kan het bestuur besluiten een aanwijstraject bedrijfsbrandweren te starten.\r\n\r\nOvereenkomstig artikel 7.2, lid 1 van het Besluit veiligheidsregio\u2019s kan het bestuur van de veiligheidsregio bepaalde bedrijven verzoeken een rapportage inzake de bedrijfsbrandweer in te dienen. Op basis van deze rapportage kan de brandweer beoordelen of de inrichting een bedrijfsbrandweer dient op te richten en/of in stand te houden. Als dit het geval is, resulteert een zaak van dit zaaktype in een aanwijsbeschikking waarin de eisen m.b.t. de bedrijfsbrandweer zijn opgenomen.",
+			"indicatie_intern_of_extern": "extern",
+			"handeling_initiator": "Aanvragen",
+			"onderwerp": "Aanwijzing bedrijfsbrandweer",
+			"handeling_behandelaar": "Beoordelen",
+			"doorlooptijd_behandeling": "P1Y",
+			"servicenorm_behandeling": "P213D",
+			"opschorting_en_aanhouding_mogelijk": true,
+			"verlenging_mogelijk": true,
+			"verlengingstermijn": "P100D",
+			"trefwoorden": "[]",
+			"publicatie_indicatie": false,
+			"publicatietekst": "",
+			"verantwoordingsrelatie": "[]",
+			"versiedatum": "2021-04-15",
+			"producten_of_diensten": "[\"http://www.example.nl\"]",
+			"selectielijst_procestype": "https://selectielijst.openzaak.nl/api/v1/procestypen/bb2109bd-795d-47a8-b7a8-4e4269505054",
+			"selectielijst_procestype_jaar": 2020,
+			"referentieproces_naam": "Aanwijzing bedrijfsbrandweer beoordelen",
 			"referentieproces_link": "",
 			"catalogus": 3,
 			"deelzaaktypen": []
