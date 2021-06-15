@@ -46,9 +46,6 @@
 			"label": "DRC",
 			"api_type": "drc",
 			"api_root": "http://tezza-services-platform.local:8080/alfresco/service/drc/v1/",
-			"extra": {
-
-			},
 			"client_id": "b91d00dc-c762-4211-9c10-5918c81e5de6",
 			"secret": "8fBLx4sY4ZUWVjsjfYHtYwYS",
 			"auth_type": "zgw",
@@ -67,9 +64,6 @@
 			"label": "NRC",
 			"api_type": "nrc",
 			"api_root": "http://tezza-open-notificaties.local:8000/api/v1/",
-			"extra": {
-
-			},
 			"client_id": "tezza-notificaties-test",
 			"secret": "4RhynhXSxDeQqepF",
 			"auth_type": "zgw",
@@ -88,9 +82,6 @@
 			"label": "BAG",
 			"api_type": "orc",
 			"api_root": "https://bag.basisregistraties.overheid.nl/api/v1/",
-			"extra": {
-
-			},
 			"client_id": "",
 			"secret": "",
 			"auth_type": "api_key",
@@ -109,9 +100,6 @@
 			"label": "Selectielijst",
 			"api_type": "orc",
 			"api_root": "https://selectielijst.openzaak.nl/api/v1/",
-			"extra": {
-
-			},
 			"client_id": "",
 			"secret": "",
 			"auth_type": "no_auth",
