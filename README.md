@@ -8,10 +8,10 @@ Gebruik `clean install` om Docker bestand te genereren. Deze komt in `target/` m
 
 ## Release
 
-1. Geef commit in de master branch met als commentaar `create-release`. Gitlab CI zal vervolgens de docker image publiceren. 
+1. Geef commit in de master branch met als commentaar `create-release`. Gitlab CI zal vervolgens de docker image publiceren.
 
 ## Image
 
 ```
-docker pull https://hub.contezza.nl/vngr/openzaak:[version]
+docker pull https://harbor.contezza.nl/vngr/openzaak:[version]
 ```
