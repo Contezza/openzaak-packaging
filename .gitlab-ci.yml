@@ -11,7 +11,7 @@ release:
   image: harbor.contezza.nl/tooling/docker-npm-maven:latest
   variables:
     MAVEN_CLI_OPTS: "-s .m2/settings.xml --batch-mode"
-    MAVEN_OPTS: "-Dmaven.repo.local=/data/gitlabrunner-cicd/.m2/repository" 
+    MAVEN_OPTS: "-Dmaven.repo.local=/data/gitlabrunner-cicd/.m2/repository -Dscript.exec=sh" 
   script:
      - docker login -u $CNTZ_DOCKER_QUAY_USER -p $CNTZ_DOCKER_QUAY_PASSWD quay.io
      - docker login -u $CNTZ_DOCKER_HARBOR_USER -p $CNTZ_DOCKER_HARBOR_PASSWD harbor.contezza.nl
