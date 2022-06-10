@@ -13,7 +13,7 @@
 		<!-- Docker -->
 		<image.name>vngr/openzaak</image.name>
 
-		<!-- Alfresco Maven Plugin version to use -->
+		<!-- Alfresco Maven plugin version to use -->
 		<alfresco.sdk.version>4.0.0</alfresco.sdk.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
