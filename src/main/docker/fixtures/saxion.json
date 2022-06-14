@@ -1,120 +1,128 @@
 [{
-		"model": "vng_api_common.jwtsecret",
-		"pk": 2,
-		"fields": {
-			"identifier": "saxion-openzaak-test",
-			"secret": "4zirZAf5W4Y82KYM"
-		}
-	}, {
-		"model": "authorizations.authorizationsconfig",
-		"pk": 1,
-		"fields": {
-			"api_root": "https://autorisaties-api.vng.cloud/api/v1/",
-			"component": "zrc"
-		}
-	}, {
-		"model": "authorizations.applicatie",
-		"pk": 1,
-		"fields": {
-			"uuid": "f45c7d60-d377-4c5d-8a51-23973b0e3007",
-			"client_ids": "[\"saxion-openzaak-test\"]",
-			"label": "saxion-openzaak-test",
-			"heeft_alle_autorisaties": true
-		}
-	}, {
-		"model": "notifications.notificationsconfig",
-		"pk": 1,
-		"fields": {
-			"api_root": "http://notificaties.test.saxion.nl.local:8000/api/v1/"
-		}
-	}, {
-		"model": "zgw_consumers.service",
-		"pk": 1,
-		"fields": {
-			"label": "DRC",
-			"api_type": "drc",
-			"api_root": "http://repository.test.saxion.nl.acs:8080/alfresco/service/drc/v1/",
-			"client_id": "b91d00dc-c762-4211-9c10-5918c81e5de6",
-			"secret": "8fBLx4sY4ZUWVjsjfYHtYwYS",
-			"auth_type": "zgw",
-			"header_key": "",
-			"header_value": "",
-			"oas": "http://repository.test.saxion.nl.acs:8080/alfresco/service/drc/v1/schema/openapi.yaml",
-			"nlx": "",
-			"user_id": "admin",
-			"user_representation": "admin"
-		}
-	}, {
-		"model": "zgw_consumers.service",
-		"pk": 2,
-		"fields": {
-			"label": "Custom Selectielijst",
-			"api_type": "orc",
-			"api_root": "http://selectielijst.test.saxion.nl.local:8000/api/v1/",
-			"client_id": "",
-			"secret": "",
-			"auth_type": "no_auth",
-			"header_key": "",
-			"header_value": "",
-			"oas": "http://selectielijst.test.saxion.nl.local:8000/api/v1/schema/openapi.yaml",
-			"nlx": "",
-			"user_id": "",
-			"user_representation": ""
-		}
-	}, {
-		"model": "zgw_consumers.service",
-		"pk": 3,
-		"fields": {
-			"label": "NRC",
-			"api_type": "nrc",
-			"api_root": "http://notificaties.test.saxion.nl.local:8000/api/v1/",
-			"client_id": "saxion-openzaak-test",
-			"secret": "4zirZAf5W4Y82KYM",
-			"auth_type": "zgw",
-			"header_key": "",
-			"header_value": "",
-			"oas": "http://notificaties.test.saxion.nl.local:8000/api/v1/schema/openapi.yaml",
-			"nlx": "",
-			"user_id": "admin",
-			"user_representation": "admin"
-		}
-	}, {
-		"model": "zgw_consumers.nlxconfig",
-		"pk": 1,
-		"fields": {
-			"directory": "",
-			"outway": "/"
-		}
-	}, {
-		"model": "drc_cmis.cmisconfig",
-		"pk": 1,
-		"fields": {
-			"client_url": "http://repository.test.saxion.nl.acs:8080/alfresco/api/-default-/public/cmis/versions/1.1/browser",
-			"binding": "BROWSER",
-			"time_zone": "UTC",
-			"main_repo_id": "",
-			"client_user": "admin",
-			"client_password": "admin",
-			"zaak_folder_path": "/DRC/{{ zaaktype }}/{{ year }}/{{ month }}/{{ day }}/{{ zaak }}/",
-			"other_folder_path": "/DRC/{{ year }}/{{ month }}/{{ day }}/"
-		}
-	}, {
-		"model": "accounts.user",
-		"fields": {
-			"password": "pbkdf2_sha256$150000$WTLlrN9TVsWt$1GS/tQ6/XkguYp0/Ht1td0mrrYVQHru745OtUglRiPU=",
-			"last_login": "2022-03-16T09:04:48.602Z",
-			"is_superuser": true,
-			"username": "admin",
-			"first_name": "",
-			"last_name": "",
-			"email": "admin@admin.org",
-			"is_staff": true,
-			"is_active": true,
-			"date_joined": "2022-01-27T16:46:37.076Z",
-			"groups": [],
-			"user_permissions": []
-		}
-	},{
+	"model": "vng_api_common.jwtsecret",
+	"pk": 2,
+	"fields": {
+		"identifier": "saxion-openzaak-test",
+		"secret": "4zirZAf5W4Y82KYM"
+	}
+}, {
+	"model": "authorizations.authorizationsconfig",
+	"pk": 1,
+	"fields": {
+		"api_root": "https://autorisaties-api.vng.cloud/api/v1/",
+		"component": "zrc"
+	}
+}, {
+	"model": "authorizations.applicatie",
+	"pk": 1,
+	"fields": {
+		"uuid": "f45c7d60-d377-4c5d-8a51-23973b0e3007",
+		"client_ids": "[\"saxion-openzaak-test\"]",
+		"label": "saxion-openzaak-test",
+		"heeft_alle_autorisaties": true
+	}
+}, {
+	"model": "notifications.notificationsconfig",
+	"pk": 1,
+	"fields": {
+		"api_root": "http://notificaties.test.saxion.nl.local:8000/api/v1/"
+	}
+}, {
+	"model": "selectielijst.referentielijstconfig",
+	"pk": 1,
+	"fields": {
+		"api_root": "http://selectielijst.test.saxion.nl.local:8000/api/v1/",
+		"allowed_years": "[\"2019\"]",
+		"default_year": 2019
+	}
+}, {
+	"model": "zgw_consumers.service",
+	"pk": 1,
+	"fields": {
+		"label": "DRC",
+		"api_type": "drc",
+		"api_root": "http://repository.test.saxion.nl.acs:8080/alfresco/service/drc/v1/",
+		"client_id": "b91d00dc-c762-4211-9c10-5918c81e5de6",
+		"secret": "8fBLx4sY4ZUWVjsjfYHtYwYS",
+		"auth_type": "zgw",
+		"header_key": "",
+		"header_value": "",
+		"oas": "http://repository.test.saxion.nl.acs:8080/alfresco/service/drc/v1/schema/openapi.yaml",
+		"nlx": "",
+		"user_id": "admin",
+		"user_representation": "admin"
+	}
+}, {
+	"model": "zgw_consumers.service",
+	"pk": 2,
+	"fields": {
+		"label": "Custom Selectielijst",
+		"api_type": "orc",
+		"api_root": "http://selectielijst.test.saxion.nl.local:8000/api/v1/",
+		"client_id": "",
+		"secret": "",
+		"auth_type": "no_auth",
+		"header_key": "",
+		"header_value": "",
+		"oas": "http://selectielijst.test.saxion.nl.local:8000/api/v1/schema/openapi.yaml",
+		"nlx": "",
+		"user_id": "",
+		"user_representation": ""
+	}
+}, {
+	"model": "zgw_consumers.service",
+	"pk": 3,
+	"fields": {
+		"label": "NRC",
+		"api_type": "nrc",
+		"api_root": "http://notificaties.test.saxion.nl.local:8000/api/v1/",
+		"client_id": "saxion-openzaak-test",
+		"secret": "4zirZAf5W4Y82KYM",
+		"auth_type": "zgw",
+		"header_key": "",
+		"header_value": "",
+		"oas": "http://notificaties.test.saxion.nl.local:8000/api/v1/schema/openapi.yaml",
+		"nlx": "",
+		"user_id": "admin",
+		"user_representation": "admin"
+	}
+}, {
+	"model": "zgw_consumers.nlxconfig",
+	"pk": 1,
+	"fields": {
+		"directory": "",
+		"outway": "/"
+	}
+}, {
+	"model": "drc_cmis.cmisconfig",
+	"pk": 1,
+	"fields": {
+		"client_url": "http://repository.test.saxion.nl.acs:8080/alfresco/api/-default-/public/cmis/versions/1.1/browser",
+		"binding": "BROWSER",
+		"time_zone": "UTC",
+		"main_repo_id": "",
+		"client_user": "admin",
+		"client_password": "admin",
+		"zaak_folder_path": "/DRC/{{ zaaktype }}/{{ year }}/{{ month }}/{{ day }}/{{ zaak }}/",
+		"other_folder_path": "/DRC/{{ year }}/{{ month }}/{{ day }}/"
+	}
+}, {
+	"model": "accounts.user",
+	"fields": {
+		"password": "pbkdf2_sha256$150000$WTLlrN9TVsWt$1GS/tQ6/XkguYp0/Ht1td0mrrYVQHru745OtUglRiPU=",
+		"last_login": "2022-03-16T09:04:48.602Z",
+		"is_superuser": true,
+		"username": "admin",
+		"first_name": "",
+		"last_name": "",
+		"email": "admin@admin.org",
+		"is_staff": true,
+		"is_active": true,
+		"date_joined": "2022-01-27T16:46:37.076Z",
+		"groups": [],
+		"user_permissions": []
+	}
+}, {
 	"model": "catalogi.catalogus",
 	"pk": 1,
 	"fields": {
