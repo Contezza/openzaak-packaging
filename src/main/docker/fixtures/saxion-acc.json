@@ -2967,7 +2967,7 @@
     "model": "catalogi.zaaktypeinformatieobjecttype",
     "pk": 86,
     "fields": {
-        "uuid": "ff7acceptatie89-8274-4e4e-b609-85710fd031bc",
+        "uuid": "ff7acc89-8274-4e4e-b609-85710fd031bc",
         "zaaktype": 56,
         "informatieobjecttype": 20,
         "volgnummer": 16,
