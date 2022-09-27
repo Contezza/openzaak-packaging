@@ -25,6 +25,15 @@
     }
 },
 {
+    "model": "selectielijst.referentielijstconfig",
+    "pk": 1,
+    "fields": {
+        "api_root": "http://selectielijst.acceptatie.saxion.nl.local:8000/api/v1/",
+        "allowed_years": "[\"2019\"]",
+        "default_year": 2019
+    }
+},
+{
     "model": "notifications.notificationsconfig",
     "pk": 1,
     "fields": {
