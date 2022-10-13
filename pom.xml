@@ -25,7 +25,7 @@
 
 		<!-- Base image -->
 		<docker.openzaak.image>openzaak/open-zaak</docker.openzaak.image>
-		<docker.openzaak.version>1.6.0</docker.openzaak.version>
+		<docker.openzaak.version>1.7.0</docker.openzaak.version>
 
 		<!-- Docker -->
 		<fabric8.maven.plugin.version>3.5.37</fabric8.maven.plugin.version>
