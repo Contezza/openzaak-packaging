@@ -13,6 +13,5 @@ Gebruik `clean install` om Docker bestand te genereren. Deze komt in `target/` m
 ## Image
 
 ```
-docker pull https://harbor.contezza.nl/vngr/openzaak:[version]
+docker pull https://harbor.contezza.nl/vngr/openzaak:1.8.2
 ```
-

@@ -1,7 +1,6 @@
-version: '2.4'
+version: "2.4"
 
 services:
-
   ${project.artifactId}-vng:
     image: ${project.artifactId}:dev
     build:
@@ -11,12 +10,12 @@ services:
       - DJANGO_SETTINGS_MODULE=openzaak.conf.docker
       - SECRET_KEY=zpuC5WBe5qYTXyKg
       - IS_HTTPS=no
-      - ALLOWED_HOSTS=*
+      - ALLOWED_HOSTS=localhost,tezza-openzaak.local,tezza-openzaak.local:8000
       - CACHE_DEFAULT=${project.artifactId}-redis:6379/0
       - CACHE_AXES=${project.artifactId}-redis:6379/0
       - DB_HOST=${project.artifactId}-db
       # possible options: tezza.json, uhr.json, guh.json, guh-test.json, guh-prod.json
-      - IMPORT_JSON=guh.json
+      - IMPORT_JSON=tezza.json
     ports:
       - 8000:8000
     depends_on:
@@ -25,32 +24,32 @@ services:
     networks:
       dev_network:
         aliases:
-          - ${project.artifactId}-vng.local 
- 
+          - ${project.artifactId}-vng.local
+
   ${project.artifactId}-db:
     image: mdillon/postgis
     volumes:
-      - vol_${project.artifactId}_postgres:/var/lib/postgresql/data    
+      - vol_${project.artifactId}_postgres:/var/lib/postgresql/data
     networks:
       dev_network:
         aliases:
           - ${project.artifactId}-db
-  
+
   ${project.artifactId}-redis:
     image: redis
     ports:
       - 6379:6379
     volumes:
-      - vol_${project.artifactId}_redis:/data      
+      - vol_${project.artifactId}_redis:/data
     networks:
       dev_network:
         aliases:
-          - ${project.artifactId}-redis              
-      
+          - ${project.artifactId}-redis
+
 networks:
   dev_network:
-    external: true  
-    
+    external: true
+
 volumes:
   vol_${project.artifactId}_postgres:
   vol_${project.artifactId}_redis:
