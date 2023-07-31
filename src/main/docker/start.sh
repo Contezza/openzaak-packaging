@@ -19,18 +19,18 @@ mountpoint=${SUBPATH:-/}
 ${SCRIPTPATH}/wait_for_db.sh
 
 # Apply database migrations
->&2 echo "Apply database migrations"
+echo >&2 "Apply database migrations"
 python src/manage.py migrate
 
 # START CUSTOM
-if [ -n "$IMPORT_JSON" ];then
-	if ls /app/init/$IMPORT_JSON > /dev/null 2>&1; then
-    	cp -rf /app/init/$IMPORT_JSON $fixtures_dir 
-	else
-    	touch $fixtures_dir/setup.json
-		echo $IMPORT_JSON >> $fixtures_dir/setup.json
-		sed '/^$/d' $fixtures_dir/setup.json  
-	fi
+if [ -n "$IMPORT_JSON" ]; then
+    if ls /app/init/$IMPORT_JSON >/dev/null 2>&1; then
+        cp -rf /app/init/$IMPORT_JSON $fixtures_dir
+    else
+        touch $fixtures_dir/setup.json
+        echo $IMPORT_JSON >>$fixtures_dir/setup.json
+        sed '/^$/d' $fixtures_dir/setup.json
+    fi
 fi
 
 /create-superuser.sh admin admin@admin.org admin
@@ -40,8 +40,7 @@ fi
 if [ -d $fixtures_dir ]; then
     echo "Loading fixtures from $fixtures_dir"
 
-    for fixture in $(ls "$fixtures_dir/"*.json)
-    do
+    for fixture in $(ls "$fixtures_dir/"*.json); do
         echo "Loading fixture $fixture"
         python src/manage.py loaddata $fixture
     done
@@ -60,14 +59,14 @@ if [ -n "${OPENZAAK_SUPERUSER_USERNAME}" ]; then
 fi
 
 # Start server
->&2 echo "Starting server"
+echo >&2 "Starting server"
 exec uwsgi \
     --http :$uwsgi_port \
     --http-keepalive \
     --manage-script-name \
     --mount $mountpoint=openzaak.wsgi:application \
     --static-map /static=/app/static \
-    --static-map /media=/app/media  \
+    --static-map /media=/app/media \
     --chdir src \
     --enable-threads \
     --processes $uwsgi_processes \
